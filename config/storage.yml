@@ -1,0 +1,32 @@
+test:
+  service: Disk
+  root: <%= Rails.root.join("tmp/storage") %>
+
+local:
+  service: Disk
+  root: <%= Rails.root.join("storage") %>
+
+amazon:
+  service: S3
+  endpoint: <%= Settings.files.s3.endpoint %>
+  access_key_id: <%= Settings.files.s3.access_key_id %>
+  secret_access_key: <%= Settings.files.s3.secret_access_key %>
+  region: <%= Settings.files.s3.region %>
+  bucket: <%= Settings.files.s3.bucket %>
+
+google:
+  service: GCS
+  project: <%= Settings.files.gcs.project %>
+  credentials: <%= Settings.files.gcs.credentials %>
+  bucket: <%= Settings.files.gcs.bucket %>
+
+microsoft:
+  service: AzureStorage
+  storage_account_name: <%= Settings.files.as.storage_account_name %>
+  storage_access_key: <%= Settings.files.as.storage_access_key %>
+  container: <%= Settings.files.as.container %>
+
+# mirror:
+#   service: Mirror
+#   primary: local
+#   mirrors: [ amazon, google, microsoft ]

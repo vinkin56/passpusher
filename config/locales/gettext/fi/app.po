@@ -1,0 +1,2693 @@
+# Finnish translations for PasswordPusher package.
+# Copyright (C) 2023 PasswordPusher
+# This file is distributed under the same license as the PasswordPusher package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PasswordPusher 1.0\n"
+"Report-Msgid-Bugs-To: contact@translation.io\n"
+"POT-Creation-Date: 2023-08-03 12:10+0200\n"
+"PO-Revision-Date: 2023-08-03 12:10+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Finnish\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"\n"
+
+#: ../../../app/controllers/application_controller.rb:20
+msgid "Not Found"
+msgstr "Ei löydetty"
+
+#: ../../../app/controllers/feedbacks_controller.rb:12
+msgid ""
+"Our apologies but you failed the spam check.  You could try contacting us on G"
+"ithub instead."
+msgstr ""
+"Pahoittelemme, mutta et läpäissyt roskapostin tarkistusta. Voit sen sijaan yri"
+"ttää ottaa meihin yhteyttä Githubissa."
+
+#: ../../../app/controllers/feedbacks_controller.rb:17
+msgid "Feedback sent!  We will get back to you as soon as possible."
+msgstr "Palaute lähetetty! Palaamme sinulle mahdollisimman pian."
+
+#: ../../../app/controllers/feedbacks_controller.rb:19
+msgid ""
+"Could not send feedback.  Did you pass the Humanity Test?  Valid email?  Try a"
+"gain?"
+msgstr ""
+"Palautetta ei voitu lähettää. Läpäisitkö ihmisyystestin? Pätevä sähköposti? Yr"
+"itä uudelleen?"
+
+#: ../../../app/controllers/file_pushes_controller.rb:160
+#: ../../../app/controllers/passwords_controller.rb:159
+#: ../../../app/controllers/urls_controller.rb:150
+msgid ""
+"That passphrase is incorrect.  Please try again or contact the person or organ"
+"ization that sent you this link."
+msgstr ""
+"Tuo tunnuslause on väärä. Yritä uudelleen tai ota yhteyttä henkilöön tai organ"
+"isaatioon, joka lähetti sinulle tämän linkin."
+
+#: ../../../app/controllers/file_pushes_controller.rb:221
+msgid ""
+"Only 10 active file pushes allowed while in Beta and until things are stable. "
+"If it's an option, you can manually expire existing pushes before creating new"
+" ones."
+msgstr ""
+"Vain 10 aktiivisen tiedoston työntöä sallitaan beta-vaiheessa ja kunnes tilann"
+"e on vakaa. Jos se on vaihtoehto, voit vanhentua manuaalisesti ennen uusien lu"
+"omista."
+
+#: ../../../app/controllers/file_pushes_controller.rb:315
+#: ../../../app/controllers/passwords_controller.rb:297
+#: ../../../app/controllers/urls_controller.rb:290
+msgid "That push doesn't belong to you."
+msgstr "Tämä lähetys ei kuulu sinulle."
+
+#: ../../../app/controllers/file_pushes_controller.rb:345
+#: ../../../app/controllers/passwords_controller.rb:327
+#: ../../../app/controllers/urls_controller.rb:320
+#: ../../../app/controllers/urls_controller.rb:324
+msgid "That push does not belong to you."
+msgstr "Tämä lähetys ei kuulu sinulle."
+
+#: ../../../app/controllers/file_pushes_controller.rb:350
+#: ../../../app/controllers/passwords_controller.rb:332
+msgid "That push is not deletable by viewers."
+msgstr "Katsojat eivät voi poistaa tätä lähetystä."
+
+#: ../../../app/controllers/file_pushes_controller.rb:356
+#: ../../../app/controllers/file_pushes_controller.rb:357
+#: ../../../app/controllers/passwords_controller.rb:338
+#: ../../../app/controllers/passwords_controller.rb:339
+#: ../../../app/controllers/urls_controller.rb:330
+#: ../../../app/controllers/urls_controller.rb:331
+msgid "That push is already expired."
+msgstr "Tuo työntö on jo vanhentunut."
+
+#: ../../../app/controllers/file_pushes_controller.rb:375
+#: ../../../app/controllers/file_pushes_controller.rb:378
+#: ../../../app/controllers/passwords_controller.rb:356
+#: ../../../app/controllers/passwords_controller.rb:359
+#: ../../../app/controllers/urls_controller.rb:348
+#: ../../../app/controllers/urls_controller.rb:351
+#: ../../../app/views/file_pushes/audit.html.erb:97
+#: ../../../app/views/file_pushes/audit.html.erb:254
+#: ../../../app/views/passwords/audit.html.erb:97
+#: ../../../app/views/passwords/audit.html.erb:188
+#: ../../../app/views/urls/audit.html.erb:84
+#: ../../../app/views/urls/audit.html.erb:170
+msgid "The push content has been deleted and the secret URL expired."
+msgstr "Lähetys on poistettu ja salainen URL-osoite vanhentunut."
+
+#: ../../../app/controllers/urls_controller.rb:201
+msgid "Invalid URL: Must have a valid URI scheme."
+msgstr "Virheellinen URL-osoite: Täytyy olla kelvollinen URI-malli."
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:8
+#: ../../../app/views/devise/mailer/email_changed.html.erb:8
+#: ../../../app/views/devise/mailer/password_change.html.erb:8
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:8
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:8
+#: ../../../app/views/layouts/application.html.erb:8
+#: ../../../app/views/layouts/bare.html.erb:8
+#: ../../../app/views/layouts/login.html.erb:8
+#: ../../../app/views/layouts/naked.html.erb:8
+msgid ""
+"Password Pusher is an application to securely send passwords over the web. Lin"
+"ks to passwords expire after a certain number of views and/or time has passed."
+msgstr ""
+"Password Pusher on sovellus salasanojen välittämiseen verkossa. Linkit salasan"
+"oihin vanhenevat, kun tietty määrä näyttökertoja ja/tai aikaa on kulunut."
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:23
+msgid "Confirm your new account"
+msgstr "Vahvista uusi tilisi"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:24
+msgid ""
+"Your account has been created but you must confirm that you own this email add"
+"ress."
+msgstr ""
+"Tilisi on luotu, mutta sinun on vahvistettava, että omistat tämän sähköpostios"
+"oitteen."
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:27
+msgid "You can confirm your account email by"
+msgstr "Voit vahvistaa tilisi sähköpostiosoitteen"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:28
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:27
+msgid "by clicking this link"
+msgstr "napsauttamalla tätä linkkiä"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:29
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:28
+msgid "or by copying and pasting the following URL into your browser:"
+msgstr "tai kopioimalla ja liittämällä seuraava URL-osoite selaimeesi:"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:36
+msgid "If you didn't create an account, no action is required."
+msgstr "Jos et luonut tiliä, sinun ei tarvitse tehdä mitään."
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:24
+msgid "Your email is being changed"
+msgstr "Sähköpostiosoitettasi muutetaan"
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:26
+msgid "We're contacting you to notify you that your email at"
+msgstr "Otamme sinuun yhteyttä ilmoittaaksemme, että sähköpostiosoitteesi"
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:30
+msgid "is being changed to %s"
+msgstr "muutetaan muotoon %s"
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:32
+msgid "has been changed to %s"
+msgstr "on muutettu muotoon %s"
+
+#: ../../../app/views/devise/mailer/password_change.html.erb:23
+msgid "Password Change"
+msgstr "Salasanan vaihto"
+
+#: ../../../app/views/devise/mailer/password_change.html.erb:25
+msgid "We're contacting you to notify you that your password has been changed on"
+msgstr "Otamme sinuun yhteyttä ilmoittaaksemme, että salasanasi on vaihdettu"
+
+#: ../../../app/views/devise/mailer/password_change.html.erb:28
+msgid ""
+"If you didn't initiate this and it wasn't your intention, please contact us as"
+" soon as possible."
+msgstr ""
+"Jos et ole aloittanut tätä etkä ollut tarkoituksesi, ota meihin yhteyttä mahdo"
+"llisimman pian."
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:24
+msgid "Password Change Request"
+msgstr "Salasanan vaihtopyyntö"
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:26
+msgid ""
+"Someone has requested a link to change your password. You can proceed with thi"
+"s action"
+msgstr ""
+"Joku on pyytänyt linkkiä salasanasi vaihtamiseksi. Voit jatkaa tällä toiminnol"
+"la"
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:36
+msgid "If you didn't request this change, you can safely delete this email."
+msgstr "Jos et pyytänyt tätä muutosta, voit turvallisesti poistaa tämän sähköpostin."
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:37
+msgid ""
+"Your password won't change until you access the link above and create a new on"
+"e."
+msgstr "Salasanasi ei muutu, ennen kuin käytät yllä olevaa linkkiä ja luot uuden."
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:23
+msgid "Unlock Your Account"
+msgstr "Avaa tilisi"
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:26
+msgid ""
+"Your account has been locked due to an excessive number of unsuccessful sign i"
+"n attempts."
+msgstr "Tilisi on lukittu liian monien epäonnistuneiden kirjautumisyritysten vuoksi."
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:30
+msgid "Click this link"
+msgstr "Napsauta tätä linkkiä"
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:31
+msgid ""
+"to unlock your account or by copying and pasting the following URL into your b"
+"rowser:"
+msgstr ""
+"avataksesi tilisi lukituksen tai kopioimalla ja liittämällä seuraavan URL-osoi"
+"tteen selaimeesi:"
+
+#: ../../../app/views/devise/passwords/edit.html.erb:9
+msgid "New password"
+msgstr "Uusi salasana"
+
+#: ../../../app/views/devise/passwords/edit.html.erb:14
+msgid "Confirm new password"
+msgstr "Vahvista uusi salasana"
+
+#: ../../../app/views/devise/passwords/edit.html.erb:19
+msgid "A minimum of %d characters is required but the more the better."
+msgstr "Vähintään %d merkkiä vaaditaan, mutta mitä enemmän, sen parempi."
+
+#: ../../../app/views/devise/registrations/edit.html.erb:10
+msgid "Change Email"
+msgstr "Vaihda sähköposti"
+
+#: ../../../app/views/devise/registrations/edit.html.erb:39
+msgid "Current Password"
+msgstr "Nykyinen salasana"
+
+#: ../../../app/views/devise/registrations/token.html.erb:2
+#: ../../../app/views/shared/_header.html.erb:44
+msgid "API Token"
+msgstr "API-avain"
+
+#: ../../../app/views/devise/registrations/token.html.erb:4
+msgid ""
+"This token is specific to your account.  It can be used with command line appl"
+"ications, the JSON API, 3rd party integrations and more."
+msgstr ""
+"Tämä API-avain on tilikohtainen. Sitä voidaan käyttää komentorivisovellusten, "
+"JSON-sovellusliittymän, kolmannen osapuolen integraatioiden kanssa."
+
+#: ../../../app/views/devise/registrations/token.html.erb:7
+msgid "Make sure to keep this token secure.  It provides full access to your account."
+msgstr "Säilytä avain huolellisesti. Se tarjoaa täyden pääsyn tiliisi."
+
+#: ../../../app/views/devise/registrations/token.html.erb:10
+msgid ""
+"If needed, you can regenerate a new token below which will invalidate this exi"
+"sting token."
+msgstr ""
+"Tarvittaessa voit luoda alla uuden avaimen, joka mitätöi tämän olemassa olevan"
+" avaimen."
+
+#: ../../../app/views/devise/registrations/token.html.erb:14
+#: ../../../app/views/file_pushes/show.html.erb:4
+#: ../../../app/views/passwords/show.html.erb:3
+msgid "Copied!"
+msgstr "Kopioitu!"
+
+#: ../../../app/views/devise/registrations/token.html.erb:15
+msgid "Your API token is blurred out.  Click below to reveal it."
+msgstr ""
+"API-avaimesi on sumennettu sen suojaamiseksi. Napsauta alapuolelta näyttääkses"
+"i sen."
+
+#: ../../../app/views/devise/registrations/token.html.erb:27
+msgid "To delete this token and regenerate a new one, use the button below."
+msgstr "Voit poistaa avaimen ja luoda uuden käyttämällä alla olevaa painiketta."
+
+#: ../../../app/views/devise/registrations/token.html.erb:30
+msgid ""
+"Note that this will invalidate any tools that may be using the existing key an"
+"d will have to be updated with the new token."
+msgstr ""
+"Huomaa, että tämä rikkoo kaikki työkalut, jotka käyttävät olemassa olevaa avai"
+"nta, ja ne on päivitettävä käyttämään uutta avainta."
+
+#: ../../../app/views/devise/registrations/token.html.erb:34
+msgid "Regenerate Token"
+msgstr "Luo avain"
+
+#: ../../../app/views/devise/registrations/token.html.erb:42
+msgid "Delete and generate a new API token?"
+msgstr "Poistetaanko ja luodaanko uusi API-avain?"
+
+#: ../../../app/views/devise/registrations/token.html.erb:46
+msgid "This will delete this token and "
+msgstr "Tämä poistaa tämän avaimen ja"
+
+#: ../../../app/views/devise/registrations/token.html.erb:47
+msgid "invalidate any tools that may be using it"
+msgstr "mitätöi kaikki työkalut, jotka saattavat käyttää sitä"
+
+#: ../../../app/views/devise/registrations/token.html.erb:48
+msgid "A new token will be generated in its place."
+msgstr "Tilalle luodaan uusi avain."
+
+#: ../../../app/views/devise/registrations/token.html.erb:49
+#: ../../../app/views/file_pushes/audit.html.erb:214
+#: ../../../app/views/file_pushes/show.html.erb:74
+#: ../../../app/views/passwords/audit.html.erb:145
+#: ../../../app/views/passwords/show.html.erb:58
+#: ../../../app/views/urls/audit.html.erb:132
+msgid "Are you sure?"
+msgstr "Oletko varma?"
+
+#: ../../../app/views/devise/registrations/token.html.erb:52
+#: ../../../app/views/file_pushes/audit.html.erb:217
+#: ../../../app/views/file_pushes/show.html.erb:77
+#: ../../../app/views/passwords/audit.html.erb:148
+#: ../../../app/views/passwords/show.html.erb:61
+#: ../../../app/views/urls/audit.html.erb:135
+msgid "Cancel"
+msgstr "peruuta"
+
+#: ../../../app/views/devise/registrations/token.html.erb:53
+msgid "Delete & Regenerate"
+msgstr "Poista ja luo uudelleen"
+
+#: ../../../app/views/devise/registrations/token.html.erb:53
+#: ../../../app/views/file_pushes/audit.html.erb:218
+#: ../../../app/views/file_pushes/show.html.erb:78
+#: ../../../app/views/passwords/audit.html.erb:149
+#: ../../../app/views/passwords/show.html.erb:62
+#: ../../../app/views/urls/audit.html.erb:136
+msgid "Processing..."
+msgstr "Käsitellään..."
+
+#: ../../../app/views/devise/sessions/new.html.erb:7
+#: ../../../app/views/feedbacks/new.html.erb:20
+msgid "Email"
+msgstr "Sähköposti"
+
+#: ../../../app/views/devise/sessions/new.html.erb:12
+msgid "Password"
+msgstr "salasana"
+
+#: ../../../app/views/devise/shared/_links.html.erb:39
+#: ../../../app/views/shared/_header.html.erb:65
+msgid "Language"
+msgstr "Kieli"
+
+#: ../../../app/views/feedbacks/new.html.erb:1
+#: ../../../app/views/feedbacks/new.html.erb:2
+#: ../../../app/views/feedbacks/new.html.erb:42
+#: ../../../app/views/shared/_footer.html.erb:54
+msgid "Send Feedback"
+msgstr "Lähetä palautetta"
+
+#: ../../../app/views/feedbacks/new.html.erb:8
+msgid ""
+"Have an idea or wish?  Something you don't like?  Want to help out?  We want t"
+"o hear it!"
+msgstr ""
+"Onko sinulla idea tai toive? Jotain, josta et pidä? Haluatko auttaa? Haluamme "
+"kuulla sen!"
+
+#: ../../../app/views/feedbacks/new.html.erb:15
+msgid "Your Name"
+msgstr "Nimesi"
+
+#: ../../../app/views/feedbacks/new.html.erb:29
+msgid "What is one hundred minus 5?"
+msgstr "Mikä on sata miinus 5?"
+
+#: ../../../app/views/feedbacks/new.html.erb:34
+msgid ""
+"Tip: Copy your message to the clipboard in the unlikely chance submission fail"
+"s."
+msgstr ""
+"Vinkki: Kopioi viestisi leikepöydälle, siltä varalta jos lähetys jostain syyst"
+"ä epäonnistuu."
+
+#: ../../../app/views/feedbacks/new.html.erb:39
+msgid "Leave this field blank!"
+msgstr "Jätä tämä kenttä tyhjäksi!"
+
+#: ../../../app/views/file_pushes/active.html.erb:1
+#: ../../../app/views/file_pushes/active.html.erb:18
+msgid "Active File Pushes"
+msgstr "Aktiiviset tiedostotyönnät"
+
+#: ../../../app/views/file_pushes/active.html.erb:8
+msgid "You currently have no active file pushes."
+msgstr "Sinulla ei tällä hetkellä ole aktiivisia tiedostojen työntöjä."
+
+#: ../../../app/views/file_pushes/active.html.erb:13
+msgid "Push Some Files Now"
+msgstr "Työnnä joitakin tiedostoja nyt"
+
+#: ../../../app/views/file_pushes/active.html.erb:20
+#: ../../../app/views/file_pushes/expired.html.erb:16
+#: ../../../app/views/passwords/active.html.erb:20
+#: ../../../app/views/passwords/expired.html.erb:17
+#: ../../../app/views/urls/active.html.erb:20
+#: ../../../app/views/urls/expired.html.erb:16
+msgid "Active Pushes"
+msgstr "Aktiiviset Lähetykset"
+
+#: ../../../app/views/file_pushes/active.html.erb:23
+#: ../../../app/views/passwords/active.html.erb:23
+#: ../../../app/views/urls/active.html.erb:23
+msgid "Push ID"
+msgstr "Lähetys ID"
+
+#: ../../../app/views/file_pushes/active.html.erb:24
+#: ../../../app/views/passwords/active.html.erb:24
+#: ../../../app/views/urls/active.html.erb:24
+msgid "Created"
+msgstr "Luotu"
+
+#: ../../../app/views/file_pushes/active.html.erb:25
+#: ../../../app/views/file_pushes/expired.html.erb:20
+#: ../../../app/views/passwords/active.html.erb:25
+#: ../../../app/views/passwords/expired.html.erb:21
+#: ../../../app/views/urls/active.html.erb:25
+#: ../../../app/views/urls/expired.html.erb:20
+msgid "Note"
+msgstr "Lisätieto"
+
+#: ../../../app/views/file_pushes/active.html.erb:26
+msgid "File Count"
+msgstr "Tiedostojen määrä"
+
+#: ../../../app/views/file_pushes/active.html.erb:27
+#: ../../../app/views/file_pushes/new.html.erb:10
+#: ../../../app/views/file_pushes/new.html.erb:77
+#: ../../../app/views/passwords/active.html.erb:26
+#: ../../../app/views/passwords/new.html.erb:10
+#: ../../../app/views/passwords/new.html.erb:87
+#: ../../../app/views/urls/active.html.erb:26
+#: ../../../app/views/urls/new.html.erb:10
+#: ../../../app/views/urls/new.html.erb:72
+msgid "Views"
+msgstr "katselukerrat"
+
+#: ../../../app/views/file_pushes/active.html.erb:28
+#: ../../../app/views/file_pushes/new.html.erb:6
+#: ../../../app/views/file_pushes/new.html.erb:59
+#: ../../../app/views/passwords/active.html.erb:27
+#: ../../../app/views/passwords/new.html.erb:6
+#: ../../../app/views/passwords/new.html.erb:70
+#: ../../../app/views/urls/active.html.erb:27
+#: ../../../app/views/urls/new.html.erb:6
+#: ../../../app/views/urls/new.html.erb:53
+msgid "Days"
+msgstr "Päiviä"
+
+#: ../../../app/views/file_pushes/active.html.erb:39
+#: ../../../app/views/file_pushes/audit.html.erb:19
+#: ../../../app/views/file_pushes/audit.html.erb:270
+#: ../../../app/views/file_pushes/audit.html.erb:282
+#: ../../../app/views/file_pushes/expired.html.erb:31
+#: ../../../app/views/passwords/active.html.erb:38
+#: ../../../app/views/passwords/audit.html.erb:19
+#: ../../../app/views/passwords/audit.html.erb:204
+#: ../../../app/views/passwords/audit.html.erb:216
+#: ../../../app/views/passwords/expired.html.erb:32
+#: ../../../app/views/urls/active.html.erb:38
+#: ../../../app/views/urls/audit.html.erb:19
+#: ../../../app/views/urls/audit.html.erb:186
+#: ../../../app/views/urls/audit.html.erb:198
+#: ../../../app/views/urls/expired.html.erb:31
+msgid "None"
+msgstr "Ei mitään"
+
+#: ../../../app/views/file_pushes/active.html.erb:50
+#: ../../../app/views/passwords/active.html.erb:48
+#: ../../../app/views/urls/active.html.erb:48
+msgid "Push Controls"
+msgstr "Lähetyskontrollit"
+
+#: ../../../app/views/file_pushes/active.html.erb:52
+#: ../../../app/views/passwords/active.html.erb:50
+#: ../../../app/views/urls/active.html.erb:50
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: ../../../app/views/file_pushes/active.html.erb:55
+#: ../../../app/views/passwords/active.html.erb:53
+#: ../../../app/views/urls/active.html.erb:53
+msgid "Audit"
+msgstr "Auditointi"
+
+#: ../../../app/views/file_pushes/audit.html.erb:1
+#: ../../../app/views/passwords/audit.html.erb:1
+#: ../../../app/views/urls/audit.html.erb:1
+msgid "Audit Log for %s"
+msgstr "Tarkastusloki kohteelle %s"
+
+#: ../../../app/views/file_pushes/audit.html.erb:4
+msgid "Audit Log for File Push"
+msgstr "Tarkastusloki File Pushille"
+
+#: ../../../app/views/file_pushes/audit.html.erb:6
+#: ../../../app/views/passwords/audit.html.erb:6
+#: ../../../app/views/urls/audit.html.erb:6
+msgid "Pushed on %s"
+msgstr "Lähetys luotiin %s"
+
+#: ../../../app/views/file_pushes/audit.html.erb:9
+#: ../../../app/views/passwords/audit.html.erb:9
+#: ../../../app/views/urls/audit.html.erb:9
+msgid "Secret URL for this push"
+msgstr "Tämän lähetyksen salainen URL-osoite"
+
+#: ../../../app/views/file_pushes/audit.html.erb:15
+#: ../../../app/views/file_pushes/new.html.erb:139
+#: ../../../app/views/passwords/audit.html.erb:15
+#: ../../../app/views/passwords/new.html.erb:162
+#: ../../../app/views/urls/audit.html.erb:15
+#: ../../../app/views/urls/new.html.erb:112
+msgid "Reference Note"
+msgstr "Viitehuomautus"
+
+#: ../../../app/views/file_pushes/audit.html.erb:16
+#: ../../../app/views/passwords/audit.html.erb:16
+#: ../../../app/views/urls/audit.html.erb:16
+msgid "Visible Only To You"
+msgstr "Näkyy vain sinulle"
+
+#: ../../../app/views/file_pushes/audit.html.erb:28
+#: ../../../app/views/passwords/audit.html.erb:28
+#: ../../../app/views/urls/audit.html.erb:28
+msgid "Settings"
+msgstr "Asetukset"
+
+#: ../../../app/views/file_pushes/audit.html.erb:32
+#: ../../../app/views/file_pushes/audit.html.erb:41
+#: ../../../app/views/passwords/audit.html.erb:32
+#: ../../../app/views/passwords/audit.html.erb:41
+#: ../../../app/views/urls/audit.html.erb:32
+#: ../../../app/views/urls/audit.html.erb:41
+msgid "Expire after"
+msgstr "vanhenee"
+
+#: ../../../app/views/file_pushes/audit.html.erb:34
+#: ../../../app/views/file_pushes/new.html.erb:9
+#: ../../../app/views/passwords/audit.html.erb:34
+#: ../../../app/views/passwords/new.html.erb:9
+#: ../../../app/views/urls/audit.html.erb:34
+#: ../../../app/views/urls/new.html.erb:9
+msgid "View"
+msgid_plural "Views"
+msgstr[0] "Katselukerta"
+msgstr[1] "Katselukertaa"
+
+#: ../../../app/views/file_pushes/audit.html.erb:36
+#: ../../../app/views/urls/audit.html.erb:36
+msgid "The push expires after this number of views."
+msgstr "Työntö vanhenee tämän näyttökertojen määrän jälkeen."
+
+#: ../../../app/views/file_pushes/audit.html.erb:43
+#: ../../../app/views/file_pushes/new.html.erb:5
+#: ../../../app/views/passwords/audit.html.erb:43
+#: ../../../app/views/passwords/new.html.erb:5
+#: ../../../app/views/urls/audit.html.erb:43
+#: ../../../app/views/urls/new.html.erb:5
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Päivä"
+msgstr[1] "Päivää"
+
+#: ../../../app/views/file_pushes/audit.html.erb:45
+#: ../../../app/views/urls/audit.html.erb:45
+msgid "The push expires after this number of days."
+msgstr "Työntö päättyy tämän päivän jälkeen."
+
+#: ../../../app/views/file_pushes/audit.html.erb:50
+#: ../../../app/views/passwords/audit.html.erb:50
+msgid "Deletable by Viewers"
+msgstr "Katsojien poistettavissa"
+
+#: ../../../app/views/file_pushes/audit.html.erb:53
+#: ../../../app/views/file_pushes/audit.html.erb:66
+#: ../../../app/views/passwords/audit.html.erb:53
+#: ../../../app/views/passwords/audit.html.erb:66
+#: ../../../app/views/urls/audit.html.erb:53
+msgid "True"
+msgstr "Tosi"
+
+#: ../../../app/views/file_pushes/audit.html.erb:55
+#: ../../../app/views/file_pushes/audit.html.erb:68
+#: ../../../app/views/passwords/audit.html.erb:55
+#: ../../../app/views/passwords/audit.html.erb:68
+#: ../../../app/views/urls/audit.html.erb:55
+msgid "False"
+msgstr "Väärä"
+
+#: ../../../app/views/file_pushes/audit.html.erb:58
+msgid "This allows end users to delete content once retrieved."
+msgstr "Tämä antaa loppukäyttäjille mahdollisuuden poistaa sisältöä, kun se on haettu."
+
+#: ../../../app/views/file_pushes/audit.html.erb:63
+#: ../../../app/views/passwords/audit.html.erb:63
+#: ../../../app/views/urls/audit.html.erb:50
+msgid "1-click Retrieval Step"
+msgstr "yhden klikin hakuvaihe"
+
+#: ../../../app/views/file_pushes/audit.html.erb:71
+#: ../../../app/views/file_pushes/new.html.erb:96
+#: ../../../app/views/passwords/audit.html.erb:71
+#: ../../../app/views/passwords/new.html.erb:106
+#: ../../../app/views/urls/audit.html.erb:58
+msgid "Helps to avoid chat systems and URL scanners from eating up views."
+msgstr ""
+"Auttaa estämään chat-järjestelmiä ja URL-skannereita käyttämästä näyttökertoja"
+"."
+
+#: ../../../app/views/file_pushes/audit.html.erb:76
+#: ../../../app/views/file_pushes/new.html.erb:117
+#: ../../../app/views/passwords/audit.html.erb:76
+#: ../../../app/views/passwords/new.html.erb:127
+#: ../../../app/views/urls/audit.html.erb:63
+#: ../../../app/views/urls/new.html.erb:101
+msgid "Passphrase Lockdown"
+msgstr "Salalauseen lukitus"
+
+#: ../../../app/views/file_pushes/audit.html.erb:79
+#: ../../../app/views/file_pushes/audit.html.erb:137
+#: ../../../app/views/passwords/audit.html.erb:79
+#: ../../../app/views/urls/audit.html.erb:66
+msgid "No"
+msgstr "Ei"
+
+#: ../../../app/views/file_pushes/audit.html.erb:81
+#: ../../../app/views/file_pushes/audit.html.erb:139
+#: ../../../app/views/passwords/audit.html.erb:81
+#: ../../../app/views/urls/audit.html.erb:68
+msgid "Yes"
+msgstr "Joo"
+
+#: ../../../app/views/file_pushes/audit.html.erb:84
+#: ../../../app/views/passwords/audit.html.erb:84
+#: ../../../app/views/urls/audit.html.erb:71
+msgid "Require recipients to enter a passphrase to view this push."
+msgstr "Vaadi vastaanottajia antamaan tunnuslause nähdäkseen tämän push-toiminnon."
+
+#: ../../../app/views/file_pushes/audit.html.erb:90
+#: ../../../app/views/passwords/audit.html.erb:90
+#: ../../../app/views/urls/audit.html.erb:77
+msgid "Current Status"
+msgstr "Nykyinen tila"
+
+#: ../../../app/views/file_pushes/audit.html.erb:94
+#: ../../../app/views/passwords/audit.html.erb:94
+#: ../../../app/views/urls/audit.html.erb:81
+msgid "State:"
+msgstr "Tila:"
+
+#: ../../../app/views/file_pushes/audit.html.erb:96
+#: ../../../app/views/passwords/audit.html.erb:96
+#: ../../../app/views/shared/_dashboard_header.html.erb:26
+#: ../../../app/views/shared/_dashboard_header.html.erb:29
+#: ../../../app/views/shared/_dashboard_header.html.erb:32
+#: ../../../app/views/urls/audit.html.erb:83
+msgid "Expired"
+msgstr "Vanhentunut"
+
+#: ../../../app/views/file_pushes/audit.html.erb:99
+#: ../../../app/views/passwords/audit.html.erb:99
+#: ../../../app/views/shared/_dashboard_header.html.erb:25
+#: ../../../app/views/shared/_dashboard_header.html.erb:28
+#: ../../../app/views/shared/_dashboard_header.html.erb:31
+#: ../../../app/views/urls/audit.html.erb:86
+msgid "Active"
+msgstr "Aktiivinen"
+
+#: ../../../app/views/file_pushes/audit.html.erb:100
+#: ../../../app/views/passwords/audit.html.erb:100
+#: ../../../app/views/urls/audit.html.erb:87
+msgid "Active and still available for viewing."
+msgstr "Aktiivinen ja edelleen katsottavissa."
+
+#: ../../../app/views/file_pushes/audit.html.erb:106
+#: ../../../app/views/passwords/audit.html.erb:106
+#: ../../../app/views/urls/audit.html.erb:93
+msgid "Successful Views"
+msgstr "Onnistuneet näytöt"
+
+#: ../../../app/views/file_pushes/audit.html.erb:107
+#: ../../../app/views/urls/audit.html.erb:94
+msgid "The number of times this push has been viewed before expiration."
+msgstr "Kuinka monta kertaa tämä push on katsottu ennen vanhenemista."
+
+#: ../../../app/views/file_pushes/audit.html.erb:112
+#: ../../../app/views/passwords/audit.html.erb:112
+#: ../../../app/views/urls/audit.html.erb:99
+msgid "Failed View Attempts"
+msgstr "Epäonnistuneet katseluyritykset"
+
+#: ../../../app/views/file_pushes/audit.html.erb:113
+#: ../../../app/views/urls/audit.html.erb:100
+msgid "The number of times this push has been viewed after expiration."
+msgstr "Kuinka monta kertaa tämä push on katsottu vanhenemisen jälkeen."
+
+#: ../../../app/views/file_pushes/audit.html.erb:118
+#: ../../../app/views/passwords/audit.html.erb:118
+#: ../../../app/views/urls/audit.html.erb:105
+msgid "Days Remaining"
+msgstr "Päiviä jäljellä"
+
+#: ../../../app/views/file_pushes/audit.html.erb:119
+#: ../../../app/views/passwords/audit.html.erb:119
+#: ../../../app/views/urls/audit.html.erb:106
+msgid ""
+"Number of days until this push expires if the maximum view count isn't reached"
+"."
+msgstr ""
+"Päivien määrä ennen vanhenemista, jos näyttökertojen enimmäismäärää ei saavute"
+"ta ennen sitä."
+
+#: ../../../app/views/file_pushes/audit.html.erb:128
+msgid "Payload"
+msgstr "Hyötykuorma"
+
+#: ../../../app/views/file_pushes/audit.html.erb:132
+msgid "Contains Message for Receiver"
+msgstr "Sisältää viestin vastaanottajalle"
+
+#: ../../../app/views/file_pushes/audit.html.erb:135
+#: ../../../app/views/file_pushes/audit.html.erb:150
+msgid "Deleted"
+msgstr "Poistettu"
+
+#: ../../../app/views/file_pushes/audit.html.erb:142
+msgid "Has a text payload been added to this push?"
+msgstr "Onko tähän pushiin lisätty tekstiviesti?"
+
+#: ../../../app/views/file_pushes/audit.html.erb:147
+msgid "Message Length"
+msgstr "Viestin pituus"
+
+#: ../../../app/views/file_pushes/audit.html.erb:152
+msgid "Not Applicable"
+msgstr "Ei sovellettavissa"
+
+#: ../../../app/views/file_pushes/audit.html.erb:157
+msgid "The length of the attached text payload."
+msgstr "Liitteenä olevan tekstin hyötykuorman pituus."
+
+#: ../../../app/views/file_pushes/audit.html.erb:162
+msgid "Number of Files Attached"
+msgstr "Liitettyjen tiedostojen määrä"
+
+#: ../../../app/views/file_pushes/audit.html.erb:170
+msgid "The number of files attached to this push. This value will be 0 when expired."
+msgstr ""
+"Tähän push-tiedostoon liitettyjen tiedostojen määrä. Tämä arvo on 0, kun se va"
+"nhenee."
+
+#: ../../../app/views/file_pushes/audit.html.erb:176
+msgid "Attached Files"
+msgstr "Liitetyt tiedostot"
+
+#: ../../../app/views/file_pushes/audit.html.erb:182
+msgid "Filename:"
+msgstr "Tiedoston nimi:"
+
+#: ../../../app/views/file_pushes/audit.html.erb:184
+msgid "Size: "
+msgstr "Koko:"
+
+#: ../../../app/views/file_pushes/audit.html.erb:189
+msgid "All attached files have been deleted."
+msgstr "Kaikki liitetiedostot on poistettu."
+
+#: ../../../app/views/file_pushes/audit.html.erb:200
+#: ../../../app/views/passwords/audit.html.erb:131
+#: ../../../app/views/urls/audit.html.erb:118
+msgid "Expire Now"
+msgstr "Merkitse vanhentuneeksi"
+
+#: ../../../app/views/file_pushes/audit.html.erb:208
+#: ../../../app/views/passwords/audit.html.erb:139
+msgid "Delete This Password?"
+msgstr "Poistetaanko tämä salasana?"
+
+#: ../../../app/views/file_pushes/audit.html.erb:212
+#: ../../../app/views/passwords/audit.html.erb:143
+#: ../../../app/views/urls/audit.html.erb:130
+msgid "This will expire this secret link and"
+msgstr "Tämä merkkaa salaisen linkin vanhentuneeksi ja"
+
+#: ../../../app/views/file_pushes/audit.html.erb:212
+#: ../../../app/views/passwords/audit.html.erb:143
+#: ../../../app/views/urls/audit.html.erb:130
+msgid "remove all content from the database forever"
+msgstr "poista kaikki sisältö tietokannasta ikuisesti"
+
+#: ../../../app/views/file_pushes/audit.html.erb:213
+#: ../../../app/views/passwords/audit.html.erb:144
+#: ../../../app/views/urls/audit.html.erb:131
+msgid ""
+"The audit log (including future attempted views) will still be maintained goin"
+"g forward."
+msgstr "Tarkastusloki (mukaan lukien tulevat katseluyritykset) säilytetään edelleen."
+
+#: ../../../app/views/file_pushes/audit.html.erb:218
+#: ../../../app/views/file_pushes/show.html.erb:78
+#: ../../../app/views/passwords/audit.html.erb:149
+#: ../../../app/views/passwords/show.html.erb:62
+#: ../../../app/views/urls/audit.html.erb:136
+msgid "Delete"
+msgstr "Poista"
+
+#: ../../../app/views/file_pushes/audit.html.erb:230
+#: ../../../app/views/passwords/audit.html.erb:161
+#: ../../../app/views/urls/audit.html.erb:148
+msgid "Start of Audit Log"
+msgstr "Tarkastuslokin alku"
+
+#: ../../../app/views/file_pushes/audit.html.erb:233
+#: ../../../app/views/passwords/audit.html.erb:164
+#: ../../../app/views/urls/audit.html.erb:151
+msgid "Push created on"
+msgstr "Lähetys on luotu"
+
+#: ../../../app/views/file_pushes/audit.html.erb:238
+#: ../../../app/views/passwords/audit.html.erb:169
+#: ../../../app/views/urls/audit.html.erb:156
+msgid ""
+"As the push receives activity, a log of each with identifying information will"
+" show up here."
+msgstr ""
+"Kun push vastaanottaa toimintaa, jokaisen loki, jossa on tunnistetiedot, tulee"
+" näkyviin tähän."
+
+#: ../../../app/views/file_pushes/audit.html.erb:247
+#: ../../../app/views/passwords/audit.html.erb:178
+msgid "Password manually expired by user"
+msgstr "Käyttäjä on poistanut salasanan manuaalisesti"
+
+#: ../../../app/views/file_pushes/audit.html.erb:249
+#: ../../../app/views/passwords/audit.html.erb:180
+#: ../../../app/views/passwords/audit.html.erb:186
+#: ../../../app/views/urls/audit.html.erb:167
+msgid "at IP address"
+msgstr "IP-osoitteessa"
+
+#: ../../../app/views/file_pushes/audit.html.erb:250
+#: ../../../app/views/file_pushes/audit.html.erb:265
+#: ../../../app/views/file_pushes/audit.html.erb:277
+#: ../../../app/views/passwords/audit.html.erb:181
+#: ../../../app/views/passwords/audit.html.erb:199
+#: ../../../app/views/passwords/audit.html.erb:211
+#: ../../../app/views/urls/audit.html.erb:181
+#: ../../../app/views/urls/audit.html.erb:193
+msgid "on"
+msgstr "päällä"
+
+#: ../../../app/views/file_pushes/audit.html.erb:256
+#: ../../../app/views/file_pushes/audit.html.erb:268
+#: ../../../app/views/file_pushes/audit.html.erb:280
+#: ../../../app/views/passwords/audit.html.erb:190
+#: ../../../app/views/passwords/audit.html.erb:202
+#: ../../../app/views/passwords/audit.html.erb:214
+#: ../../../app/views/urls/audit.html.erb:172
+#: ../../../app/views/urls/audit.html.erb:184
+#: ../../../app/views/urls/audit.html.erb:196
+msgid "User Agent"
+msgstr "Käyttäjä agentti"
+
+#: ../../../app/views/file_pushes/audit.html.erb:258
+#: ../../../app/views/file_pushes/audit.html.erb:270
+#: ../../../app/views/file_pushes/audit.html.erb:282
+#: ../../../app/views/passwords/audit.html.erb:192
+#: ../../../app/views/passwords/audit.html.erb:204
+#: ../../../app/views/passwords/audit.html.erb:216
+#: ../../../app/views/urls/audit.html.erb:174
+#: ../../../app/views/urls/audit.html.erb:186
+#: ../../../app/views/urls/audit.html.erb:198
+msgid "Referrer"
+msgstr "Viittaaja"
+
+#: ../../../app/views/file_pushes/audit.html.erb:263
+#: ../../../app/views/passwords/audit.html.erb:197
+#: ../../../app/views/urls/audit.html.erb:179
+msgid "Successful view from IP address"
+msgstr "Onnistunut näyttö IP-osoitteesta"
+
+#: ../../../app/views/file_pushes/audit.html.erb:275
+#: ../../../app/views/passwords/audit.html.erb:209
+#: ../../../app/views/urls/audit.html.erb:191
+msgid "Failed view attempt (already expired) by"
+msgstr "Epäonnistunut katseluyritys (sisältö on jo vanhentunut)"
+
+#: ../../../app/views/file_pushes/audit.html.erb:286
+#: ../../../app/views/passwords/audit.html.erb:220
+#: ../../../app/views/urls/audit.html.erb:202
+msgid "End of Audit Log"
+msgstr "Tarkastuslokin loppu"
+
+#: ../../../app/views/file_pushes/expired.html.erb:1
+#: ../../../app/views/file_pushes/expired.html.erb:14
+msgid "Expired File Pushes"
+msgstr "Vanhentuneet tiedostotyönnät"
+
+#: ../../../app/views/file_pushes/expired.html.erb:7
+msgid "You currently have no expired file pushes."
+msgstr "Sinulla ei tällä hetkellä ole vanhentuneita tiedostoja."
+
+#: ../../../app/views/file_pushes/expired.html.erb:10
+#: ../../../app/views/passwords/expired.html.erb:11
+msgid "Push Something Now"
+msgstr "Lähetä jotain hyt"
+
+#: ../../../app/views/file_pushes/expired.html.erb:19
+#: ../../../app/views/passwords/expired.html.erb:20
+#: ../../../app/views/urls/expired.html.erb:19
+msgid "ID"
+msgstr "ID"
+
+#: ../../../app/views/file_pushes/expired.html.erb:21
+#: ../../../app/views/passwords/expired.html.erb:22
+#: ../../../app/views/urls/expired.html.erb:21
+msgid "Expired On"
+msgstr "Vanhentunut"
+
+#: ../../../app/views/file_pushes/expired.html.erb:41
+#: ../../../app/views/passwords/expired.html.erb:42
+#: ../../../app/views/urls/expired.html.erb:41
+msgid "Audit Log"
+msgstr "Tarkastusloki"
+
+#: ../../../app/views/file_pushes/new.html.erb:1
+#: ../../../app/views/file_pushes/new_anonymous.html.erb:1
+msgid "Securely Send Files"
+msgstr "Lähetä tiedostoja turvallisesti"
+
+#: ../../../app/views/file_pushes/new.html.erb:26
+msgid "Add Files..."
+msgstr "Lisää tiedostoja..."
+
+#: ../../../app/views/file_pushes/new.html.erb:41
+msgid "You can upload up to 10 files per push."
+msgstr "Voit ladata enintään 10 tiedostoa työntöä kohti."
+
+#: ../../../app/views/file_pushes/new.html.erb:46
+#: ../../../app/views/passwords/new.html.erb:57
+#: ../../../app/views/urls/new.html.erb:40
+msgid "Expire secret link and delete after:"
+msgstr "Lähetyslinkki vanhenee ja sisältö poistuu: "
+
+#: ../../../app/views/file_pushes/new.html.erb:82
+#: ../../../app/views/file_pushes/preview.html.erb:16
+#: ../../../app/views/passwords/new.html.erb:92
+#: ../../../app/views/passwords/preview.html.erb:16
+#: ../../../app/views/urls/new.html.erb:77
+#: ../../../app/views/urls/preview.html.erb:16
+msgid "(whichever comes first)"
+msgstr "(Kumpi tahansa tuleekin ensin)"
+
+#: ../../../app/views/file_pushes/new.html.erb:95
+#: ../../../app/views/passwords/new.html.erb:105
+#: ../../../app/views/urls/new.html.erb:90
+msgid "Use a 1-click retrieval step"
+msgstr "Käytä yhden napautuksen hakuvaihetta"
+
+#: ../../../app/views/file_pushes/new.html.erb:106
+#: ../../../app/views/passwords/new.html.erb:116
+msgid "Allow immediate deletion"
+msgstr "Salli välitön poistaminen"
+
+#: ../../../app/views/file_pushes/new.html.erb:107
+#: ../../../app/views/passwords/new.html.erb:117
+msgid "Allow users to delete this push once retrieved."
+msgstr "Salli käyttäjien poistaa tämä push, kun se on haettu."
+
+#: ../../../app/views/file_pushes/new.html.erb:120
+#: ../../../app/views/passwords/new.html.erb:130
+#: ../../../app/views/urls/new.html.erb:104
+msgid "Optional: Require recipients to enter a passphrase to view this push"
+msgstr ""
+"Valinnainen: Vaadi vastaanottajia antamaan tunnuslause nähdäkseen tämän push-t"
+"oiminnon"
+
+#: ../../../app/views/file_pushes/new.html.erb:128
+msgid "Message"
+msgstr "Viesti"
+
+#: ../../../app/views/file_pushes/new.html.erb:131
+msgid "Optional: A message to be included with the push"
+msgstr "Valinnainen: Viesti, joka liitetään työntöön"
+
+#: ../../../app/views/file_pushes/new.html.erb:135
+msgid "Encrypted and visible to the receiving party"
+msgstr "Salattu ja vastaanottavan osapuolen näkyvä"
+
+#: ../../../app/views/file_pushes/new.html.erb:142
+#: ../../../app/views/passwords/new.html.erb:165
+#: ../../../app/views/urls/new.html.erb:115
+msgid "Optional"
+msgstr "Valinnainen"
+
+#: ../../../app/views/file_pushes/new.html.erb:145
+#: ../../../app/views/passwords/new.html.erb:168
+#: ../../../app/views/urls/new.html.erb:118
+msgid "Encrypted and visible only to you"
+msgstr "Salattu ja näkyvissä vain sinulle"
+
+#: ../../../app/views/file_pushes/new.html.erb:150
+msgid ""
+"Once expired, all files and content of the push will be deleted immediately an"
+"d entirely."
+msgstr ""
+"Vanhentuessaan kaikki push-tiedostot ja sisältö poistetaan välittömästi ja kok"
+"onaan."
+
+#: ../../../app/views/file_pushes/new.html.erb:155
+#: ../../../app/views/urls/new.html.erb:129
+msgid "An audit log of activity will be available."
+msgstr "Tarkastusloki toiminnasta on saatavilla."
+
+#: ../../../app/views/file_pushes/new.html.erb:163
+#: ../../../app/views/passwords/new.html.erb:181
+#: ../../../app/views/urls/new.html.erb:137
+msgid "Push It!"
+msgstr "Lähetä se!"
+
+#: ../../../app/views/file_pushes/new_anonymous.html.erb:9
+msgid "Securely Send Files That Delete Automatically"
+msgstr "Lähetä turvallisesti automaattisesti poistuvat tiedostot"
+
+#: ../../../app/views/file_pushes/new_anonymous.html.erb:13
+#: ../../../app/views/urls/new_anonymous.html.erb:13
+msgid "Please login to use this feature."
+msgstr "Kirjaudu sisään käyttääksesi tätä ominaisuutta."
+
+#: ../../../app/views/file_pushes/new_anonymous.html.erb:17
+#: ../../../app/views/urls/new_anonymous.html.erb:17
+msgid "Please login or sign up to use this feature."
+msgstr "Ole hyvä ja kirjaudu sisään tai rekisteröidy käyttääksesi tätä ominaisuutta."
+
+#: ../../../app/views/file_pushes/passphrase.html.erb:1
+#: ../../../app/views/passwords/passphrase.html.erb:1
+#: ../../../app/views/urls/passphrase.html.erb:1
+msgid "Enter The Secret Passphrase"
+msgstr "Anna Salainen salasana"
+
+#: ../../../app/views/file_pushes/passphrase.html.erb:10
+#: ../../../app/views/passwords/passphrase.html.erb:10
+#: ../../../app/views/urls/passphrase.html.erb:10
+msgid "Enter the secret passphrase provided with this URL"
+msgstr "Anna tämän URL-osoitteen mukana toimitettu salainen tunnuslause"
+
+#: ../../../app/views/file_pushes/passphrase.html.erb:10
+#: ../../../app/views/passwords/passphrase.html.erb:10
+#: ../../../app/views/urls/passphrase.html.erb:10
+msgid "Enter the secret passphrase"
+msgstr "Syötä salainen tunnuslause"
+
+#: ../../../app/views/file_pushes/passphrase.html.erb:11
+#: ../../../app/views/passwords/passphrase.html.erb:11
+#: ../../../app/views/urls/passphrase.html.erb:11
+msgid "Go"
+msgstr "Mennä"
+
+#: ../../../app/views/file_pushes/preliminary.html.erb:3
+#: ../../../app/views/passwords/preliminary.html.erb:3
+#: ../../../app/views/urls/preliminary.html.erb:3
+msgid "Click Here to Proceed"
+msgstr "Napsauta tästä jatkaaksesi"
+
+#: ../../../app/views/file_pushes/preview.html.erb:1
+#: ../../../app/views/urls/preview.html.erb:1
+msgid "Your Push Has Been Created"
+msgstr "Pushsi on luotu"
+
+#: ../../../app/views/file_pushes/preview.html.erb:6
+#: ../../../app/views/passwords/preview.html.erb:6
+#: ../../../app/views/urls/preview.html.erb:6
+msgid "Your push has been created."
+msgstr "Puskisi on luotu."
+
+#: ../../../app/views/file_pushes/preview.html.erb:8
+#: ../../../app/views/passwords/preview.html.erb:8
+#: ../../../app/views/urls/preview.html.erb:8
+msgid "Use this secret link to share it:"
+msgstr "Käytä tätä salaista linkkiä sen jakamiseen:"
+
+#: ../../../app/views/file_pushes/preview.html.erb:12
+#: ../../../app/views/urls/preview.html.erb:12
+msgid "This push will expire after"
+msgstr "Tämä push vanhenee sen jälkeen"
+
+#: ../../../app/views/file_pushes/preview.html.erb:13
+#: ../../../app/views/file_pushes/show.html.erb:43
+#: ../../../app/views/passwords/preview.html.erb:13
+#: ../../../app/views/passwords/show.html.erb:24
+#: ../../../app/views/urls/preview.html.erb:13
+msgid "day"
+msgid_plural "days"
+msgstr[0] "päivä"
+msgstr[1] "päivää"
+
+#: ../../../app/views/file_pushes/preview.html.erb:14
+#: ../../../app/views/file_pushes/show.html.erb:46
+#: ../../../app/views/file_pushes/show.html.erb:49
+#: ../../../app/views/pages/about.html.erb:34
+#: ../../../app/views/pages/about.html.erb:40
+#: ../../../app/views/passwords/preview.html.erb:14
+#: ../../../app/views/passwords/show.html.erb:27
+#: ../../../app/views/passwords/show.html.erb:30
+#: ../../../app/views/urls/preview.html.erb:14
+msgid "or"
+msgstr "tai"
+
+#: ../../../app/views/file_pushes/preview.html.erb:15
+#: ../../../app/views/passwords/preview.html.erb:15
+#: ../../../app/views/urls/preview.html.erb:15
+msgid "view"
+msgid_plural "views"
+msgstr[0] "katselukerta"
+msgstr[1] "katselukertaa"
+
+#: ../../../app/views/file_pushes/preview.html.erb:19
+#: ../../../app/views/file_pushes/preview.html.erb:21
+#: ../../../app/views/pages/about.html.erb:72
+#: ../../../app/views/pages/about.html.erb:95
+#: ../../../app/views/pages/faq.html.erb:73
+#: ../../../app/views/pages/faq.html.erb:142
+#: ../../../app/views/passwords/preview.html.erb:19
+#: ../../../app/views/passwords/preview.html.erb:21
+msgid "and"
+msgstr "ja"
+
+#: ../../../app/views/file_pushes/preview.html.erb:19
+#: ../../../app/views/passwords/preview.html.erb:19
+msgid "can be"
+msgstr "on"
+
+#: ../../../app/views/file_pushes/preview.html.erb:19
+#: ../../../app/views/file_pushes/preview.html.erb:21
+#: ../../../app/views/passwords/preview.html.erb:19
+#: ../../../app/views/passwords/preview.html.erb:21
+msgid "deleted by viewers."
+msgstr "katsojien poistettavissa"
+
+#: ../../../app/views/file_pushes/preview.html.erb:21
+#: ../../../app/views/passwords/preview.html.erb:21
+msgid "can NOT be"
+msgstr "ei voi olla"
+
+#: ../../../app/views/file_pushes/preview.html.erb:26
+#: ../../../app/views/passwords/preview.html.erb:26
+#: ../../../app/views/urls/preview.html.erb:20
+msgid "It also includes a"
+msgstr "Se sisältää myös"
+
+#: ../../../app/views/file_pushes/preview.html.erb:26
+#: ../../../app/views/passwords/preview.html.erb:26
+#: ../../../app/views/urls/preview.html.erb:20
+msgid "1-click preliminary retrieval step"
+msgstr "yhden klikin esihakuvaihe"
+
+#: ../../../app/views/file_pushes/preview.html.erb:30
+#: ../../../app/views/urls/preview.html.erb:24
+msgid "View This Push Now"
+msgstr "Näytä tämä Push nyt"
+
+#: ../../../app/views/file_pushes/preview.html.erb:30
+#: ../../../app/views/passwords/preview.html.erb:30
+#: ../../../app/views/urls/preview.html.erb:24
+msgid "(will burn a view) or"
+msgstr "(Käyttää yhden näyttökerran) tai"
+
+#: ../../../app/views/file_pushes/preview.html.erb:31
+#: ../../../app/views/urls/preview.html.erb:25
+msgid "Push Another"
+msgstr "Työnnä toinen"
+
+#: ../../../app/views/file_pushes/preview.html.erb:36
+#: ../../../app/views/passwords/preview.html.erb:36
+#: ../../../app/views/urls/preview.html.erb:30
+msgid "View Audit Log"
+msgstr "Näytä tarkastusloki"
+
+#: ../../../app/views/file_pushes/preview.html.erb:41
+#: ../../../app/views/passwords/preview.html.erb:41
+#: ../../../app/views/urls/preview.html.erb:35
+msgid ""
+"Tip: Pushing to an international user?  Change the secret link language using "
+"the dropdown menu to the right of the URL."
+msgstr ""
+"Vinkki: lähetätkö kansainväliselle käyttäjälle? Vaihda salaisen linkin kieli U"
+"RL-osoitteen oikealla puolella olevasta valikosta."
+
+#: ../../../app/views/file_pushes/show.html.erb:1
+#: ../../../app/views/passwords/show.html.erb:1
+msgid "Your Secret Link"
+msgstr "Salainen linkkisi"
+
+#: ../../../app/views/file_pushes/show.html.erb:7
+msgid "The following files have been sent to you."
+msgstr "Seuraavat tiedostot on lähetetty sinulle."
+
+#: ../../../app/views/file_pushes/show.html.erb:8
+msgid "Please download and store in a secure area."
+msgstr "Lataa ja säilytä suojatussa paikassa."
+
+#: ../../../app/views/file_pushes/show.html.erb:13
+msgid "The following message has been sent to you along with the files below."
+msgstr "Seuraava viesti on lähetetty sinulle yhdessä alla olevien tiedostojen kanssa."
+
+#: ../../../app/views/file_pushes/show.html.erb:15
+msgid "The message is blurred out.  Click below to reveal it."
+msgstr "Viesti on hämärtynyt. Napsauta alla paljastaaksesi sen."
+
+#: ../../../app/views/file_pushes/show.html.erb:41
+#: ../../../app/views/passwords/show.html.erb:22
+msgid "This secret link and all content will be deleted in"
+msgstr "Tämä salainen linkki ja kaikki sisältö poistetaan"
+
+#: ../../../app/views/file_pushes/show.html.erb:46
+#: ../../../app/views/passwords/show.html.erb:27
+msgid "0 more views"
+msgstr "0 katselukertaa jäljellä"
+
+#: ../../../app/views/file_pushes/show.html.erb:47
+#: ../../../app/views/passwords/show.html.erb:28
+msgid "(this is the last view)."
+msgstr "(tämä on viimeinen katselukerta)."
+
+#: ../../../app/views/file_pushes/show.html.erb:50
+#: ../../../app/views/passwords/show.html.erb:31
+msgid "more view"
+msgid_plural "more views"
+msgstr[0] "katselukerta"
+msgstr[1] "katselukertoja"
+
+#: ../../../app/views/file_pushes/show.html.erb:51
+#: ../../../app/views/passwords/show.html.erb:32
+msgid "(whichever occurs first)."
+msgstr "(Kumpi tahansa tuleekin ensin)"
+
+#: ../../../app/views/file_pushes/show.html.erb:56
+#: ../../../app/views/passwords/show.html.erb:37
+msgid "Delete This Secret Link Now"
+msgstr "Poista tämä salainen linkki nyt"
+
+#: ../../../app/views/file_pushes/show.html.erb:68
+#: ../../../app/views/passwords/show.html.erb:52
+msgid "Delete?"
+msgstr "Poistaa?"
+
+#: ../../../app/views/file_pushes/show.html.erb:72
+#: ../../../app/views/passwords/show.html.erb:56
+msgid "This will expire this secret link and "
+msgstr "Tämä merkkaa salaisen linkin vanhentuneeksi ja"
+
+#: ../../../app/views/file_pushes/show.html.erb:73
+#: ../../../app/views/passwords/show.html.erb:57
+msgid "delete all related content from the database forever"
+msgstr "poista kaikki liittyvä sisältö tietokannasta ikuisesti"
+
+#: ../../../app/views/file_pushes/show_expired.html.erb:1
+#: ../../../app/views/passwords/show_expired.html.erb:1
+#: ../../../app/views/urls/show_expired.html.erb:1
+msgid "Your Secret Link Has Expired"
+msgstr "Salainen linkkisi on vanhentunut"
+
+#: ../../../app/views/file_pushes/show_expired.html.erb:6
+#: ../../../app/views/passwords/show_expired.html.erb:6
+#: ../../../app/views/urls/show_expired.html.erb:6
+msgid "We apologize but this secret link has expired."
+msgstr "Pahoittelemme, mutta tämä salainen linkki on vanhentunut."
+
+#: ../../../app/views/file_pushes/show_expired.html.erb:8
+#: ../../../app/views/passwords/show_expired.html.erb:8
+#: ../../../app/views/urls/show_expired.html.erb:8
+msgid ""
+"If needed, please contact the person or organization who gave you this secret "
+"URL."
+msgstr ""
+"Ota tarvittaessa yhteyttä henkilöön tai organisaatioon, joka antoi sinulle täm"
+"än salaisen URL-osoitteen."
+
+#: ../../../app/views/layouts/login.html.erb:37
+#: ../../../app/views/shared/_footer.html.erb:12
+#: ../../../app/views/shared/_footer.html.erb:16
+#: ../../../app/views/shared/_header.html.erb:9
+#: ../../../app/views/shared/_header.html.erb:13
+msgid "Password Pusher Logo"
+msgstr "Password Pusher logo"
+
+#: ../../../app/views/layouts/login.html.erb:52
+msgid ""
+"Some domains may inadvertently block emails.  If you are having trouble receiv"
+"ing emails, "
+msgstr ""
+"Jotkut verkkotunnukset voivat vahingossa estää sähköpostit. Jos sinulla on ong"
+"elmia sähköpostien vastaanottamisessa,"
+
+#: ../../../app/views/layouts/login.html.erb:53
+msgid "send a message"
+msgstr "Lähetä viesti"
+
+#: ../../../app/views/layouts/login.html.erb:54
+msgid "and we can help out."
+msgstr "ja voimme auttaa."
+
+#: ../../../app/views/pages/about.html.erb:1
+msgid "About Password Pusher"
+msgstr "Tietoja Password Pusherista"
+
+#: ../../../app/views/pages/about.html.erb:2
+#: ../../../app/views/shared/_footer.html.erb:49
+msgid "About"
+msgstr "Tietoja"
+
+#: ../../../app/views/pages/about.html.erb:7
+msgid ""
+"Password Pusher is a tool used for sharing passwords and other sensitive infor"
+"mation with other people securely."
+msgstr ""
+"Password Pusher on työkalu salasanojen ja muiden arkaluonteisten tietojen jaka"
+"miseen muiden ihmisten kanssa turvallisesti."
+
+#: ../../../app/views/pages/about.html.erb:10
+msgid ""
+"With Password Pusher, you can create a unique, one-time URL that will expire a"
+"fter a certain amount of time or after it has been accessed a certain number o"
+"f times, ensuring that your information remains private and secure."
+msgstr ""
+"Password Pusherin avulla voit luoda ainutlaatuisen, kertaluonteisen URL-osoitt"
+"een, joka vanhenee tietyn ajan kuluttua tai sen jälkeen, kun sitä on käytetty "
+"tietyn määrän kertoja, mikä varmistaa, että tietosi pysyvät yksityisinä ja tur"
+"vassa."
+
+#: ../../../app/views/pages/about.html.erb:11
+msgid ""
+"It is often used by individuals and organizations to share login credentials o"
+"r other sensitive data with colleagues, clients, or partners."
+msgstr ""
+"Yksityishenkilöt ja organisaatiot käyttävät sitä usein jakaakseen kirjautumist"
+"ietoja tai muita arkaluonteisia tietoja kollegoiden, asiakkaiden tai kumppanei"
+"den kanssa."
+
+#: ../../../app/views/pages/about.html.erb:14
+msgid ""
+"Password Pusher is a simple and convenient solution for securely sharing passw"
+"ords without the need for email or other less secure communication methods."
+msgstr ""
+"Password Pusher on yksinkertainen ja kätevä ratkaisu salasanojen turvalliseen "
+"jakamiseen ilman sähköpostia tai muita vähemmän turvallisia viestintätapoja."
+
+#: ../../../app/views/pages/about.html.erb:17
+msgid "Hosted at"
+msgstr "hostattu "
+
+#: ../../../app/views/pages/about.html.erb:19
+msgid "or you can run your own private instance wherever you like."
+msgstr "tai voit käyttää omaa yksityistä instanssia missä haluat."
+
+#: ../../../app/views/pages/about.html.erb:23
+msgid "The source code is"
+msgstr "Lähdekoodi on"
+
+#: ../../../app/views/pages/about.html.erb:24
+#: ../../../app/views/pages/about.html.erb:41
+msgid "on Github"
+msgstr "Githubissa"
+
+#: ../../../app/views/pages/about.html.erb:25
+msgid "It’s opensource and free for anyone to use, review or modify."
+msgstr ""
+"Se onavointa lähdekoodia ja ilmainen kenen tahansa käytettäväksi, tarkastettav"
+"aksi tai muokattavaksi."
+
+#: ../../../app/views/pages/about.html.erb:28
+msgid "The Author"
+msgstr "Kirjoittaja"
+
+#: ../../../app/views/pages/about.html.erb:31
+msgid "My name is Peter Giacomo Lombardo. You can find me on"
+msgstr "Nimeni on Peter Giacomo Lombardo. Löydät minut "
+
+#: ../../../app/views/pages/about.html.erb:38
+msgid "For updates, you can"
+msgstr "Päivityksiä varten voit"
+
+#: ../../../app/views/pages/about.html.erb:39
+msgid "follow me on Twitter"
+msgstr "seuraa minua Twitterissä"
+
+#: ../../../app/views/pages/about.html.erb:44
+msgid "Want to Help Out?"
+msgstr "Haluatko auttaa?"
+
+#: ../../../app/views/pages/about.html.erb:48
+msgid "By far the biggest help is to spread the word"
+msgstr "Ylivoimaisesti suurin apu on sanan levittäminen"
+
+#: ../../../app/views/pages/about.html.erb:50
+msgid "Share and suggest Password Pusher to colleagues and friends."
+msgstr "Jaa ja ehdota Password Pusheria kollegoille ja ystäville."
+
+#: ../../../app/views/pages/about.html.erb:53
+msgid "You can also"
+msgstr "Voit myös"
+
+#: ../../../app/views/pages/about.html.erb:56
+msgid "Star the Github project"
+msgstr "Tähditä Github-projekti"
+
+#: ../../../app/views/pages/about.html.erb:57
+msgid "It's gasoline for the algos that trend Password Pusher."
+msgstr "Se on bensiiniä Password Pusherin trendikkäille algoille."
+
+#: ../../../app/views/pages/about.html.erb:60
+#: ../../../app/views/pages/translate.html.erb:3
+msgid "Help Translate"
+msgstr "Auta kääntämään"
+
+#: ../../../app/views/pages/about.html.erb:61
+msgid "Improve an existing language or add a new one"
+msgstr "Paranna olemassa olevaa kieltä tai lisää uusi"
+
+#: ../../../app/views/pages/about.html.erb:64
+msgid "Sign up for the"
+msgstr "Ilmoittaudu mukaan"
+
+#: ../../../app/views/pages/about.html.erb:65
+msgid "newsletter"
+msgstr "uutiskirje"
+
+#: ../../../app/views/pages/about.html.erb:66
+msgid "to get updates on important releases, security issues, tips and more."
+msgstr ""
+"saadaksesi päivityksiä tärkeistä julkaisuista, tietoturvaongelmista, vinkeistä"
+" ja muusta."
+
+#: ../../../app/views/pages/about.html.erb:69
+msgid "Follow Password Pusher on"
+msgstr "Seuraa Password Pusheria"
+
+#: ../../../app/views/pages/about.html.erb:76
+msgid "Fix an issue, add a feature or write some documentation."
+msgstr "Korjaa ongelma, lisää ominaisuus tai kirjoita ohjeita."
+
+#: ../../../app/views/pages/about.html.erb:76
+msgid "See the Github project."
+msgstr "Katso Github-projekti."
+
+#: ../../../app/views/pages/about.html.erb:79
+msgid "Sign up to Digital Ocean"
+msgstr "Rekisteröidy Digital Oceaniin"
+
+#: ../../../app/views/pages/about.html.erb:80
+msgid "with this link"
+msgstr "tällä linkillä"
+
+#: ../../../app/views/pages/about.html.erb:81
+msgid "to get Password Pusher a hosting credit."
+msgstr "saadaksesi Password Pusherille hosting-hyvityksen."
+
+#: ../../../app/views/pages/about.html.erb:85
+msgid "Thank you for supporting Password Pusher!"
+msgstr "Kiitos Password Pusherin tukemisesta!"
+
+#: ../../../app/views/pages/about.html.erb:87
+#: ../../../app/views/shared/_footer.html.erb:26
+msgid "Resources"
+msgstr "Resurssit"
+
+#: ../../../app/views/pages/about.html.erb:90
+msgid ""
+"If you are giving a presentation, authoring a blog post or video about Passwor"
+"d Pusher, feel free to contact me for any questions."
+msgstr ""
+"Jos pidät esityksen, kirjoitat blogikirjoituksen tai videon Password Pusherist"
+"a, ota minuun yhteyttä, jos sinulla on kysyttävää."
+
+#: ../../../app/views/pages/about.html.erb:93
+msgid "We have media resources and a full explanation of features available in"
+msgstr ""
+"Meillä on mediaresursseja ja täydellinen selitys saatavilla olevista ominaisuu"
+"ksista"
+
+#: ../../../app/views/pages/about.html.erb:94
+msgid "Windows Powerpoint"
+msgstr "Windows Powerpoint"
+
+#: ../../../app/views/pages/about.html.erb:96
+msgid "Mac Keynote"
+msgstr "Mac Keynote"
+
+#: ../../../app/views/pages/about.html.erb:97
+msgid "formats."
+msgstr "muotoja."
+
+#: ../../../app/views/pages/about.html.erb:106
+msgid "Birthday"
+msgstr "Syntymäpäivä"
+
+#: ../../../app/views/pages/about.html.erb:108
+msgid "More Than 11 Years Old"
+msgstr "Yli 11 vuotta vanha"
+
+#: ../../../app/views/pages/about.html.erb:110
+msgid "The first git commit to Password Pusher was on"
+msgstr "Ensimmäinen git-muutos Password Pusheriin oli"
+
+#: ../../../app/views/pages/about.html.erb:114
+msgid "pwpush.com went live shortly thereafter."
+msgstr "pwpush.com aloitti toimintansa pian sen jälkeen."
+
+#: ../../../app/views/pages/about.html.erb:120
+msgid "The Original Theme"
+msgstr "Alkuperäinen teema"
+
+#: ../../../app/views/pages/about.html.erb:121
+msgid ""
+"The original site design consisted of a dark background with a bold yellow fon"
+"t."
+msgstr ""
+"Sivuston alkuperäinen ulkoasu koostui tummasta taustasta, jossa oli lihavoitu "
+"keltainen fontti."
+
+#: ../../../app/views/pages/about.html.erb:124
+msgid "Follow for news, changes & updates."
+msgstr "Seuraa uutisia, muutoksia ja päivityksiä."
+
+#: ../../../app/views/pages/faq.html.erb:1
+#: ../../../app/views/shared/_footer.html.erb:35
+msgid "FAQ"
+msgstr "UKK"
+
+#: ../../../app/views/pages/faq.html.erb:3
+msgid "Frequently Asked Questions"
+msgstr "Usein Kysytyt Kysymykset"
+
+#: ../../../app/views/pages/faq.html.erb:5
+msgid "Trust and Security"
+msgstr "Luottamus ja turvallisuus"
+
+#: ../../../app/views/pages/faq.html.erb:11
+msgid "What purpose does Password Pusher serve?"
+msgstr "Mitä tarkoitusta Password Pusher palvelee?"
+
+#: ../../../app/views/pages/faq.html.erb:16
+msgid "Password Pusher exists as a better alternative to emailing passwords."
+msgstr ""
+"Password Pusher on parempi vaihtoehto salasanojen lähettämiselle sähköpostitse"
+"."
+
+#: ../../../app/views/pages/faq.html.erb:18
+msgid "Emailing passwords is inherently insecure."
+msgstr "Salasanojen lähettäminen sähköpostitse on luonnostaan turvatonta."
+
+#: ../../../app/views/pages/faq.html.erb:18
+msgid "The greatest risks include"
+msgstr "Suurimpia riskejä ovat"
+
+#: ../../../app/views/pages/faq.html.erb:21
+msgid ""
+"Emailed passwords are usually sent with context to what they go to or can pote"
+"ntially be derived from email username, domain etc…"
+msgstr ""
+"Sähköpostissa lähetetyt salasanat lähetetään yleensä kontekstissa siihen, mihi"
+"n ne menevät, tai ne voidaan mahdollisesti johtaa sähköpostin käyttäjätunnukse"
+"sta, verkkotunnuksesta jne."
+
+#: ../../../app/views/pages/faq.html.erb:22
+msgid ""
+"Email is inherently insecure and can be intercepted at multiple points by mali"
+"cious entities."
+msgstr "Sähköposti on luonnostaan turvaton, ja haitalliset tahot voivat siepata sen."
+
+#: ../../../app/views/pages/faq.html.erb:23
+msgid "Emailed passwords live in perpetuity (read: forever) in email archives."
+msgstr "Sähköpostissa lähetetyt salasanat elävät ikuisesti sähköpostiarkistoissa."
+
+#: ../../../app/views/pages/faq.html.erb:24
+msgid ""
+"Passwords in email can be retrieved and used later on if an email account is s"
+"tolen, cracked etc.."
+msgstr ""
+"Sähköpostissa olevat salasanat voidaan hakea ja käyttää myöhemmin, jos sähköpo"
+"stitili varastetaan tai murretaan."
+
+#: ../../../app/views/pages/faq.html.erb:27
+msgid ""
+"The same risks persist when sending passwords via SMS, WhatsApp, Telegram, Cha"
+"t etc…  The data can and is often perpetual and out of your control."
+msgstr ""
+"Samat riskit koskevat tekstiviestillä, WhatsAppilla, sähkeellä, chatilla yms. "
+"lähetettyjä salasanoja  Tiedot voivat olla ja usein ovat ikuisia eivätkä ole s"
+"inun hallinnassasi."
+
+#: ../../../app/views/pages/faq.html.erb:29
+msgid "By using Password Pusher, you bypass all of this."
+msgstr "Käyttämällä Password Pusheria ohitat kaiken tämän."
+
+#: ../../../app/views/pages/faq.html.erb:31
+msgid "For each password posted to Password Pusher, "
+msgstr "Jokaisesta Password Pusheriin lähetetystä salasanasta,"
+
+#: ../../../app/views/pages/faq.html.erb:32
+msgid "a unique URL is generated that only you will know"
+msgstr "luodaan yksilöllinen URL-osoite, jonka vain sinä tiedät"
+
+#: ../../../app/views/pages/faq.html.erb:33
+msgid "Additionally, "
+msgstr "Lisäksi,"
+
+#: ../../../app/views/pages/faq.html.erb:35
+msgid "passwords expire after a predefined set of views are hit or time passed."
+msgstr "salasanat vanhenevat, kun näyttökerrat loppuvat tai aika on kulunut loppuun."
+
+#: ../../../app/views/pages/faq.html.erb:37
+msgid "Once expired, passwords are unequivocally deleted."
+msgstr "Kun lähetys on vanhentunut, tiedot poistetaan pysyvästi."
+
+#: ../../../app/views/pages/faq.html.erb:40
+msgid ""
+"If that sounds interesting to you, try it out or see the other frequently aske"
+"d questions below."
+msgstr ""
+"Jos tämä kuulostaa kiinnostavalta, kokeile sitä tai katso muut usein kysytyt k"
+"ysymykset alla."
+
+#: ../../../app/views/pages/faq.html.erb:47
+msgid "Trust is a concern. Why should I use Password Pusher?"
+msgstr "Luottamus mietityttää. Miksi minun kannattaisi käyttää Password Pusheria?"
+
+#: ../../../app/views/pages/faq.html.erb:52
+msgid ""
+"And rightfully so. All good security begins with healthy skepticism of all inv"
+"olved components."
+msgstr ""
+"Ja aivan oikein. Kaikki hyvä tietoturva alkaa terveestä skeptisyydestä kaikkia"
+" asiaan liittyviä komponentteja kohtaan."
+
+#: ../../../app/views/pages/faq.html.erb:55
+msgid ""
+"Password Pusher exists as a better alternative to emailing passwords. It avoid"
+"s having passwords exist in email archives in perpetuity. It does not exist as"
+" a end-all security solution."
+msgstr ""
+"Password Pusher on parempi vaihtoehto salasanojen lähettämiselle sähköpostitse"
+". Sillä vältetään salasanojen olemassaolo sähköpostiarkistoissa ikuisesti. Se "
+"ei ole täydellinen tietoturvaratkaisu, jos sellaista voi edes olla olemassa."
+
+#: ../../../app/views/pages/faq.html.erb:59
+msgid "Password Pusher is opensource"
+msgstr "Password Pusher on avointa lähdekoodia"
+
+#: ../../../app/views/pages/faq.html.erb:60
+msgid ""
+"so the source can be publicly reviewed and can alternatively be run internally"
+" in your organization."
+msgstr ""
+"jotta lähdekoodia voidaan tarkastella julkisesti ja vaihtoehtoisesti ajaa omaa"
+" instanssia organisaatiosi sisällä."
+
+#: ../../../app/views/pages/faq.html.erb:64
+msgid "Passwords are unequivocally deleted from the database once they expire."
+msgstr "Salasanat poistetaan pysyvästi tietokannasta, kun ne vanhenevat."
+
+#: ../../../app/views/pages/faq.html.erb:65
+msgid ""
+"Additionally, random URL tokens are generated on the fly and passwords are pos"
+"ted without context for their use."
+msgstr ""
+"Lisäksi satunnaiset URL-tunnukset luodaan lennossa ja salasanat julkaistaan il"
+"man kontekstia niiden käyttöä varten."
+
+#: ../../../app/views/pages/faq.html.erb:69
+msgid "A note for those with an interest in extreme security:"
+msgstr "Huomautus äärimmäisestä turvallisuudesta kiinnostuneille:"
+
+#: ../../../app/views/pages/faq.html.erb:70
+msgid ""
+"there is no way I can reliably prove that the opensource code is the same that"
+" runs on pwpush.com (this is true for all sites in reality)."
+msgstr ""
+"Ei ole tapaa aukottomasti todistaa, että avoimen lähdekoodin koodi on sama, jo"
+"ka toimii osoitteessa pwpush.com (tämä pätee todellisuudessa kaikille sivustoi"
+"lle)."
+
+#: ../../../app/views/pages/faq.html.erb:71
+msgid "The only thing I can provide in this respect is my public reputation on"
+msgstr "Ainoa asia, johon voin tässä suhteessa vedota, on julkinen maineeni"
+
+#: ../../../app/views/pages/faq.html.erb:74
+msgid "my blog"
+msgstr "blogini"
+
+#: ../../../app/views/pages/faq.html.erb:75
+msgid ""
+"If this is a concern for you, feel free to review the code, post any questions"
+" that you may have and consider running it internally at your organization ins"
+"tead."
+msgstr ""
+"Jos tämä huolestuttaa sinua, tarkista koodi, lähetä mahdolliset kysymykset ja "
+"harkitse sen sijaan sen käyttämistä sisäisesti organisaatiossasi."
+
+#: ../../../app/views/pages/faq.html.erb:83
+msgid "Tools, Utilities and Applications"
+msgstr "Työkalut, apuohjelmat ja sovellukset"
+
+#: ../../../app/views/pages/faq.html.erb:89
+msgid "Are there other ways I can access Password Pusher outside of a browser?"
+msgstr "Voinko käyttää Password Pusheria muilla tavoilla selaimen ulkopuolella?"
+
+#: ../../../app/views/pages/faq.html.erb:95
+msgid ""
+"Absolutely.  Password Pusher has a number of applications and command line uti"
+"lities (CLI) that interface with pwpush.com or privately run instances.  Push "
+"passwords from the CLI, Slack, Alfred App and more."
+msgstr ""
+"Ehdottomasti. Password Pusherissa on useita sovelluksia ja komentorivin apuohj"
+"elmia (CLI), jotka ovat yhteydessä pwpush.com-sivustoon tai yksityisesti suori"
+"tettuihin esiintymiin. Lähetä salasanat komentoriviltä, Slackin kautta, Alfred"
+" Appista ym."
+
+#: ../../../app/views/pages/faq.html.erb:97
+msgid "See our"
+msgstr "Katso meidän"
+
+#: ../../../app/views/pages/faq.html.erb:97
+msgid "Tools and Applications"
+msgstr "Työkalut ja sovellukset"
+
+#: ../../../app/views/pages/faq.html.erb:97
+msgid "page for more details."
+msgstr "sivulta lisätietoja."
+
+#: ../../../app/views/pages/faq.html.erb:104
+msgid "Can I automate my password distribution?"
+msgstr "Voinko automatisoida salasanojen jakelun?"
+
+#: ../../../app/views/pages/faq.html.erb:109
+msgid ""
+"Yes. Using the previously mentioned tools, many users and organizations integr"
+"ate Password Pusher into their security policies and processes."
+msgstr ""
+"Joo. Aiemmin mainittujen työkalujen avulla monet käyttäjät ja organisaatiot in"
+"tegroivat Password Pusherin tietoturvakäytäntöihinsä ja prosesseihinsa."
+
+#: ../../../app/views/pages/faq.html.erb:110
+msgid "The"
+msgstr "The"
+
+#: ../../../app/views/pages/faq.html.erb:110
+#: ../../../app/views/shared/_footer.html.erb:44
+msgid "Tools"
+msgstr "Työkalut"
+
+#: ../../../app/views/pages/faq.html.erb:110
+msgid ""
+"page outlines the resources available to automate the secure distribution of p"
+"asswords."
+msgstr ""
+"sivulla esitellään resurssit, jotka ovat käytettävissä salasanojen turvallisen"
+" jakelun automatisoimiseksi."
+
+#: ../../../app/views/pages/faq.html.erb:117
+msgid "How many requests can I send to Password Pusher?"
+msgstr "Kuinka monta pyyntöä voin lähettää Password Pusherille?"
+
+#: ../../../app/views/pages/faq.html.erb:122
+msgid ""
+"There are no limits currently and I have no intention of adding any.  To minim"
+"ally assure site stability, Password Pusher is configured with a rate limiter "
+"by default."
+msgstr ""
+"Tällä hetkellä ei ole rajoituksia, enkä aio lisätä niitä. Sivuston vakauden ta"
+"kaamiseksi, Password Pusher on määritetty oletusarvoisesti rajoittamaan kutsuj"
+"en määrää per minuutti."
+
+#: ../../../app/views/pages/faq.html.erb:128
+msgid "Running Your Own Private Instance"
+msgstr "Oman yksityisen instanssin ajaminen"
+
+#: ../../../app/views/pages/faq.html.erb:134
+msgid "Can I run my own version for my organization internally?"
+msgstr "Voinko käyttää omaa sisäistä versiota organisaatiolleni?"
+
+#: ../../../app/views/pages/faq.html.erb:140
+msgid "Yes.  We provide"
+msgstr "Joo. Me tarjoamme"
+
+#: ../../../app/views/pages/faq.html.erb:141
+msgid "Docker containers"
+msgstr "Docker-kontit"
+
+#: ../../../app/views/pages/faq.html.erb:143
+msgid "installation instructions"
+msgstr "asennusohjeet"
+
+#: ../../../app/views/pages/faq.html.erb:144
+msgid "for a wide variety of platforms and services."
+msgstr "monenlaisille alustoille ja palveluille."
+
+#: ../../../app/views/pages/faq.html.erb:146
+msgid "tldr;"
+msgstr "tldr;"
+
+#: ../../../app/views/pages/faq.html.erb:153
+msgid "Can I apply a custom logo or change the design?"
+msgstr "Voinko käyttää mukautettua logoa tai muuttaa mallia?"
+
+#: ../../../app/views/pages/faq.html.erb:158
+msgid ""
+"Password Pusher supports re-branding \"out of the box\" allowing you to add a cu"
+"stom logo, text and even change images in the application."
+msgstr ""
+"Password Pusher tukee uudelleenbrändäystä \"pakkauksesta\", jolloin voit lisätä "
+"mukautetun logon, tekstiä ja jopa vaihtaa kuvia sovellukseen."
+
+#: ../../../app/views/pages/faq.html.erb:165
+msgid "Are there any licensing restrictions for me, my company or my organization?"
+msgstr "Onko minulle, yritykselleni tai organisaatiolleni lisensointirajoituksia?"
+
+#: ../../../app/views/pages/faq.html.erb:171
+msgid ""
+"The source code is released under the GNU General Public License v3.0 and that"
+" pretty much defines any and all limitations. There are quite a few rebranded "
+"and redesigned clone sites of Password Pusher and I welcome them all."
+msgstr ""
+"Lähdekoodi on julkaistu GNU General Public License v3.0 -lisenssillä ja se mää"
+"rittelee melkein kaikki rajoitukset. Password Pusherin uudelleen tuotettuja ja"
+" uudelleen suunniteltuja kloonisivustoja on useita ja toivotan ne kaikki terve"
+"tulleiksi."
+
+#: ../../../app/views/pages/faq.html.erb:179
+msgid "Why would I want to run my own private instance of Password Pusher?"
+msgstr "Miksi haluaisin käyttää omaa Password Pusherin instanssia?"
+
+#: ../../../app/views/pages/faq.html.erb:185
+msgid ""
+"Some organizations are bound by security policies that prohibit the use of pub"
+"lic services for sensitive information such as passwords.  There are even orga"
+"nizations that require all tools to be on private intranets without access to "
+"the outside world."
+msgstr ""
+"Joitakin organisaatioita sitovat suojauskäytännöt, jotka kieltävät julkisten p"
+"alvelujen käytön arkaluonteisten tietojen, kuten salasanojen, käsittelyssä. On"
+" jopa organisaatioita, jotka vaativat kaikkien työkalujen olevan yksityisissä "
+"intranetissä ilman pääsyä ulkomaailmaan."
+
+#: ../../../app/views/pages/faq.html.erb:188
+msgid ""
+"It's for these reasons that we provide the ability (and encourage) users and o"
+"rganizations to run private instances when needed."
+msgstr ""
+"Näistä syistä tarjoamme käyttäjille ja organisaatioille mahdollisuuden (ja suo"
+"sittelemme) ajamaan omia instansseja."
+
+#: ../../../app/views/pages/faq.html.erb:196
+msgid "What are the potential security risks of running my own version internally?"
+msgstr ""
+"Mitä mahdollisia turvallisuusriskejä oman instanssin käyttäminen sisäisesti ai"
+"heuttaa?"
+
+#: ../../../app/views/pages/faq.html.erb:201
+msgid ""
+"Running an private instance of Password Pusher for your company or organizatio"
+"n gives you the peace of mind that you know exactly what code is running.  You"
+" can configure and run it as you like."
+msgstr ""
+"Password Pusherin oman instanssin ajaminen yrityksellesi tai organisaatiollesi"
+" antaa sinulle mielenrauhan, sillä tiedät tarkalleen, mitä koodia on käynnissä"
+". Voit määrittää ja käyttää sitä haluamallasi tavalla."
+
+#: ../../../app/views/pages/faq.html.erb:202
+msgid ""
+"On the other hand, if your instance gets hacked and the encryption broken, mal"
+"icious entities now have a targeted dictionary of passwords to brute force acc"
+"ounts in your organization.  Note that this would be limited to pushes which h"
+"aven't yet hit their expiration limits."
+msgstr ""
+"Toisaalta, jos ilmentymäsi hakkeroidaan ja salaus rikkoutuu, haitallisilla yht"
+"eisöillä on nyt kohdennettu salasanojen sanakirja, jolla he voivat pakottaa ti"
+"lit organisaatiossasi. Huomaa, että tämä rajoittuu työntöihin, jotka eivät ole"
+" vielä saavuttaneet vanhentumisrajaansa."
+
+#: ../../../app/views/pages/faq.html.erb:203
+msgid ""
+"In this respect, the public instance at pwpush.com is may be superior that it "
+"contains only passwords without identifying information mixed among users from"
+" around the globe."
+msgstr ""
+"Tässä suhteessa pwpush.com-sivuston julkinen instanssi voi olla parempi, koska"
+" se sisältää vain salasanoja ilman kontekstia sekoitettuna eri puolilta maailm"
+"aa olevien käyttäjien kesken."
+
+#: ../../../app/views/pages/faq.html.erb:204
+msgid ""
+"The user should carefully weigh the pros and cons and decide which route is be"
+"st for them.  We happily support both strategies."
+msgstr ""
+"Käyttäjän tulee punnita huolellisesti edut ja haitat ja päättää, mikä vaihtoeh"
+"to on hänelle paras. Tuemme mielellämme molempia strategioita."
+
+#: ../../../app/views/pages/faq.html.erb:210
+msgid "Other"
+msgstr "Muut"
+
+#: ../../../app/views/pages/faq.html.erb:216
+msgid ""
+"The URL I sent link seems to have not worked by the time it was received.  Doe"
+"s this happen occasionally and is there a way to prevent this?"
+msgstr ""
+"Lähettämäni URL-linkki ei näytä toimineen sen vastaanottamiseen mennessä. Tapa"
+"htuuko tätä satunnaisesti ja onko mitään keinoa estää tämä?"
+
+#: ../../../app/views/pages/faq.html.erb:222
+msgid ""
+"Some systems such as email, firewalls and chat systems often have link scanner"
+"s that can eat up views."
+msgstr ""
+"Joissakin järjestelmissä, kuten sähköpostissa, palomuurissa ja chat-järjestelm"
+"issä, on usein linkkien skannereita, jotka voivat kuluttaa näkymiä."
+
+#: ../../../app/views/pages/faq.html.erb:223
+msgid "This is done for security or to simply generate a \"preview\" for chat systems."
+msgstr ""
+"Tämä tehdään turvallisuuden vuoksi tai yksinkertaisesti \"esikatselun\" luomisek"
+"si chat-järjestelmille."
+
+#: ../../../app/views/pages/faq.html.erb:226
+msgid "To prevent this, use the 1-click retrieval step option when pushing passwords."
+msgstr ""
+"Voit estää tämän käyttämällä yhden napsautuksen hakuvaihetta salasanoja työntä"
+"essäsi."
+
+#: ../../../app/views/pages/faq.html.erb:227
+msgid ""
+"This requires the users to click through a preliminary page to protect views f"
+"rom such scanners."
+msgstr ""
+"Tämä edellyttää, että käyttäjät napsauttavat alustavan sivun läpi suojatakseen"
+" näkymät tällaisilta skannereilta."
+
+#: ../../../app/views/pages/faq.html.erb:231
+msgid ""
+"As an additional preventative measure, if you create an account, an audit log "
+"is provided for every push created."
+msgstr ""
+"Ennaltaehkäisevänä lisätoimenpiteenä, jos luot tilin, jokaisesta luodusta push"
+"-työstä lähetetään tarkastusloki."
+
+#: ../../../app/views/pages/faq.html.erb:232
+msgid "This audit log can reveal by who and when the push was viewed."
+msgstr "Tämä tarkastusloki voi paljastaa, kuka ja milloin push katseli."
+
+#: ../../../app/views/pages/faq.html.erb:241
+msgid "Can I use Password Pusher in my talk/presentation/conference?"
+msgstr "Voinko käyttää Password Pusheria puheessani/esityksessäni/konferenssissani?"
+
+#: ../../../app/views/pages/faq.html.erb:246
+msgid ""
+"Absolutely.  If you need any resources such as statistics, graphics or anythin"
+"g else, don't hesitate to contact me: pglombardo at pwpush.com."
+msgstr ""
+"Ehdottomasti. Jos tarvitset resursseja, kuten tilastoja, grafiikkaa tai jotain"
+" muuta, älä epäröi ottaa minuun yhteyttä: pglombardo at pwpush.com."
+
+#: ../../../app/views/pages/faq.html.erb:253
+msgid "Could you add a specific feature for my organization?"
+msgstr "Voitko lisätä organisaatiolleni erityisen ominaisuuden?"
+
+#: ../../../app/views/pages/faq.html.erb:258
+msgid ""
+"Very likely.  I love to hear all ideas and feedback. If you have any, please s"
+"ubmit them to the "
+msgstr ""
+"Erittäin todennäköistä. Rakastan kuulla ideoita ja palautetta. Jos sinulla on "
+"palautetta tai ideoita, lähetä ne"
+
+#: ../../../app/views/pages/faq.html.erb:259
+msgid "Github repository"
+msgstr "Github arkisto"
+
+#: ../../../app/views/pages/faq.html.erb:259
+msgid "and I will respond as soon as possible."
+msgstr "ja vastaan mahdollisimman pian."
+
+#: ../../../app/views/pages/faq.html.erb:266
+msgid "How do you make money?"
+msgstr "Miten ansaitset rahaa?"
+
+#: ../../../app/views/pages/faq.html.erb:271
+msgid ""
+"This is an opensource project made out of love for technology and a desire to "
+"improve the security (and daily lives) of the tech community."
+msgstr ""
+"Tämä on avoimen lähdekoodin projekti, joka on tehty rakkaudesta tekniikkaa koh"
+"taan ja halusta parantaa teknologiayhteisön turvallisuutta (ja jokapäiväistä e"
+"lämää)."
+
+#: ../../../app/views/pages/faq.html.erb:274
+msgid ""
+"It doesn't make any money but it does incur hosting that are about $50/month f"
+"or pwpush.com."
+msgstr ""
+"Se ei ansaitse rahaa, mutta siitä aiheutuu isännöinti, joka maksaa noin 50 dol"
+"laria kuukaudessa pwpush.comille."
+
+#: ../../../app/views/pages/faq.html.erb:275
+msgid "These are happily paid out of pocket by myself for more than 10 years."
+msgstr "Olen itse maksanut nämä onneksi taskustani yli 10 vuoden ajan."
+
+#: ../../../app/views/pages/faq.html.erb:279
+msgid ""
+"If you feel inclined to support Password Pusher, you can sign up to Digital Oc"
+"ean using the badge below."
+msgstr ""
+"Jos tunnet halua tukea Password Pusheria, voit rekisteröityä Digital Oceaniin "
+"käyttämällä alla olevaa merkkiä."
+
+#: ../../../app/views/pages/faq.html.erb:280
+msgid "Password Pusher will get a hosting credit for the first $25 you spend."
+msgstr ""
+"Password Pusher saa isännöintihyvityksen ensimmäisestä käyttämästäsi 25 dollar"
+"ista."
+
+#: ../../../app/views/pages/faq.html.erb:289
+msgid ""
+"For other ways to support Password Pusher, see also the \"Want to help out?\" se"
+"ction"
+msgstr "Muita tapoja tukea Password Pusheria on myös kohdassa \"Haluatko auttaa?\" osio"
+
+#: ../../../app/views/pages/faq.html.erb:290
+msgid "on the about page"
+msgstr "Tietoja-sivulla"
+
+#: ../../../app/views/pages/faq.html.erb:291
+msgid "Thank you!"
+msgstr "Kiitos!"
+
+#: ../../../app/views/pages/generate_key.html.erb:1
+msgid "Generate Key"
+msgstr "Luo avain"
+
+#: ../../../app/views/pages/generate_key.html.erb:3
+msgid "Generate an Encryption Key"
+msgstr "Luo salausavain"
+
+#: ../../../app/views/pages/generate_key.html.erb:6
+msgid ""
+"This page is used as a helper tool to generate a random encryption key for pri"
+"vately hosted instances of Password Pusher."
+msgstr ""
+"Tätä sivua käytetään apuvälineenä satunnaisen salausavaimen luomiseen omille P"
+"assword Pusher-instansseille."
+
+#: ../../../app/views/pages/generate_key.html.erb:10
+msgid ""
+"Password Pusher encrypts sensitive data in the database.  This requires a rand"
+"omly generated encryption key for each application instance."
+msgstr ""
+"Password Pusher salaa arkaluontoiset tiedot tietokannassa. Tämä vaatii satunna"
+"isesti luodun salausavaimen jokaiselle sovellusinstanssille."
+
+#: ../../../app/views/pages/generate_key.html.erb:14
+msgid ""
+"You can use the randomly generated code below to configure your Password Pushe"
+"r instance."
+msgstr ""
+"Voit käyttää alla olevaa satunnaisesti luotua merkkijonoa määrittääksesi Passw"
+"ord Pusher -instanssisi."
+
+#: ../../../app/views/pages/generate_key.html.erb:22
+msgid "Generated Encryption Key"
+msgstr "Luotu salausavain"
+
+#: ../../../app/views/pages/generate_key.html.erb:26
+#: ../../../app/views/pages/generate_key.html.erb:39
+#: ../../../app/views/shared/_copy_button.html.erb:2
+#: ../../../app/views/shared/_secret_url_bar.html.erb:26
+msgid "Copy to Clipboard"
+msgstr "Kopioi leikepöydälle"
+
+#: ../../../app/views/pages/generate_key.html.erb:32
+msgid "You can apply this key to your application by setting the environment variable"
+msgstr "Voit käyttää tätä avainta sovelluksessasi asettamalla ympäristömuuttujan"
+
+#: ../../../app/views/pages/generate_key.html.erb:45
+msgid "Reload this page to re-generate a new key."
+msgstr "Lataa tämä sivu uudelleen luodaksesi uuden avaimen."
+
+#: ../../../app/views/pages/generate_key.html.erb:49
+msgid "Notes:"
+msgstr "Lisätiedot:"
+
+#: ../../../app/views/pages/generate_key.html.erb:52
+msgid "If an encryption key isn't provided, a default key will be used."
+msgstr "Jos salausavainta ei ole annettu, käytetään oletusavainta."
+
+#: ../../../app/views/pages/generate_key.html.erb:55
+msgid ""
+"The best security for private instances of Password Pusher is to use your own "
+"custom encryption key although it is not required."
+msgstr ""
+"Password Pusherin yksityisten instanssien paras suojaus on käyttää omaa mukaut"
+"ettua salausavainta, vaikka se ei olekaan pakollista."
+
+#: ../../../app/views/pages/generate_key.html.erb:58
+msgid ""
+"The risk in using the default key is lessened if you keep your instance secure"
+" and your push expirations short.  e.g.  1 day/1 view versus 100 days/100 view"
+"s."
+msgstr ""
+"Oletusavaimen käytön riski pienenee, jos pidät instanssisi suojattuna ja push-"
+"vanhenemisajat lyhyinä. esim. 1 päivä/1 näyttökerta vs. 100 päivää/100 katselu"
+"kertaa."
+
+#: ../../../app/views/pages/generate_key.html.erb:61
+msgid "Once a push expires, all encrypted data is deleted."
+msgstr "Kun lähetys vanhenee, kaikki salatut tiedot poistetaan."
+
+#: ../../../app/views/pages/generate_key.html.erb:64
+msgid ""
+"Changing an encryption key where old pushes already exist will make those olde"
+"r pushes unreadable.  In other words, the payloads will be garbled.  New pushe"
+"s going forward will work fine."
+msgstr ""
+"Salausavaimen vaihtaminen kun, vanhoja lähetyksiä on jo olemassa, tekee vanhoi"
+"sta lähetyksistä lukukelvottomia. Toisin sanoen vanhat lähetykset ovat sekaisi"
+"n, uudet lähetykset näkyvät oikein."
+
+#: ../../../app/views/pages/generate_key.html.erb:67
+msgid ""
+"Key generation can also be done from the command line in the application sourc"
+"e by executing: "
+msgstr "Avaimen luominen voidaan tehdä myös ohjelmiston komentoriviltä suorittamalla:"
+
+#: ../../../app/views/pages/generate_key.html.erb:80
+msgid "See also the Password Pusher"
+msgstr "Katso myös Password Pusher"
+
+#: ../../../app/views/pages/generate_key.html.erb:81
+msgid "Configuration documentation"
+msgstr "Konfigurointidokumentaatio"
+
+#: ../../../app/views/pages/tools.html.erb:1
+#: ../../../app/views/pages/tools.html.erb:3
+msgid "Tools & Applications"
+msgstr "Työkalut ja sovellukset"
+
+#: ../../../app/views/pages/tools.html.erb:5
+msgid ""
+"Using the JSON API, various tools exist to interface with Password Pusher to a"
+"utomate password distribution."
+msgstr ""
+"On olemassa useita JSON API-rajapitaa käyttäviä työkaluja, joilla voi käyttää "
+"Password Pusheria salasanajakelun automatisoimiseen."
+
+#: ../../../app/views/pages/tools.html.erb:7
+msgid ""
+"We have no limits on how many passwords you can push (and have no intentions o"
+"f adding limits) but we do have a rate limiter so the site doesn’t get taken d"
+"own by bad scripts or bad actors.  Limit your tools to maximum 1 password ever"
+"y few seconds and you should be fine."
+msgstr ""
+"Meillä ei ole rajoituksia sille, kuinka monta salasanaa voit lähettää (eikä ai"
+"komusta lisätä rajoja), mutta meillä on nopeuden rajoitin, jotta huonot skript"
+"it tai ikävät käyttäjät eivät häiritse sivustoa tai kaada sitä. Rajoita työkal"
+"usi enintään yhteen salasanaan muutaman sekunnin välein, niin kaiken pitäisi o"
+"lla kunnossa."
+
+#: ../../../app/views/pages/tools.html.erb:11
+msgid "Command Line Utilities"
+msgstr "Komentorivityökalut"
+
+#: ../../../app/views/pages/tools.html.erb:49
+msgid "Applications"
+msgstr "Sovellukset"
+
+#: ../../../app/views/pages/tools.html.erb:83
+msgid ""
+"This API allows you to interface with Password Pusher via JSON.  This can be u"
+"tilized by existing utilities such as curl, wget or any programming language. "
+" See the examples below for some ideas."
+msgstr ""
+"Tämän API-rajapinnan avulla voit käyttää Password Pusheria JSON-kutsujen avull"
+"a. Tätä voivat hyödyntää olemassa olevat apuohjelmat, kuten curl, wget tai mik"
+"ä tahansa ohjelmointikieli. Katso ideoita alla olevista esimerkeistä."
+
+#: ../../../app/views/pages/tools.html.erb:86
+msgid "API Endpoint Documentation"
+msgstr "API-dokumentaatio"
+
+#: ../../../app/views/pages/tools.html.erb:87
+msgid "Walkthrough & Examples"
+msgstr "Esittely ja esimerkkejä"
+
+#: ../../../app/views/pages/tools.html.erb:90
+msgid "Examples"
+msgstr "Esimerkkejä"
+
+#: ../../../app/views/pages/tools.html.erb:99
+msgid ""
+"You can test this in your browser Javascript console by going to the front pag"
+"e of Password Pusher and enter:"
+msgstr ""
+"Voit testata tätä selaimesi Javascript-konsolissa menemällä Password Pusherin "
+"etusivulle ja kirjoittamalla:"
+
+#: ../../../app/views/pages/tools.html.erb:107
+msgid "See more explanation and examples in our"
+msgstr "Katso lisää dokumentaatiota ja esimerkkejä sivustamme"
+
+#: ../../../app/views/pages/translate.html.erb:1
+msgid "Help Translate Password Pusher!"
+msgstr "Auta kääntämään Password Pusher!"
+
+#: ../../../app/views/pages/translate.html.erb:6
+msgid ""
+"We would love to add as many languages as possible but we need help from fluen"
+"t speakers in creating and verifying translations."
+msgstr ""
+"Haluaisimme lisätä mahdollisimman monta kieltä, mutta tarvitsemme sujuvasti ki"
+"eltä puhuvien apua käännösten luomisessa ja vahvistamisessa."
+
+#: ../../../app/views/pages/translate.html.erb:9
+msgid "How it Works"
+msgstr "Kuinka se toimii"
+
+#: ../../../app/views/pages/translate.html.erb:12
+msgid "We use"
+msgstr "Käytämme"
+
+#: ../../../app/views/pages/translate.html.erb:14
+msgid "to manage our translation effort.  It has a simple to use interface."
+msgstr "Käännöstyön hallitsemiseksi. Siinä on helppokäyttöinen käyttöliittymä."
+
+#: ../../../app/views/pages/translate.html.erb:18
+msgid ""
+"Translations are done initially by machine using Google Translate.  It's the t"
+"ranslators job to select the correct translation\n"
+"and add any fixes as needed."
+msgstr ""
+"Käännökset tehdään aluksi koneella Google-kääntäjän avulla. Kääntäjän tehtävän"
+"ä on valita oikea käännös ja lisätä tarvittaessa korjauksia."
+
+#: ../../../app/views/pages/translate.html.erb:23
+msgid ""
+"Translations for an entirely new language can be done in less than an hour for"
+" native speakers."
+msgstr ""
+"Täysin uuden kielen käännökset voidaan tehdä alle tunnissa äidinkielenään puhu"
+"ville."
+
+#: ../../../app/views/pages/translate.html.erb:27
+msgid "Read more: "
+msgstr "Lue lisää:"
+
+#: ../../../app/views/pages/translate.html.erb:28
+msgid "How to use our translation interface?"
+msgstr "Kuinka käyttää käännösliittymäämme?"
+
+#: ../../../app/views/pages/translate.html.erb:32
+msgid "How to Join"
+msgstr "Kuinka rekisteröityä"
+
+#: ../../../app/views/pages/translate.html.erb:35
+msgid "To join the translation effort:"
+msgstr "Liity käännöstyöhön seuraavasti:"
+
+#: ../../../app/views/pages/translate.html.erb:40
+msgid "Register for a free account on"
+msgstr "Rekisteröi ilmainen tili "
+
+#: ../../../app/views/pages/translate.html.erb:44
+msgid "Send me a message"
+msgstr "Lähetä minulle viesti"
+
+#: ../../../app/views/pages/translate.html.erb:45
+msgid ""
+"with your translation.io username and which language you would like to work on"
+"."
+msgstr "translation.io-käyttäjänimesi ja kieli, jota haluat työstää."
+
+#: ../../../app/views/pages/translate.html.erb:50
+msgid "...and I'll add you to our translation project."
+msgstr "...ja lisään sinut käännösprojektiimme."
+
+#: ../../../app/views/pages/translate.html.erb:54
+msgid "Translation Tips"
+msgstr "Käännösvinkkejä"
+
+#: ../../../app/views/pages/translate.html.erb:56
+msgid ""
+"If the source text is capitalized, try to maintain similar capitalization in t"
+"he translated text as well (assuming it's permitted syntactically in the targe"
+"t language)."
+msgstr ""
+"Jos lähdeteksti kirjoitetaan isoilla kirjaimilla, yritä säilyttää samanlainen "
+"kirjainkoko myös käännetyssä tekstissä (olettaen, että se on sallittua kohdeki"
+"elessä syntaktisesti)."
+
+#: ../../../app/views/pages/translate.html.erb:57
+msgid ""
+"If you see embedded codes such as \"%s\", {%file} or similar, leave those fully "
+"intact in the target translation.  These are substitution codes used in the ap"
+"plication."
+msgstr ""
+"Jos näet upotettuja koodeja, kuten \"%s\", {%file} tai vastaavia, jätä ne täysin"
+" koskemattomiksi kohdekäännökseen. Nämä ovat sovelluksessa käytettyjä korvausk"
+"oodeja."
+
+#: ../../../app/views/pages/translate.html.erb:61
+msgid "Thanks for helping to translate Password Pusher!"
+msgstr "Kiitos, että autat kääntämään Password Pusheria!"
+
+#: ../../../app/views/passwords/active.html.erb:1
+#: ../../../app/views/passwords/active.html.erb:18
+msgid "Active Password Pushes"
+msgstr "Aktiiviset salasanan työnnät"
+
+#: ../../../app/views/passwords/active.html.erb:8
+msgid "You currently have no active password pushes."
+msgstr "Sinulla ei tällä hetkellä ole aktiivisia salasanan työntöjä."
+
+#: ../../../app/views/passwords/active.html.erb:13
+msgid "Push a Password Now"
+msgstr "Paina salasana nyt"
+
+#: ../../../app/views/passwords/audit.html.erb:4
+msgid "Audit Log for Password Push"
+msgstr "Salasanan painamisen tarkastusloki"
+
+#: ../../../app/views/passwords/audit.html.erb:36
+msgid "Password expires after this number of views."
+msgstr "Salasana vanhenee määritetyn näyttökertojen määrän jälkeen."
+
+#: ../../../app/views/passwords/audit.html.erb:45
+msgid "Password expires after this number of days."
+msgstr "Salasana vanhenee x päivän jälkeen."
+
+#: ../../../app/views/passwords/audit.html.erb:58
+msgid "This allows end users to delete passwords once retrieved."
+msgstr "Tämän avulla loppukäyttäjät voivat poistaa salasanat, kun ne on haettu."
+
+#: ../../../app/views/passwords/audit.html.erb:107
+msgid "The number of times this password has been viewed before expiration."
+msgstr "Kuinka monta kertaa tämä salasana on katsottu ennen vanhenemista."
+
+#: ../../../app/views/passwords/audit.html.erb:113
+msgid "The number of times this password has been viewed after expiration."
+msgstr "Kuinka monta kertaa tämä salasana on katsottu vanhenemisen jälkeen."
+
+#: ../../../app/views/passwords/audit.html.erb:184
+msgid "Password manually expired by an anonymous user"
+msgstr "Anonyymi käyttäjä vanheni salasanan manuaalisesti"
+
+#: ../../../app/views/passwords/expired.html.erb:1
+#: ../../../app/views/passwords/expired.html.erb:15
+msgid "Expired Password Pushes"
+msgstr "Vanhentuneet salasanan työnnät"
+
+#: ../../../app/views/passwords/expired.html.erb:8
+msgid "You currently have no expired password pushes."
+msgstr "Sinulla ei tällä hetkellä ole vanhentuneita salasanan työntöjä."
+
+#: ../../../app/views/passwords/new.html.erb:1
+msgid "Securely Send a Password"
+msgstr "Lähetä salasana turvallisesti"
+
+#: ../../../app/views/passwords/new.html.erb:13
+#: ../../../app/views/passwords/new.html.erb:138
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:72
+msgid "Save"
+msgstr "Tallenna"
+
+#: ../../../app/views/passwords/new.html.erb:14
+msgid "Saved!"
+msgstr "Tallennettu!"
+
+#: ../../../app/views/passwords/new.html.erb:37
+msgid "Enter the Password or Text to push.."
+msgstr "Anna salasana tai teksti työnnettäväksi.."
+
+#: ../../../app/views/passwords/new.html.erb:49
+msgid "Characters"
+msgstr "Merkkejä"
+
+#: ../../../app/views/passwords/new.html.erb:138
+msgid "the above settings as the page default."
+msgstr "yllä olevat asetukset sivun oletusasetuksiksi."
+
+#: ../../../app/views/passwords/new.html.erb:150
+msgid "Generate Password"
+msgstr "Luo salasana"
+
+#: ../../../app/views/passwords/new.html.erb:157
+msgid "Use the button above to generate a random password."
+msgstr "Käytä yllä olevaa painiketta luodaksesi satunnaisen salasanan."
+
+#: ../../../app/views/passwords/new.html.erb:173
+msgid ""
+"Tip: Only enter a password into the box.  Other identifying information can co"
+"mpromise security."
+msgstr ""
+"Vinkki: Kirjoita vain salasana laatikkoon. Muut tunnistetiedot voivat vaaranta"
+"a turvallisuuden."
+
+#: ../../../app/views/passwords/new.html.erb:174
+msgid ""
+"All passwords are encrypted prior to storage and are available to only those w"
+"ith the secret link.  Once expired, encrypted passwords are unequivocally dele"
+"ted from the database."
+msgstr ""
+"Kaikki salasanat salataan ennen tallennusta, ja ne ovat saatavilla vain niille"
+", joilla on salainen linkki. Kun salatut salasanat ovat vanhentuneet, ne poist"
+"etaan tietokannasta."
+
+#: ../../../app/views/passwords/preview.html.erb:1
+msgid "Your Password has been Pushed"
+msgstr "Salasanasi on lähetetty"
+
+#: ../../../app/views/passwords/preview.html.erb:12
+msgid "This newly pushed password will expire after"
+msgstr "Tämä lähetys vanhenee tämän jälkeen:"
+
+#: ../../../app/views/passwords/preview.html.erb:30
+msgid "View This Password Now"
+msgstr "Näytä salasana nyt"
+
+#: ../../../app/views/passwords/preview.html.erb:31
+msgid "Push Another Password"
+msgstr "Lähetä toinen salasana"
+
+#: ../../../app/views/passwords/show.html.erb:7
+msgid ""
+"Please obtain and securely store this content in a secure manner, such as in a"
+" password manager."
+msgstr ""
+"Hanki ja tallenna tämä sisältö turvallisesti suojatulla tavalla, kuten salasan"
+"anhallinnassa."
+
+#: ../../../app/views/passwords/show.html.erb:9
+msgid "Your password is blurred out.  Click below to reveal it."
+msgstr ""
+"Salasanasi on sumennettu sen suojaamiseksi. Napsauta alapuolelta näyttääksesi "
+"sen."
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:3
+#: ../../../app/views/shared/_header.html.erb:30
+msgid "Dashboard"
+msgstr "Lähetykset"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:10
+#: ../../../app/views/shared/_topnav.html.erb:4
+msgid "Passwords"
+msgstr "Salasanat"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:14
+#: ../../../app/views/shared/_topnav.html.erb:8
+msgid "Files"
+msgstr "Tiedostot"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:19
+#: ../../../app/views/shared/_topnav.html.erb:13
+msgid "URLs"
+msgstr "URL-osoitteet"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:36
+#: ../../../app/views/shared/_dashboard_header.html.erb:38
+#: ../../../app/views/shared/_dashboard_header.html.erb:40
+msgid "New"
+msgstr "Uusi"
+
+#: ../../../app/views/shared/_footer.html.erb:5
+msgid "Peter"
+msgstr "Peter"
+
+#: ../../../app/views/shared/_footer.html.erb:23
+msgid "Front Page"
+msgstr "Etusivu"
+
+#: ../../../app/views/shared/_footer.html.erb:31
+msgid "Docker Containers"
+msgstr "Docker-kontit"
+
+#: ../../../app/views/shared/_footer.html.erb:36
+msgid "JSON API"
+msgstr "JSON-sovellusliittymä"
+
+#: ../../../app/views/shared/_footer.html.erb:37
+msgid "Key Generator"
+msgstr "Avaingeneraattori"
+
+#: ../../../app/views/shared/_footer.html.erb:40
+msgid "Source Code"
+msgstr "Lähdekoodi"
+
+#: ../../../app/views/shared/_footer.html.erb:52
+msgid "Overview"
+msgstr "Yleiskatsaus"
+
+#: ../../../app/views/shared/_footer.html.erb:53
+msgid "Help Translate!"
+msgstr "Auta kääntämään!"
+
+#: ../../../app/views/shared/_header.html.erb:37
+msgid "Account"
+msgstr "Tili"
+
+#: ../../../app/views/shared/_header.html.erb:41
+msgid "Edit Login Details"
+msgstr "Muokkaa tilitietoja"
+
+#: ../../../app/views/shared/_header.html.erb:47
+msgid "Log Out"
+msgstr "Kirjaudu ulos"
+
+#: ../../../app/views/shared/_header.html.erb:53
+msgid "Log In"
+msgstr "Kirjaudu sisään"
+
+#: ../../../app/views/shared/_header.html.erb:57
+msgid "Sign Up"
+msgstr "Rekisteröidy"
+
+#: ../../../app/views/shared/_lang_selector_modal.erb:6
+msgid "Select your language"
+msgstr "Valitse kieli"
+
+#: ../../../app/views/shared/_newsletter_sign_up.html.erb:3
+msgid "Get The Newsletter"
+msgstr "Hanki uutiskirje"
+
+#: ../../../app/views/shared/_newsletter_sign_up.html.erb:5
+msgid ""
+"Updates on big releases, security issues, features, integrations, tips and mor"
+"e."
+msgstr ""
+"Päivityksiä suurista julkaisuista, tietoturvaongelmista, ominaisuuksista, inte"
+"graatioista, vinkeistä ja muusta."
+
+#: ../../../app/views/shared/_newsletter_sign_up.html.erb:14
+msgid "Enter your email..."
+msgstr "Syötä sähköpostiosoitteesi..."
+
+#: ../../../app/views/shared/_newsletter_sign_up.html.erb:15
+msgid "Subscribe"
+msgstr "Tilaa"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:5
+msgid "Configure Password Generation"
+msgstr "Määritä salasanan luominen"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:11
+msgid "Test Area"
+msgstr "Testialue"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:16
+msgid "Number of Syllables"
+msgstr "Tavujen määrä"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:20
+msgid "Minimum Syllable Length"
+msgstr "Tavun vähimmäispituus"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:24
+msgid "Maximum Syllable Length"
+msgstr "Tavun enimmäispituus"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:31
+msgid "Include numbers"
+msgstr "Sisällytä numerot"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:35
+msgid "Use Titlecase"
+msgstr "Aloita isolla alkukirjaimella"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:39
+msgid "Use Separators"
+msgstr "Käytä erottimia"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:43
+msgid "Test"
+msgstr "Testi"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:50
+msgid "Separators"
+msgstr "Erottimet"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:56
+msgid "Vowels"
+msgstr "Vokaalit"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:62
+msgid "Consonants"
+msgstr "Konsonantit"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:71
+msgid "Reset to Defaults"
+msgstr "Palauta oletusarvoihin"
+
+#: ../../../app/views/shared/_secret_url_bar.html.erb:13
+msgid "Secret Link Language"
+msgstr "Salainen linkkikieli"
+
+#: ../../../app/views/urls/active.html.erb:1
+#: ../../../app/views/urls/active.html.erb:18
+msgid "Active URL Pushes"
+msgstr "Active URL pushes"
+
+#: ../../../app/views/urls/active.html.erb:8
+msgid "You currently have no active URL pushes."
+msgstr "Sinulla ei tällä hetkellä ole aktiivisia URL-osoitteita."
+
+#: ../../../app/views/urls/active.html.erb:13
+#: ../../../app/views/urls/expired.html.erb:10
+msgid "Push a URL Now"
+msgstr "Työnnä URL-osoite nyt"
+
+#: ../../../app/views/urls/audit.html.erb:4
+msgid "Audit Log for URL Push"
+msgstr "Tarkastusloki URL Pushille"
+
+#: ../../../app/views/urls/audit.html.erb:126
+msgid "Delete This URL Push?"
+msgstr "Poistetaanko tämä URL Push?"
+
+#: ../../../app/views/urls/audit.html.erb:165
+msgid "URL Push manually expired by user"
+msgstr "URL Push on vanhentunut manuaalisesti käyttäjän toimesta"
+
+#: ../../../app/views/urls/expired.html.erb:1
+#: ../../../app/views/urls/expired.html.erb:14
+msgid "Expired URL Pushes"
+msgstr "Vanhentunut URL-työntö"
+
+#: ../../../app/views/urls/expired.html.erb:7
+msgid "You currently have no expired URL pushes."
+msgstr "Sinulla ei tällä hetkellä ole vanhentuneita URL-osoitteita."
+
+#: ../../../app/views/urls/new.html.erb:1
+msgid "Securely Send URLs"
+msgstr "Lähetä URL-osoitteet turvallisesti"
+
+#: ../../../app/views/urls/new.html.erb:25
+msgid "URL Redirection"
+msgstr "URL-uudelleenohjaus"
+
+#: ../../../app/views/urls/new.html.erb:29
+msgid "Enter the URL to redirect to..."
+msgstr "Anna URL-osoite, johon uudelleenohjataan..."
+
+#: ../../../app/views/urls/new.html.erb:91
+msgid "Helps to avoid chat systems and URL scanners from eating up redirects."
+msgstr ""
+"Auttaa estämään chat-järjestelmiä ja URL-skannereita syömästä uudelleenohjauks"
+"ia."
+
+#: ../../../app/views/urls/new.html.erb:123
+msgid "A secret URL will be generated that will redirect to the URL specified."
+msgstr "Luodaan salainen URL-osoite, joka ohjaa määritettyyn URL-osoitteeseen."
+
+#: ../../../app/views/urls/new.html.erb:128
+msgid "Upon expiration, the push URL will be deleted entirely."
+msgstr "Vanhentuessa push-URL poistetaan kokonaan."
+
+#: ../../../app/views/urls/new_anonymous.html.erb:1
+msgid "Securely Share URLs"
+msgstr "Jaa URL-osoitteet turvallisesti"
+
+#: ../../../app/views/urls/new_anonymous.html.erb:9
+msgid "Securely Send URLs That Expire Automatically"
+msgstr "Lähetä turvallisesti URL-osoitteet, jotka vanhenevat automaattisesti"

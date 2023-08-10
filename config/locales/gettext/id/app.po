@@ -1,0 +1,2727 @@
+# Indonesian translations for PasswordPusher package.
+# Copyright (C) 2023 PasswordPusher
+# This file is distributed under the same license as the PasswordPusher package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PasswordPusher 1.0\n"
+"Report-Msgid-Bugs-To: contact@translation.io\n"
+"POT-Creation-Date: 2023-08-03 12:10+0200\n"
+"PO-Revision-Date: 2023-08-03 12:10+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Indonesian\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+
+#: ../../../app/controllers/application_controller.rb:20
+msgid "Not Found"
+msgstr "Tidak Ditemukan"
+
+#: ../../../app/controllers/feedbacks_controller.rb:12
+msgid ""
+"Our apologies but you failed the spam check.  You could try contacting us on G"
+"ithub instead."
+msgstr ""
+"Mohon maaf, namun Anda gagal dalam pemeriksaan spam.  Anda dapat mencoba mengh"
+"ubungi kami di Github."
+
+#: ../../../app/controllers/feedbacks_controller.rb:17
+msgid "Feedback sent!  We will get back to you as soon as possible."
+msgstr "Umpan balik terkirim!  Kami akan segera menghubungi Anda secepatnya."
+
+#: ../../../app/controllers/feedbacks_controller.rb:19
+msgid ""
+"Could not send feedback.  Did you pass the Humanity Test?  Valid email?  Try a"
+"gain?"
+msgstr ""
+"Tidak dapat mengirim umpan balik.  Apakah Anda lulus Tes Kemanusiaan?  Email y"
+"ang valid?  Coba lagi?"
+
+#: ../../../app/controllers/file_pushes_controller.rb:160
+#: ../../../app/controllers/passwords_controller.rb:159
+#: ../../../app/controllers/urls_controller.rb:150
+msgid ""
+"That passphrase is incorrect.  Please try again or contact the person or organ"
+"ization that sent you this link."
+msgstr ""
+"Kata sandi tersebut salah.  Silakan coba lagi atau hubungi orang atau organisa"
+"si yang mengirimi Anda tautan ini."
+
+#: ../../../app/controllers/file_pushes_controller.rb:221
+msgid ""
+"Only 10 active file pushes allowed while in Beta and until things are stable. "
+"If it's an option, you can manually expire existing pushes before creating new"
+" ones."
+msgstr ""
+"Hanya 10 push file aktif yang diizinkan saat dalam versi Beta dan sampai semua"
+"nya stabil. Jika ini merupakan pilihan, Anda dapat secara manual mengakhiri pu"
+"sh yang ada sebelum membuat yang baru."
+
+#: ../../../app/controllers/file_pushes_controller.rb:315
+#: ../../../app/controllers/passwords_controller.rb:297
+#: ../../../app/controllers/urls_controller.rb:290
+msgid "That push doesn't belong to you."
+msgstr "Dorongan itu bukan milik Anda."
+
+#: ../../../app/controllers/file_pushes_controller.rb:345
+#: ../../../app/controllers/passwords_controller.rb:327
+#: ../../../app/controllers/urls_controller.rb:320
+#: ../../../app/controllers/urls_controller.rb:324
+msgid "That push does not belong to you."
+msgstr "Dorongan itu bukan milik Anda."
+
+#: ../../../app/controllers/file_pushes_controller.rb:350
+#: ../../../app/controllers/passwords_controller.rb:332
+msgid "That push is not deletable by viewers."
+msgstr "Dorongan itu tidak dapat dihapus oleh pemirsa."
+
+#: ../../../app/controllers/file_pushes_controller.rb:356
+#: ../../../app/controllers/file_pushes_controller.rb:357
+#: ../../../app/controllers/passwords_controller.rb:338
+#: ../../../app/controllers/passwords_controller.rb:339
+#: ../../../app/controllers/urls_controller.rb:330
+#: ../../../app/controllers/urls_controller.rb:331
+msgid "That push is already expired."
+msgstr "Dorongan itu sudah kedaluwarsa."
+
+#: ../../../app/controllers/file_pushes_controller.rb:375
+#: ../../../app/controllers/file_pushes_controller.rb:378
+#: ../../../app/controllers/passwords_controller.rb:356
+#: ../../../app/controllers/passwords_controller.rb:359
+#: ../../../app/controllers/urls_controller.rb:348
+#: ../../../app/controllers/urls_controller.rb:351
+#: ../../../app/views/file_pushes/audit.html.erb:97
+#: ../../../app/views/file_pushes/audit.html.erb:254
+#: ../../../app/views/passwords/audit.html.erb:97
+#: ../../../app/views/passwords/audit.html.erb:188
+#: ../../../app/views/urls/audit.html.erb:84
+#: ../../../app/views/urls/audit.html.erb:170
+msgid "The push content has been deleted and the secret URL expired."
+msgstr "Konten push telah dihapus dan URL rahasia telah kedaluwarsa."
+
+#: ../../../app/controllers/urls_controller.rb:201
+msgid "Invalid URL: Must have a valid URI scheme."
+msgstr "URL tidak valid: Harus memiliki skema URI yang valid."
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:8
+#: ../../../app/views/devise/mailer/email_changed.html.erb:8
+#: ../../../app/views/devise/mailer/password_change.html.erb:8
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:8
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:8
+#: ../../../app/views/layouts/application.html.erb:8
+#: ../../../app/views/layouts/bare.html.erb:8
+#: ../../../app/views/layouts/login.html.erb:8
+#: ../../../app/views/layouts/naked.html.erb:8
+msgid ""
+"Password Pusher is an application to securely send passwords over the web. Lin"
+"ks to passwords expire after a certain number of views and/or time has passed."
+msgstr ""
+"Password Pusher adalah sebuah aplikasi untuk mengirim kata sandi dengan aman m"
+"elalui web. Tautan ke kata sandi akan kedaluwarsa setelah sejumlah tampilan da"
+"n/atau waktu tertentu berlalu."
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:23
+msgid "Confirm your new account"
+msgstr "Konfirmasikan akun baru Anda"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:24
+msgid ""
+"Your account has been created but you must confirm that you own this email add"
+"ress."
+msgstr ""
+"Akun Anda telah dibuat, tetapi Anda harus mengonfirmasi bahwa Anda adalah pemi"
+"lik alamat email ini."
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:27
+msgid "You can confirm your account email by"
+msgstr "Anda dapat mengonfirmasi email akun Anda dengan"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:28
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:27
+msgid "by clicking this link"
+msgstr "dengan mengklik tautan ini"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:29
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:28
+msgid "or by copying and pasting the following URL into your browser:"
+msgstr "atau dengan menyalin dan menempelkan URL berikut ini ke dalam browser Anda:"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:36
+msgid "If you didn't create an account, no action is required."
+msgstr "Jika Anda tidak membuat akun, tidak ada tindakan yang diperlukan."
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:24
+msgid "Your email is being changed"
+msgstr "Email Anda sedang diubah"
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:26
+msgid "We're contacting you to notify you that your email at"
+msgstr "Kami menghubungi Anda untuk memberi tahu bahwa email Anda di"
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:30
+msgid "is being changed to %s"
+msgstr "diubah menjadi %s"
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:32
+msgid "has been changed to %s"
+msgstr "telah diubah menjadi %s"
+
+#: ../../../app/views/devise/mailer/password_change.html.erb:23
+msgid "Password Change"
+msgstr "Perubahan Kata Sandi"
+
+#: ../../../app/views/devise/mailer/password_change.html.erb:25
+msgid "We're contacting you to notify you that your password has been changed on"
+msgstr ""
+"Kami menghubungi Anda untuk memberi tahu bahwa kata sandi Anda telah diubah pa"
+"da"
+
+#: ../../../app/views/devise/mailer/password_change.html.erb:28
+msgid ""
+"If you didn't initiate this and it wasn't your intention, please contact us as"
+" soon as possible."
+msgstr ""
+"Jika Anda tidak memulai hal ini dan itu bukan keinginan Anda, silakan hubungi "
+"kami sesegera mungkin."
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:24
+msgid "Password Change Request"
+msgstr "Permintaan Perubahan Kata Sandi"
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:26
+msgid ""
+"Someone has requested a link to change your password. You can proceed with thi"
+"s action"
+msgstr ""
+"Seseorang telah meminta tautan untuk mengubah kata sandi Anda. Anda dapat mela"
+"njutkan dengan tindakan ini"
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:36
+msgid "If you didn't request this change, you can safely delete this email."
+msgstr ""
+"Jika Anda tidak meminta perubahan ini, Anda dapat menghapus email ini dengan a"
+"man."
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:37
+msgid ""
+"Your password won't change until you access the link above and create a new on"
+"e."
+msgstr ""
+"Password Anda tidak akan berubah jika Anda tidak mengakses tautan di atas lalu"
+" membuat password yang baru."
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:23
+msgid "Unlock Your Account"
+msgstr "Buka Kunci Akun Anda"
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:26
+msgid ""
+"Your account has been locked due to an excessive number of unsuccessful sign i"
+"n attempts."
+msgstr "Akun Anda telah dikunci karena terlalu banyak percobaan masuk yang gagal."
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:30
+msgid "Click this link"
+msgstr "Klik tautan ini"
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:31
+msgid ""
+"to unlock your account or by copying and pasting the following URL into your b"
+"rowser:"
+msgstr ""
+"untuk membuka kunci akun Anda atau dengan menyalin dan menempelkan URL berikut"
+" ini ke dalam browser Anda:"
+
+#: ../../../app/views/devise/passwords/edit.html.erb:9
+msgid "New password"
+msgstr "Password baru"
+
+#: ../../../app/views/devise/passwords/edit.html.erb:14
+msgid "Confirm new password"
+msgstr "Konfirmasi password baru"
+
+#: ../../../app/views/devise/passwords/edit.html.erb:19
+msgid "A minimum of %d characters is required but the more the better."
+msgstr "Minimal diperlukan karakter %d, tetapi lebih banyak lebih baik."
+
+#: ../../../app/views/devise/registrations/edit.html.erb:10
+msgid "Change Email"
+msgstr "Ubah Email"
+
+#: ../../../app/views/devise/registrations/edit.html.erb:39
+msgid "Current Password"
+msgstr "Kata Sandi Saat Ini"
+
+#: ../../../app/views/devise/registrations/token.html.erb:2
+#: ../../../app/views/shared/_header.html.erb:44
+msgid "API Token"
+msgstr "Token API"
+
+#: ../../../app/views/devise/registrations/token.html.erb:4
+msgid ""
+"This token is specific to your account.  It can be used with command line appl"
+"ications, the JSON API, 3rd party integrations and more."
+msgstr ""
+"Token ini khusus untuk akun Anda.  Token ini dapat digunakan dengan aplikasi b"
+"aris perintah, API JSON, integrasi pihak ketiga, dan lainnya."
+
+#: ../../../app/views/devise/registrations/token.html.erb:7
+msgid "Make sure to keep this token secure.  It provides full access to your account."
+msgstr ""
+"Pastikan untuk menyimpan token ini dengan aman.  Token ini memberikan akses pe"
+"nuh ke akun Anda."
+
+#: ../../../app/views/devise/registrations/token.html.erb:10
+msgid ""
+"If needed, you can regenerate a new token below which will invalidate this exi"
+"sting token."
+msgstr ""
+"Jika diperlukan, Anda dapat membuat ulang token baru di bawah ini yang akan me"
+"mbatalkan token yang sudah ada."
+
+#: ../../../app/views/devise/registrations/token.html.erb:14
+#: ../../../app/views/file_pushes/show.html.erb:4
+#: ../../../app/views/passwords/show.html.erb:3
+msgid "Copied!"
+msgstr "Disalin!"
+
+#: ../../../app/views/devise/registrations/token.html.erb:15
+msgid "Your API token is blurred out.  Click below to reveal it."
+msgstr "Token API Anda tidak terlihat.  Klik di bawah ini untuk mengungkapkannya."
+
+#: ../../../app/views/devise/registrations/token.html.erb:27
+msgid "To delete this token and regenerate a new one, use the button below."
+msgstr "Untuk menghapus token ini dan membuat token baru, gunakan tombol di bawah ini."
+
+#: ../../../app/views/devise/registrations/token.html.erb:30
+msgid ""
+"Note that this will invalidate any tools that may be using the existing key an"
+"d will have to be updated with the new token."
+msgstr ""
+"Perhatikan bahwa hal ini akan membatalkan semua alat yang mungkin menggunakan "
+"kunci yang ada dan harus diperbarui dengan token yang baru."
+
+#: ../../../app/views/devise/registrations/token.html.erb:34
+msgid "Regenerate Token"
+msgstr "Regenerasi Token"
+
+#: ../../../app/views/devise/registrations/token.html.erb:42
+msgid "Delete and generate a new API token?"
+msgstr "Menghapus dan membuat token API baru?"
+
+#: ../../../app/views/devise/registrations/token.html.erb:46
+msgid "This will delete this token and "
+msgstr "Ini akan menghapus token ini dan "
+
+#: ../../../app/views/devise/registrations/token.html.erb:47
+msgid "invalidate any tools that may be using it"
+msgstr "membatalkan alat apa pun yang mungkin menggunakannya"
+
+#: ../../../app/views/devise/registrations/token.html.erb:48
+msgid "A new token will be generated in its place."
+msgstr "Token baru akan dibuat sebagai gantinya."
+
+#: ../../../app/views/devise/registrations/token.html.erb:49
+#: ../../../app/views/file_pushes/audit.html.erb:214
+#: ../../../app/views/file_pushes/show.html.erb:74
+#: ../../../app/views/passwords/audit.html.erb:145
+#: ../../../app/views/passwords/show.html.erb:58
+#: ../../../app/views/urls/audit.html.erb:132
+msgid "Are you sure?"
+msgstr "Anda yakin?"
+
+#: ../../../app/views/devise/registrations/token.html.erb:52
+#: ../../../app/views/file_pushes/audit.html.erb:217
+#: ../../../app/views/file_pushes/show.html.erb:77
+#: ../../../app/views/passwords/audit.html.erb:148
+#: ../../../app/views/passwords/show.html.erb:61
+#: ../../../app/views/urls/audit.html.erb:135
+msgid "Cancel"
+msgstr "Batal"
+
+#: ../../../app/views/devise/registrations/token.html.erb:53
+msgid "Delete & Regenerate"
+msgstr "Hapus & Regenerasi"
+
+#: ../../../app/views/devise/registrations/token.html.erb:53
+#: ../../../app/views/file_pushes/audit.html.erb:218
+#: ../../../app/views/file_pushes/show.html.erb:78
+#: ../../../app/views/passwords/audit.html.erb:149
+#: ../../../app/views/passwords/show.html.erb:62
+#: ../../../app/views/urls/audit.html.erb:136
+msgid "Processing..."
+msgstr "Pemrosesan..."
+
+#: ../../../app/views/devise/sessions/new.html.erb:7
+#: ../../../app/views/feedbacks/new.html.erb:20
+msgid "Email"
+msgstr "Email"
+
+#: ../../../app/views/devise/sessions/new.html.erb:12
+msgid "Password"
+msgstr "Kata sandi"
+
+#: ../../../app/views/devise/shared/_links.html.erb:39
+#: ../../../app/views/shared/_header.html.erb:65
+msgid "Language"
+msgstr "Bahasa"
+
+#: ../../../app/views/feedbacks/new.html.erb:1
+#: ../../../app/views/feedbacks/new.html.erb:2
+#: ../../../app/views/feedbacks/new.html.erb:42
+#: ../../../app/views/shared/_footer.html.erb:54
+msgid "Send Feedback"
+msgstr "Kirim Umpan Balik"
+
+#: ../../../app/views/feedbacks/new.html.erb:8
+msgid ""
+"Have an idea or wish?  Something you don't like?  Want to help out?  We want t"
+"o hear it!"
+msgstr ""
+"Punya ide atau keinginan?  Ada yang tidak Anda sukai?  Ingin membantu?  Kami i"
+"ngin mendengarnya!"
+
+#: ../../../app/views/feedbacks/new.html.erb:15
+msgid "Your Name"
+msgstr "Nama Anda"
+
+#: ../../../app/views/feedbacks/new.html.erb:29
+msgid "What is one hundred minus 5?"
+msgstr "Apa yang dimaksud dengan seratus minus 5?"
+
+#: ../../../app/views/feedbacks/new.html.erb:34
+msgid ""
+"Tip: Copy your message to the clipboard in the unlikely chance submission fail"
+"s."
+msgstr "Tip: Salin pesan Anda ke papan klip jika pengiriman gagal."
+
+#: ../../../app/views/feedbacks/new.html.erb:39
+msgid "Leave this field blank!"
+msgstr "Biarkan kolom ini kosong!"
+
+#: ../../../app/views/file_pushes/active.html.erb:1
+#: ../../../app/views/file_pushes/active.html.erb:18
+msgid "Active File Pushes"
+msgstr "Mendorong File Aktif"
+
+#: ../../../app/views/file_pushes/active.html.erb:8
+msgid "You currently have no active file pushes."
+msgstr "Saat ini Anda tidak memiliki dorongan file yang aktif."
+
+#: ../../../app/views/file_pushes/active.html.erb:13
+msgid "Push Some Files Now"
+msgstr "Dorong Beberapa File Sekarang"
+
+#: ../../../app/views/file_pushes/active.html.erb:20
+#: ../../../app/views/file_pushes/expired.html.erb:16
+#: ../../../app/views/passwords/active.html.erb:20
+#: ../../../app/views/passwords/expired.html.erb:17
+#: ../../../app/views/urls/active.html.erb:20
+#: ../../../app/views/urls/expired.html.erb:16
+msgid "Active Pushes"
+msgstr "Dorongan Aktif"
+
+#: ../../../app/views/file_pushes/active.html.erb:23
+#: ../../../app/views/passwords/active.html.erb:23
+#: ../../../app/views/urls/active.html.erb:23
+msgid "Push ID"
+msgstr "ID Dorong"
+
+#: ../../../app/views/file_pushes/active.html.erb:24
+#: ../../../app/views/passwords/active.html.erb:24
+#: ../../../app/views/urls/active.html.erb:24
+msgid "Created"
+msgstr "Dibuat"
+
+#: ../../../app/views/file_pushes/active.html.erb:25
+#: ../../../app/views/file_pushes/expired.html.erb:20
+#: ../../../app/views/passwords/active.html.erb:25
+#: ../../../app/views/passwords/expired.html.erb:21
+#: ../../../app/views/urls/active.html.erb:25
+#: ../../../app/views/urls/expired.html.erb:20
+msgid "Note"
+msgstr "Catatan"
+
+#: ../../../app/views/file_pushes/active.html.erb:26
+msgid "File Count"
+msgstr "Jumlah File"
+
+#: ../../../app/views/file_pushes/active.html.erb:27
+#: ../../../app/views/file_pushes/new.html.erb:10
+#: ../../../app/views/file_pushes/new.html.erb:77
+#: ../../../app/views/passwords/active.html.erb:26
+#: ../../../app/views/passwords/new.html.erb:10
+#: ../../../app/views/passwords/new.html.erb:87
+#: ../../../app/views/urls/active.html.erb:26
+#: ../../../app/views/urls/new.html.erb:10
+#: ../../../app/views/urls/new.html.erb:72
+msgid "Views"
+msgstr "Tampilan"
+
+#: ../../../app/views/file_pushes/active.html.erb:28
+#: ../../../app/views/file_pushes/new.html.erb:6
+#: ../../../app/views/file_pushes/new.html.erb:59
+#: ../../../app/views/passwords/active.html.erb:27
+#: ../../../app/views/passwords/new.html.erb:6
+#: ../../../app/views/passwords/new.html.erb:70
+#: ../../../app/views/urls/active.html.erb:27
+#: ../../../app/views/urls/new.html.erb:6
+#: ../../../app/views/urls/new.html.erb:53
+msgid "Days"
+msgstr "Hari"
+
+#: ../../../app/views/file_pushes/active.html.erb:39
+#: ../../../app/views/file_pushes/audit.html.erb:19
+#: ../../../app/views/file_pushes/audit.html.erb:270
+#: ../../../app/views/file_pushes/audit.html.erb:282
+#: ../../../app/views/file_pushes/expired.html.erb:31
+#: ../../../app/views/passwords/active.html.erb:38
+#: ../../../app/views/passwords/audit.html.erb:19
+#: ../../../app/views/passwords/audit.html.erb:204
+#: ../../../app/views/passwords/audit.html.erb:216
+#: ../../../app/views/passwords/expired.html.erb:32
+#: ../../../app/views/urls/active.html.erb:38
+#: ../../../app/views/urls/audit.html.erb:19
+#: ../../../app/views/urls/audit.html.erb:186
+#: ../../../app/views/urls/audit.html.erb:198
+#: ../../../app/views/urls/expired.html.erb:31
+msgid "None"
+msgstr "Tidak ada"
+
+#: ../../../app/views/file_pushes/active.html.erb:50
+#: ../../../app/views/passwords/active.html.erb:48
+#: ../../../app/views/urls/active.html.erb:48
+msgid "Push Controls"
+msgstr "Kontrol Dorong"
+
+#: ../../../app/views/file_pushes/active.html.erb:52
+#: ../../../app/views/passwords/active.html.erb:50
+#: ../../../app/views/urls/active.html.erb:50
+msgid "Preview"
+msgstr "Pratinjau"
+
+#: ../../../app/views/file_pushes/active.html.erb:55
+#: ../../../app/views/passwords/active.html.erb:53
+#: ../../../app/views/urls/active.html.erb:53
+msgid "Audit"
+msgstr "Audit"
+
+#: ../../../app/views/file_pushes/audit.html.erb:1
+#: ../../../app/views/passwords/audit.html.erb:1
+#: ../../../app/views/urls/audit.html.erb:1
+msgid "Audit Log for %s"
+msgstr "Log Audit untuk %s"
+
+#: ../../../app/views/file_pushes/audit.html.erb:4
+msgid "Audit Log for File Push"
+msgstr "Log Audit untuk Push File"
+
+#: ../../../app/views/file_pushes/audit.html.erb:6
+#: ../../../app/views/passwords/audit.html.erb:6
+#: ../../../app/views/urls/audit.html.erb:6
+msgid "Pushed on %s"
+msgstr "Didorong pada %s"
+
+#: ../../../app/views/file_pushes/audit.html.erb:9
+#: ../../../app/views/passwords/audit.html.erb:9
+#: ../../../app/views/urls/audit.html.erb:9
+msgid "Secret URL for this push"
+msgstr "URL rahasia untuk push ini"
+
+#: ../../../app/views/file_pushes/audit.html.erb:15
+#: ../../../app/views/file_pushes/new.html.erb:139
+#: ../../../app/views/passwords/audit.html.erb:15
+#: ../../../app/views/passwords/new.html.erb:162
+#: ../../../app/views/urls/audit.html.erb:15
+#: ../../../app/views/urls/new.html.erb:112
+msgid "Reference Note"
+msgstr "Catatan Referensi"
+
+#: ../../../app/views/file_pushes/audit.html.erb:16
+#: ../../../app/views/passwords/audit.html.erb:16
+#: ../../../app/views/urls/audit.html.erb:16
+msgid "Visible Only To You"
+msgstr "Hanya Dapat Dilihat Oleh Anda"
+
+#: ../../../app/views/file_pushes/audit.html.erb:28
+#: ../../../app/views/passwords/audit.html.erb:28
+#: ../../../app/views/urls/audit.html.erb:28
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: ../../../app/views/file_pushes/audit.html.erb:32
+#: ../../../app/views/file_pushes/audit.html.erb:41
+#: ../../../app/views/passwords/audit.html.erb:32
+#: ../../../app/views/passwords/audit.html.erb:41
+#: ../../../app/views/urls/audit.html.erb:32
+#: ../../../app/views/urls/audit.html.erb:41
+msgid "Expire after"
+msgstr "Kedaluwarsa setelah"
+
+#: ../../../app/views/file_pushes/audit.html.erb:34
+#: ../../../app/views/file_pushes/new.html.erb:9
+#: ../../../app/views/passwords/audit.html.erb:34
+#: ../../../app/views/passwords/new.html.erb:9
+#: ../../../app/views/urls/audit.html.erb:34
+#: ../../../app/views/urls/new.html.erb:9
+msgid "View"
+msgid_plural "Views"
+msgstr[0] "Tampilan"
+msgstr[1] ""
+
+#: ../../../app/views/file_pushes/audit.html.erb:36
+#: ../../../app/views/urls/audit.html.erb:36
+msgid "The push expires after this number of views."
+msgstr "Dorongan akan kedaluwarsa setelah jumlah penayangan ini."
+
+#: ../../../app/views/file_pushes/audit.html.erb:43
+#: ../../../app/views/file_pushes/new.html.erb:5
+#: ../../../app/views/passwords/audit.html.erb:43
+#: ../../../app/views/passwords/new.html.erb:5
+#: ../../../app/views/urls/audit.html.erb:43
+#: ../../../app/views/urls/new.html.erb:5
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Hari"
+msgstr[1] ""
+
+#: ../../../app/views/file_pushes/audit.html.erb:45
+#: ../../../app/views/urls/audit.html.erb:45
+msgid "The push expires after this number of days."
+msgstr "Dorongan tersebut akan kedaluwarsa setelah beberapa hari."
+
+#: ../../../app/views/file_pushes/audit.html.erb:50
+#: ../../../app/views/passwords/audit.html.erb:50
+msgid "Deletable by Viewers"
+msgstr "Dapat dihapus oleh Pemirsa"
+
+#: ../../../app/views/file_pushes/audit.html.erb:53
+#: ../../../app/views/file_pushes/audit.html.erb:66
+#: ../../../app/views/passwords/audit.html.erb:53
+#: ../../../app/views/passwords/audit.html.erb:66
+#: ../../../app/views/urls/audit.html.erb:53
+msgid "True"
+msgstr "Benar"
+
+#: ../../../app/views/file_pushes/audit.html.erb:55
+#: ../../../app/views/file_pushes/audit.html.erb:68
+#: ../../../app/views/passwords/audit.html.erb:55
+#: ../../../app/views/passwords/audit.html.erb:68
+#: ../../../app/views/urls/audit.html.erb:55
+msgid "False"
+msgstr "Salah"
+
+#: ../../../app/views/file_pushes/audit.html.erb:58
+msgid "This allows end users to delete content once retrieved."
+msgstr "Hal ini memungkinkan pengguna akhir untuk menghapus konten setelah diambil."
+
+#: ../../../app/views/file_pushes/audit.html.erb:63
+#: ../../../app/views/passwords/audit.html.erb:63
+#: ../../../app/views/urls/audit.html.erb:50
+msgid "1-click Retrieval Step"
+msgstr "langkah Pengambilan 1-klik"
+
+#: ../../../app/views/file_pushes/audit.html.erb:71
+#: ../../../app/views/file_pushes/new.html.erb:96
+#: ../../../app/views/passwords/audit.html.erb:71
+#: ../../../app/views/passwords/new.html.erb:106
+#: ../../../app/views/urls/audit.html.erb:58
+msgid "Helps to avoid chat systems and URL scanners from eating up views."
+msgstr "Membantu menghindari sistem obrolan dan pemindai URL memakan tampilan."
+
+#: ../../../app/views/file_pushes/audit.html.erb:76
+#: ../../../app/views/file_pushes/new.html.erb:117
+#: ../../../app/views/passwords/audit.html.erb:76
+#: ../../../app/views/passwords/new.html.erb:127
+#: ../../../app/views/urls/audit.html.erb:63
+#: ../../../app/views/urls/new.html.erb:101
+msgid "Passphrase Lockdown"
+msgstr "Penguncian Frasa Sandi"
+
+#: ../../../app/views/file_pushes/audit.html.erb:79
+#: ../../../app/views/file_pushes/audit.html.erb:137
+#: ../../../app/views/passwords/audit.html.erb:79
+#: ../../../app/views/urls/audit.html.erb:66
+msgid "No"
+msgstr "Tidak"
+
+#: ../../../app/views/file_pushes/audit.html.erb:81
+#: ../../../app/views/file_pushes/audit.html.erb:139
+#: ../../../app/views/passwords/audit.html.erb:81
+#: ../../../app/views/urls/audit.html.erb:68
+msgid "Yes"
+msgstr "Ya"
+
+#: ../../../app/views/file_pushes/audit.html.erb:84
+#: ../../../app/views/passwords/audit.html.erb:84
+#: ../../../app/views/urls/audit.html.erb:71
+msgid "Require recipients to enter a passphrase to view this push."
+msgstr "Meminta penerima untuk memasukkan kata sandi untuk melihat push ini."
+
+#: ../../../app/views/file_pushes/audit.html.erb:90
+#: ../../../app/views/passwords/audit.html.erb:90
+#: ../../../app/views/urls/audit.html.erb:77
+msgid "Current Status"
+msgstr "Status Saat Ini"
+
+#: ../../../app/views/file_pushes/audit.html.erb:94
+#: ../../../app/views/passwords/audit.html.erb:94
+#: ../../../app/views/urls/audit.html.erb:81
+msgid "State:"
+msgstr "Negara:"
+
+#: ../../../app/views/file_pushes/audit.html.erb:96
+#: ../../../app/views/passwords/audit.html.erb:96
+#: ../../../app/views/shared/_dashboard_header.html.erb:26
+#: ../../../app/views/shared/_dashboard_header.html.erb:29
+#: ../../../app/views/shared/_dashboard_header.html.erb:32
+#: ../../../app/views/urls/audit.html.erb:83
+msgid "Expired"
+msgstr "Kadaluarsa"
+
+#: ../../../app/views/file_pushes/audit.html.erb:99
+#: ../../../app/views/passwords/audit.html.erb:99
+#: ../../../app/views/shared/_dashboard_header.html.erb:25
+#: ../../../app/views/shared/_dashboard_header.html.erb:28
+#: ../../../app/views/shared/_dashboard_header.html.erb:31
+#: ../../../app/views/urls/audit.html.erb:86
+msgid "Active"
+msgstr "Aktif"
+
+#: ../../../app/views/file_pushes/audit.html.erb:100
+#: ../../../app/views/passwords/audit.html.erb:100
+#: ../../../app/views/urls/audit.html.erb:87
+msgid "Active and still available for viewing."
+msgstr "Aktif dan masih tersedia untuk dilihat."
+
+#: ../../../app/views/file_pushes/audit.html.erb:106
+#: ../../../app/views/passwords/audit.html.erb:106
+#: ../../../app/views/urls/audit.html.erb:93
+msgid "Successful Views"
+msgstr "Tampilan yang Berhasil"
+
+#: ../../../app/views/file_pushes/audit.html.erb:107
+#: ../../../app/views/urls/audit.html.erb:94
+msgid "The number of times this push has been viewed before expiration."
+msgstr "Berapa kali dorongan ini dilihat sebelum kedaluwarsa."
+
+#: ../../../app/views/file_pushes/audit.html.erb:112
+#: ../../../app/views/passwords/audit.html.erb:112
+#: ../../../app/views/urls/audit.html.erb:99
+msgid "Failed View Attempts"
+msgstr "Upaya Melihat Gagal"
+
+#: ../../../app/views/file_pushes/audit.html.erb:113
+#: ../../../app/views/urls/audit.html.erb:100
+msgid "The number of times this push has been viewed after expiration."
+msgstr "Berapa kali dorongan ini dilihat setelah kedaluwarsa."
+
+#: ../../../app/views/file_pushes/audit.html.erb:118
+#: ../../../app/views/passwords/audit.html.erb:118
+#: ../../../app/views/urls/audit.html.erb:105
+msgid "Days Remaining"
+msgstr "Hari Tersisa"
+
+#: ../../../app/views/file_pushes/audit.html.erb:119
+#: ../../../app/views/passwords/audit.html.erb:119
+#: ../../../app/views/urls/audit.html.erb:106
+msgid ""
+"Number of days until this push expires if the maximum view count isn't reached"
+"."
+msgstr ""
+"Jumlah hari hingga dorongan ini berakhir jika jumlah penayangan maksimum tidak"
+" tercapai."
+
+#: ../../../app/views/file_pushes/audit.html.erb:128
+msgid "Payload"
+msgstr "Muatan"
+
+#: ../../../app/views/file_pushes/audit.html.erb:132
+msgid "Contains Message for Receiver"
+msgstr "Berisi Pesan untuk Penerima"
+
+#: ../../../app/views/file_pushes/audit.html.erb:135
+#: ../../../app/views/file_pushes/audit.html.erb:150
+msgid "Deleted"
+msgstr "Dihapus"
+
+#: ../../../app/views/file_pushes/audit.html.erb:142
+msgid "Has a text payload been added to this push?"
+msgstr "Apakah muatan teks telah ditambahkan ke push ini?"
+
+#: ../../../app/views/file_pushes/audit.html.erb:147
+msgid "Message Length"
+msgstr "Panjang Pesan"
+
+#: ../../../app/views/file_pushes/audit.html.erb:152
+msgid "Not Applicable"
+msgstr "Tidak Berlaku"
+
+#: ../../../app/views/file_pushes/audit.html.erb:157
+msgid "The length of the attached text payload."
+msgstr "Panjang muatan teks yang dilampirkan."
+
+#: ../../../app/views/file_pushes/audit.html.erb:162
+msgid "Number of Files Attached"
+msgstr "Jumlah File yang Dilampirkan"
+
+#: ../../../app/views/file_pushes/audit.html.erb:170
+msgid "The number of files attached to this push. This value will be 0 when expired."
+msgstr ""
+"Jumlah file yang dilampirkan pada dorongan ini. Nilai ini akan menjadi 0 ketik"
+"a kedaluwarsa."
+
+#: ../../../app/views/file_pushes/audit.html.erb:176
+msgid "Attached Files"
+msgstr "File Terlampir"
+
+#: ../../../app/views/file_pushes/audit.html.erb:182
+msgid "Filename:"
+msgstr "Nama file:"
+
+#: ../../../app/views/file_pushes/audit.html.erb:184
+msgid "Size: "
+msgstr "Ukuran: "
+
+#: ../../../app/views/file_pushes/audit.html.erb:189
+msgid "All attached files have been deleted."
+msgstr "Semua file terlampir telah dihapus."
+
+#: ../../../app/views/file_pushes/audit.html.erb:200
+#: ../../../app/views/passwords/audit.html.erb:131
+#: ../../../app/views/urls/audit.html.erb:118
+msgid "Expire Now"
+msgstr "Kedaluwarsa Sekarang"
+
+#: ../../../app/views/file_pushes/audit.html.erb:208
+#: ../../../app/views/passwords/audit.html.erb:139
+msgid "Delete This Password?"
+msgstr "Hapus Kata Sandi Ini?"
+
+#: ../../../app/views/file_pushes/audit.html.erb:212
+#: ../../../app/views/passwords/audit.html.erb:143
+#: ../../../app/views/urls/audit.html.erb:130
+msgid "This will expire this secret link and"
+msgstr "Ini akan mengakhiri tautan rahasia ini dan"
+
+#: ../../../app/views/file_pushes/audit.html.erb:212
+#: ../../../app/views/passwords/audit.html.erb:143
+#: ../../../app/views/urls/audit.html.erb:130
+msgid "remove all content from the database forever"
+msgstr "menghapus semua konten dari database selamanya"
+
+#: ../../../app/views/file_pushes/audit.html.erb:213
+#: ../../../app/views/passwords/audit.html.erb:144
+#: ../../../app/views/urls/audit.html.erb:131
+msgid ""
+"The audit log (including future attempted views) will still be maintained goin"
+"g forward."
+msgstr ""
+"Log audit (termasuk percobaan tampilan di masa mendatang) akan tetap dipertaha"
+"nkan di masa mendatang."
+
+#: ../../../app/views/file_pushes/audit.html.erb:218
+#: ../../../app/views/file_pushes/show.html.erb:78
+#: ../../../app/views/passwords/audit.html.erb:149
+#: ../../../app/views/passwords/show.html.erb:62
+#: ../../../app/views/urls/audit.html.erb:136
+msgid "Delete"
+msgstr "Menghapus"
+
+#: ../../../app/views/file_pushes/audit.html.erb:230
+#: ../../../app/views/passwords/audit.html.erb:161
+#: ../../../app/views/urls/audit.html.erb:148
+msgid "Start of Audit Log"
+msgstr "Memulai Catatan Audit"
+
+#: ../../../app/views/file_pushes/audit.html.erb:233
+#: ../../../app/views/passwords/audit.html.erb:164
+#: ../../../app/views/urls/audit.html.erb:151
+msgid "Push created on"
+msgstr "Push dibuat pada"
+
+#: ../../../app/views/file_pushes/audit.html.erb:238
+#: ../../../app/views/passwords/audit.html.erb:169
+#: ../../../app/views/urls/audit.html.erb:156
+msgid ""
+"As the push receives activity, a log of each with identifying information will"
+" show up here."
+msgstr ""
+"Saat push menerima aktivitas, log masing-masing dengan informasi identifikasi "
+"akan muncul di sini."
+
+#: ../../../app/views/file_pushes/audit.html.erb:247
+#: ../../../app/views/passwords/audit.html.erb:178
+msgid "Password manually expired by user"
+msgstr "Kata sandi kedaluwarsa secara manual oleh pengguna"
+
+#: ../../../app/views/file_pushes/audit.html.erb:249
+#: ../../../app/views/passwords/audit.html.erb:180
+#: ../../../app/views/passwords/audit.html.erb:186
+#: ../../../app/views/urls/audit.html.erb:167
+msgid "at IP address"
+msgstr "di alamat IP"
+
+#: ../../../app/views/file_pushes/audit.html.erb:250
+#: ../../../app/views/file_pushes/audit.html.erb:265
+#: ../../../app/views/file_pushes/audit.html.erb:277
+#: ../../../app/views/passwords/audit.html.erb:181
+#: ../../../app/views/passwords/audit.html.erb:199
+#: ../../../app/views/passwords/audit.html.erb:211
+#: ../../../app/views/urls/audit.html.erb:181
+#: ../../../app/views/urls/audit.html.erb:193
+msgid "on"
+msgstr "pada"
+
+#: ../../../app/views/file_pushes/audit.html.erb:256
+#: ../../../app/views/file_pushes/audit.html.erb:268
+#: ../../../app/views/file_pushes/audit.html.erb:280
+#: ../../../app/views/passwords/audit.html.erb:190
+#: ../../../app/views/passwords/audit.html.erb:202
+#: ../../../app/views/passwords/audit.html.erb:214
+#: ../../../app/views/urls/audit.html.erb:172
+#: ../../../app/views/urls/audit.html.erb:184
+#: ../../../app/views/urls/audit.html.erb:196
+msgid "User Agent"
+msgstr "Agen Pengguna"
+
+#: ../../../app/views/file_pushes/audit.html.erb:258
+#: ../../../app/views/file_pushes/audit.html.erb:270
+#: ../../../app/views/file_pushes/audit.html.erb:282
+#: ../../../app/views/passwords/audit.html.erb:192
+#: ../../../app/views/passwords/audit.html.erb:204
+#: ../../../app/views/passwords/audit.html.erb:216
+#: ../../../app/views/urls/audit.html.erb:174
+#: ../../../app/views/urls/audit.html.erb:186
+#: ../../../app/views/urls/audit.html.erb:198
+msgid "Referrer"
+msgstr "Perujuk"
+
+#: ../../../app/views/file_pushes/audit.html.erb:263
+#: ../../../app/views/passwords/audit.html.erb:197
+#: ../../../app/views/urls/audit.html.erb:179
+msgid "Successful view from IP address"
+msgstr "Berhasil melihat dari alamat IP"
+
+#: ../../../app/views/file_pushes/audit.html.erb:275
+#: ../../../app/views/passwords/audit.html.erb:209
+#: ../../../app/views/urls/audit.html.erb:191
+msgid "Failed view attempt (already expired) by"
+msgstr "Upaya melihat gagal (sudah kedaluwarsa) oleh"
+
+#: ../../../app/views/file_pushes/audit.html.erb:286
+#: ../../../app/views/passwords/audit.html.erb:220
+#: ../../../app/views/urls/audit.html.erb:202
+msgid "End of Audit Log"
+msgstr "Catatan Akhir Audit"
+
+#: ../../../app/views/file_pushes/expired.html.erb:1
+#: ../../../app/views/file_pushes/expired.html.erb:14
+msgid "Expired File Pushes"
+msgstr "Push File yang kedaluwarsa"
+
+#: ../../../app/views/file_pushes/expired.html.erb:7
+msgid "You currently have no expired file pushes."
+msgstr "Saat ini Anda tidak memiliki dorongan file yang kedaluwarsa."
+
+#: ../../../app/views/file_pushes/expired.html.erb:10
+#: ../../../app/views/passwords/expired.html.erb:11
+msgid "Push Something Now"
+msgstr "Dorong Sesuatu Sekarang"
+
+#: ../../../app/views/file_pushes/expired.html.erb:19
+#: ../../../app/views/passwords/expired.html.erb:20
+#: ../../../app/views/urls/expired.html.erb:19
+msgid "ID"
+msgstr "ID"
+
+#: ../../../app/views/file_pushes/expired.html.erb:21
+#: ../../../app/views/passwords/expired.html.erb:22
+#: ../../../app/views/urls/expired.html.erb:21
+msgid "Expired On"
+msgstr "Kedaluwarsa Pada"
+
+#: ../../../app/views/file_pushes/expired.html.erb:41
+#: ../../../app/views/passwords/expired.html.erb:42
+#: ../../../app/views/urls/expired.html.erb:41
+msgid "Audit Log"
+msgstr "Log Audit"
+
+#: ../../../app/views/file_pushes/new.html.erb:1
+#: ../../../app/views/file_pushes/new_anonymous.html.erb:1
+msgid "Securely Send Files"
+msgstr "Mengirim File dengan Aman"
+
+#: ../../../app/views/file_pushes/new.html.erb:26
+msgid "Add Files..."
+msgstr "Menambahkan File..."
+
+#: ../../../app/views/file_pushes/new.html.erb:41
+msgid "You can upload up to 10 files per push."
+msgstr "Anda dapat mengunggah hingga 10 file per push."
+
+#: ../../../app/views/file_pushes/new.html.erb:46
+#: ../../../app/views/passwords/new.html.erb:57
+#: ../../../app/views/urls/new.html.erb:40
+msgid "Expire secret link and delete after:"
+msgstr "Tautan rahasia kedaluwarsa dan hapus setelahnya:"
+
+#: ../../../app/views/file_pushes/new.html.erb:82
+#: ../../../app/views/file_pushes/preview.html.erb:16
+#: ../../../app/views/passwords/new.html.erb:92
+#: ../../../app/views/passwords/preview.html.erb:16
+#: ../../../app/views/urls/new.html.erb:77
+#: ../../../app/views/urls/preview.html.erb:16
+msgid "(whichever comes first)"
+msgstr "(mana saja yang lebih dulu)"
+
+#: ../../../app/views/file_pushes/new.html.erb:95
+#: ../../../app/views/passwords/new.html.erb:105
+#: ../../../app/views/urls/new.html.erb:90
+msgid "Use a 1-click retrieval step"
+msgstr "Gunakan langkah pengambilan dengan 1 klik"
+
+#: ../../../app/views/file_pushes/new.html.erb:106
+#: ../../../app/views/passwords/new.html.erb:116
+msgid "Allow immediate deletion"
+msgstr "Izinkan penghapusan segera"
+
+#: ../../../app/views/file_pushes/new.html.erb:107
+#: ../../../app/views/passwords/new.html.erb:117
+msgid "Allow users to delete this push once retrieved."
+msgstr "Izinkan pengguna untuk menghapus push ini setelah diambil."
+
+#: ../../../app/views/file_pushes/new.html.erb:120
+#: ../../../app/views/passwords/new.html.erb:130
+#: ../../../app/views/urls/new.html.erb:104
+msgid "Optional: Require recipients to enter a passphrase to view this push"
+msgstr "Opsional: Meminta penerima untuk memasukkan kata sandi untuk melihat push ini"
+
+#: ../../../app/views/file_pushes/new.html.erb:128
+msgid "Message"
+msgstr "Pesan"
+
+#: ../../../app/views/file_pushes/new.html.erb:131
+msgid "Optional: A message to be included with the push"
+msgstr "Opsional: Pesan yang akan disertakan dengan push"
+
+#: ../../../app/views/file_pushes/new.html.erb:135
+msgid "Encrypted and visible to the receiving party"
+msgstr "Terenkripsi dan dapat dilihat oleh pihak penerima"
+
+#: ../../../app/views/file_pushes/new.html.erb:142
+#: ../../../app/views/passwords/new.html.erb:165
+#: ../../../app/views/urls/new.html.erb:115
+msgid "Optional"
+msgstr "Opsional"
+
+#: ../../../app/views/file_pushes/new.html.erb:145
+#: ../../../app/views/passwords/new.html.erb:168
+#: ../../../app/views/urls/new.html.erb:118
+msgid "Encrypted and visible only to you"
+msgstr "Terenkripsi dan hanya dapat dilihat oleh Anda"
+
+#: ../../../app/views/file_pushes/new.html.erb:150
+msgid ""
+"Once expired, all files and content of the push will be deleted immediately an"
+"d entirely."
+msgstr ""
+"Setelah kedaluwarsa, semua file dan konten push akan segera dihapus seluruhnya"
+"."
+
+#: ../../../app/views/file_pushes/new.html.erb:155
+#: ../../../app/views/urls/new.html.erb:129
+msgid "An audit log of activity will be available."
+msgstr "Log audit aktivitas akan tersedia."
+
+#: ../../../app/views/file_pushes/new.html.erb:163
+#: ../../../app/views/passwords/new.html.erb:181
+#: ../../../app/views/urls/new.html.erb:137
+msgid "Push It!"
+msgstr "Dorong!"
+
+#: ../../../app/views/file_pushes/new_anonymous.html.erb:9
+msgid "Securely Send Files That Delete Automatically"
+msgstr "Kirim File yang Dihapus Secara Otomatis dengan Aman"
+
+#: ../../../app/views/file_pushes/new_anonymous.html.erb:13
+#: ../../../app/views/urls/new_anonymous.html.erb:13
+msgid "Please login to use this feature."
+msgstr "Silakan login untuk menggunakan fitur ini."
+
+#: ../../../app/views/file_pushes/new_anonymous.html.erb:17
+#: ../../../app/views/urls/new_anonymous.html.erb:17
+msgid "Please login or sign up to use this feature."
+msgstr "Silakan login atau mendaftar untuk menggunakan fitur ini."
+
+#: ../../../app/views/file_pushes/passphrase.html.erb:1
+#: ../../../app/views/passwords/passphrase.html.erb:1
+#: ../../../app/views/urls/passphrase.html.erb:1
+msgid "Enter The Secret Passphrase"
+msgstr "Masukkan Kata Sandi Rahasia"
+
+#: ../../../app/views/file_pushes/passphrase.html.erb:10
+#: ../../../app/views/passwords/passphrase.html.erb:10
+#: ../../../app/views/urls/passphrase.html.erb:10
+msgid "Enter the secret passphrase provided with this URL"
+msgstr "Masukkan kata sandi rahasia yang disediakan dengan URL ini"
+
+#: ../../../app/views/file_pushes/passphrase.html.erb:10
+#: ../../../app/views/passwords/passphrase.html.erb:10
+#: ../../../app/views/urls/passphrase.html.erb:10
+msgid "Enter the secret passphrase"
+msgstr "Masukkan kata sandi rahasia"
+
+#: ../../../app/views/file_pushes/passphrase.html.erb:11
+#: ../../../app/views/passwords/passphrase.html.erb:11
+#: ../../../app/views/urls/passphrase.html.erb:11
+msgid "Go"
+msgstr "Pergi"
+
+#: ../../../app/views/file_pushes/preliminary.html.erb:3
+#: ../../../app/views/passwords/preliminary.html.erb:3
+#: ../../../app/views/urls/preliminary.html.erb:3
+msgid "Click Here to Proceed"
+msgstr "Klik di sini untuk melanjutkan"
+
+#: ../../../app/views/file_pushes/preview.html.erb:1
+#: ../../../app/views/urls/preview.html.erb:1
+msgid "Your Push Has Been Created"
+msgstr "Dorongan Anda Telah Dibuat"
+
+#: ../../../app/views/file_pushes/preview.html.erb:6
+#: ../../../app/views/passwords/preview.html.erb:6
+#: ../../../app/views/urls/preview.html.erb:6
+msgid "Your push has been created."
+msgstr "Dorongan Anda telah dibuat."
+
+#: ../../../app/views/file_pushes/preview.html.erb:8
+#: ../../../app/views/passwords/preview.html.erb:8
+#: ../../../app/views/urls/preview.html.erb:8
+msgid "Use this secret link to share it:"
+msgstr "Gunakan tautan rahasia ini untuk membagikannya:"
+
+#: ../../../app/views/file_pushes/preview.html.erb:12
+#: ../../../app/views/urls/preview.html.erb:12
+msgid "This push will expire after"
+msgstr "Dorongan ini akan kedaluwarsa setelah"
+
+#: ../../../app/views/file_pushes/preview.html.erb:13
+#: ../../../app/views/file_pushes/show.html.erb:43
+#: ../../../app/views/passwords/preview.html.erb:13
+#: ../../../app/views/passwords/show.html.erb:24
+#: ../../../app/views/urls/preview.html.erb:13
+msgid "day"
+msgid_plural "days"
+msgstr[0] "hari"
+msgstr[1] ""
+
+#: ../../../app/views/file_pushes/preview.html.erb:14
+#: ../../../app/views/file_pushes/show.html.erb:46
+#: ../../../app/views/file_pushes/show.html.erb:49
+#: ../../../app/views/pages/about.html.erb:34
+#: ../../../app/views/pages/about.html.erb:40
+#: ../../../app/views/passwords/preview.html.erb:14
+#: ../../../app/views/passwords/show.html.erb:27
+#: ../../../app/views/passwords/show.html.erb:30
+#: ../../../app/views/urls/preview.html.erb:14
+msgid "or"
+msgstr "atau"
+
+#: ../../../app/views/file_pushes/preview.html.erb:15
+#: ../../../app/views/passwords/preview.html.erb:15
+#: ../../../app/views/urls/preview.html.erb:15
+msgid "view"
+msgid_plural "views"
+msgstr[0] "pandangan"
+msgstr[1] ""
+
+#: ../../../app/views/file_pushes/preview.html.erb:19
+#: ../../../app/views/file_pushes/preview.html.erb:21
+#: ../../../app/views/pages/about.html.erb:72
+#: ../../../app/views/pages/about.html.erb:95
+#: ../../../app/views/pages/faq.html.erb:73
+#: ../../../app/views/pages/faq.html.erb:142
+#: ../../../app/views/passwords/preview.html.erb:19
+#: ../../../app/views/passwords/preview.html.erb:21
+msgid "and"
+msgstr "dan"
+
+#: ../../../app/views/file_pushes/preview.html.erb:19
+#: ../../../app/views/passwords/preview.html.erb:19
+msgid "can be"
+msgstr "bisa jadi"
+
+#: ../../../app/views/file_pushes/preview.html.erb:19
+#: ../../../app/views/file_pushes/preview.html.erb:21
+#: ../../../app/views/passwords/preview.html.erb:19
+#: ../../../app/views/passwords/preview.html.erb:21
+msgid "deleted by viewers."
+msgstr "dihapus oleh pemirsa."
+
+#: ../../../app/views/file_pushes/preview.html.erb:21
+#: ../../../app/views/passwords/preview.html.erb:21
+msgid "can NOT be"
+msgstr "tIDAK bisa"
+
+#: ../../../app/views/file_pushes/preview.html.erb:26
+#: ../../../app/views/passwords/preview.html.erb:26
+#: ../../../app/views/urls/preview.html.erb:20
+msgid "It also includes a"
+msgstr "Ini juga termasuk"
+
+#: ../../../app/views/file_pushes/preview.html.erb:26
+#: ../../../app/views/passwords/preview.html.erb:26
+#: ../../../app/views/urls/preview.html.erb:20
+msgid "1-click preliminary retrieval step"
+msgstr "langkah pengambilan awal 1-klik"
+
+#: ../../../app/views/file_pushes/preview.html.erb:30
+#: ../../../app/views/urls/preview.html.erb:24
+msgid "View This Push Now"
+msgstr "Lihat Push Ini Sekarang"
+
+#: ../../../app/views/file_pushes/preview.html.erb:30
+#: ../../../app/views/passwords/preview.html.erb:30
+#: ../../../app/views/urls/preview.html.erb:24
+msgid "(will burn a view) or"
+msgstr "(akan membakar tampilan) atau"
+
+#: ../../../app/views/file_pushes/preview.html.erb:31
+#: ../../../app/views/urls/preview.html.erb:25
+msgid "Push Another"
+msgstr "Dorong yang lain"
+
+#: ../../../app/views/file_pushes/preview.html.erb:36
+#: ../../../app/views/passwords/preview.html.erb:36
+#: ../../../app/views/urls/preview.html.erb:30
+msgid "View Audit Log"
+msgstr "Lihat Log Audit"
+
+#: ../../../app/views/file_pushes/preview.html.erb:41
+#: ../../../app/views/passwords/preview.html.erb:41
+#: ../../../app/views/urls/preview.html.erb:35
+msgid ""
+"Tip: Pushing to an international user?  Change the secret link language using "
+"the dropdown menu to the right of the URL."
+msgstr ""
+"Tip: Mendorong ke pengguna internasional?  Ubah bahasa tautan rahasia mengguna"
+"kan menu tarik-turun di sebelah kanan URL."
+
+#: ../../../app/views/file_pushes/show.html.erb:1
+#: ../../../app/views/passwords/show.html.erb:1
+msgid "Your Secret Link"
+msgstr "Tautan Rahasia Anda"
+
+#: ../../../app/views/file_pushes/show.html.erb:7
+msgid "The following files have been sent to you."
+msgstr "File-file berikut ini telah dikirimkan kepada Anda."
+
+#: ../../../app/views/file_pushes/show.html.erb:8
+msgid "Please download and store in a secure area."
+msgstr "Silakan unduh dan simpan di tempat yang aman."
+
+#: ../../../app/views/file_pushes/show.html.erb:13
+msgid "The following message has been sent to you along with the files below."
+msgstr ""
+"Pesan berikut ini telah dikirimkan kepada Anda bersama dengan file-file di baw"
+"ah ini."
+
+#: ../../../app/views/file_pushes/show.html.erb:15
+msgid "The message is blurred out.  Click below to reveal it."
+msgstr "Pesannya kabur.  Klik di bawah ini untuk mengungkapkannya."
+
+#: ../../../app/views/file_pushes/show.html.erb:41
+#: ../../../app/views/passwords/show.html.erb:22
+msgid "This secret link and all content will be deleted in"
+msgstr "Tautan rahasia ini dan semua konten akan dihapus di"
+
+#: ../../../app/views/file_pushes/show.html.erb:46
+#: ../../../app/views/passwords/show.html.erb:27
+msgid "0 more views"
+msgstr "0 tampilan lainnya"
+
+#: ../../../app/views/file_pushes/show.html.erb:47
+#: ../../../app/views/passwords/show.html.erb:28
+msgid "(this is the last view)."
+msgstr "(ini adalah tampilan terakhir)."
+
+#: ../../../app/views/file_pushes/show.html.erb:50
+#: ../../../app/views/passwords/show.html.erb:31
+msgid "more view"
+msgid_plural "more views"
+msgstr[0] "lebih banyak tampilan"
+msgstr[1] ""
+
+#: ../../../app/views/file_pushes/show.html.erb:51
+#: ../../../app/views/passwords/show.html.erb:32
+msgid "(whichever occurs first)."
+msgstr "(mana saja yang terjadi lebih dulu)."
+
+#: ../../../app/views/file_pushes/show.html.erb:56
+#: ../../../app/views/passwords/show.html.erb:37
+msgid "Delete This Secret Link Now"
+msgstr "Hapus Tautan Rahasia Ini Sekarang"
+
+#: ../../../app/views/file_pushes/show.html.erb:68
+#: ../../../app/views/passwords/show.html.erb:52
+msgid "Delete?"
+msgstr "Hapus?"
+
+#: ../../../app/views/file_pushes/show.html.erb:72
+#: ../../../app/views/passwords/show.html.erb:56
+msgid "This will expire this secret link and "
+msgstr "Ini akan mengakhiri tautan rahasia ini dan "
+
+#: ../../../app/views/file_pushes/show.html.erb:73
+#: ../../../app/views/passwords/show.html.erb:57
+msgid "delete all related content from the database forever"
+msgstr "menghapus semua konten terkait dari database selamanya"
+
+#: ../../../app/views/file_pushes/show_expired.html.erb:1
+#: ../../../app/views/passwords/show_expired.html.erb:1
+#: ../../../app/views/urls/show_expired.html.erb:1
+msgid "Your Secret Link Has Expired"
+msgstr "Tautan Rahasia Anda Telah Kedaluwarsa"
+
+#: ../../../app/views/file_pushes/show_expired.html.erb:6
+#: ../../../app/views/passwords/show_expired.html.erb:6
+#: ../../../app/views/urls/show_expired.html.erb:6
+msgid "We apologize but this secret link has expired."
+msgstr "Kami mohon maaf, namun tautan rahasia ini telah kedaluwarsa."
+
+#: ../../../app/views/file_pushes/show_expired.html.erb:8
+#: ../../../app/views/passwords/show_expired.html.erb:8
+#: ../../../app/views/urls/show_expired.html.erb:8
+msgid ""
+"If needed, please contact the person or organization who gave you this secret "
+"URL."
+msgstr ""
+"Jika diperlukan, silakan hubungi orang atau organisasi yang memberi Anda URL r"
+"ahasia ini."
+
+#: ../../../app/views/layouts/login.html.erb:37
+#: ../../../app/views/shared/_footer.html.erb:12
+#: ../../../app/views/shared/_footer.html.erb:16
+#: ../../../app/views/shared/_header.html.erb:9
+#: ../../../app/views/shared/_header.html.erb:13
+msgid "Password Pusher Logo"
+msgstr "Logo Pendorong Kata Sandi"
+
+#: ../../../app/views/layouts/login.html.erb:52
+msgid ""
+"Some domains may inadvertently block emails.  If you are having trouble receiv"
+"ing emails, "
+msgstr ""
+"Beberapa domain mungkin secara tidak sengaja memblokir email.  Jika Anda menga"
+"lami masalah dalam menerima email, "
+
+#: ../../../app/views/layouts/login.html.erb:53
+msgid "send a message"
+msgstr "mengirim pesan"
+
+#: ../../../app/views/layouts/login.html.erb:54
+msgid "and we can help out."
+msgstr "dan kami dapat membantu Anda."
+
+#: ../../../app/views/pages/about.html.erb:1
+msgid "About Password Pusher"
+msgstr "Tentang Pendorong Kata Sandi"
+
+#: ../../../app/views/pages/about.html.erb:2
+#: ../../../app/views/shared/_footer.html.erb:49
+msgid "About"
+msgstr "Tentang"
+
+#: ../../../app/views/pages/about.html.erb:7
+msgid ""
+"Password Pusher is a tool used for sharing passwords and other sensitive infor"
+"mation with other people securely."
+msgstr ""
+"Password Pusher adalah alat yang digunakan untuk berbagi kata sandi dan inform"
+"asi sensitif lainnya dengan orang lain secara aman."
+
+#: ../../../app/views/pages/about.html.erb:10
+msgid ""
+"With Password Pusher, you can create a unique, one-time URL that will expire a"
+"fter a certain amount of time or after it has been accessed a certain number o"
+"f times, ensuring that your information remains private and secure."
+msgstr ""
+"Dengan Password Pusher, Anda bisa membuat URL unik sekali pakai yang akan keda"
+"luwarsa setelah jangka waktu tertentu atau setelah diakses dalam jumlah terten"
+"tu, sehingga informasi Anda tetap pribadi dan aman."
+
+#: ../../../app/views/pages/about.html.erb:11
+msgid ""
+"It is often used by individuals and organizations to share login credentials o"
+"r other sensitive data with colleagues, clients, or partners."
+msgstr ""
+"Ini sering digunakan oleh individu dan organisasi untuk berbagi kredensial log"
+"in atau data sensitif lainnya dengan kolega, klien, atau mitra."
+
+#: ../../../app/views/pages/about.html.erb:14
+msgid ""
+"Password Pusher is a simple and convenient solution for securely sharing passw"
+"ords without the need for email or other less secure communication methods."
+msgstr ""
+"Password Pusher adalah solusi sederhana dan nyaman untuk berbagi kata sandi de"
+"ngan aman tanpa perlu email atau metode komunikasi lain yang kurang aman."
+
+#: ../../../app/views/pages/about.html.erb:17
+msgid "Hosted at"
+msgstr "Diselenggarakan di"
+
+#: ../../../app/views/pages/about.html.erb:19
+msgid "or you can run your own private instance wherever you like."
+msgstr ""
+"atau Anda bisa menjalankan instance pribadi Anda sendiri di mana pun Anda suka"
+"."
+
+#: ../../../app/views/pages/about.html.erb:23
+msgid "The source code is"
+msgstr "Kode sumbernya adalah"
+
+#: ../../../app/views/pages/about.html.erb:24
+#: ../../../app/views/pages/about.html.erb:41
+msgid "on Github"
+msgstr "di Github"
+
+#: ../../../app/views/pages/about.html.erb:25
+msgid "It’s opensource and free for anyone to use, review or modify."
+msgstr ""
+"Aplikasi ini bersifat opensource dan gratis bagi siapa saja untuk digunakan, d"
+"itinjau, atau dimodifikasi."
+
+#: ../../../app/views/pages/about.html.erb:28
+msgid "The Author"
+msgstr "Penulis"
+
+#: ../../../app/views/pages/about.html.erb:31
+msgid "My name is Peter Giacomo Lombardo. You can find me on"
+msgstr "Nama saya Peter Giacomo Lombardo. Anda dapat menemukan saya di"
+
+#: ../../../app/views/pages/about.html.erb:38
+msgid "For updates, you can"
+msgstr "Untuk pembaruan, Anda dapat"
+
+#: ../../../app/views/pages/about.html.erb:39
+msgid "follow me on Twitter"
+msgstr "ikuti saya di Twitter"
+
+#: ../../../app/views/pages/about.html.erb:44
+msgid "Want to Help Out?"
+msgstr "Ingin Membantu?"
+
+#: ../../../app/views/pages/about.html.erb:48
+msgid "By far the biggest help is to spread the word"
+msgstr "Sejauh ini, bantuan terbesar adalah dengan menyebarkan berita"
+
+#: ../../../app/views/pages/about.html.erb:50
+msgid "Share and suggest Password Pusher to colleagues and friends."
+msgstr "Bagikan dan sarankan Password Pusher kepada kolega dan teman."
+
+#: ../../../app/views/pages/about.html.erb:53
+msgid "You can also"
+msgstr "Anda juga dapat"
+
+#: ../../../app/views/pages/about.html.erb:56
+msgid "Star the Github project"
+msgstr "Membintangi proyek Github"
+
+#: ../../../app/views/pages/about.html.erb:57
+msgid "It's gasoline for the algos that trend Password Pusher."
+msgstr "Ini adalah bensin untuk algo yang menjadi tren Password Pusher."
+
+#: ../../../app/views/pages/about.html.erb:60
+#: ../../../app/views/pages/translate.html.erb:3
+msgid "Help Translate"
+msgstr "Bantu Terjemahkan"
+
+#: ../../../app/views/pages/about.html.erb:61
+msgid "Improve an existing language or add a new one"
+msgstr "Memperbaiki bahasa yang sudah ada atau menambahkan bahasa baru"
+
+#: ../../../app/views/pages/about.html.erb:64
+msgid "Sign up for the"
+msgstr "Mendaftar untuk program"
+
+#: ../../../app/views/pages/about.html.erb:65
+msgid "newsletter"
+msgstr "buletin"
+
+#: ../../../app/views/pages/about.html.erb:66
+msgid "to get updates on important releases, security issues, tips and more."
+msgstr ""
+"untuk mendapatkan pembaruan tentang rilis penting, masalah keamanan, tips, dan"
+" lainnya."
+
+#: ../../../app/views/pages/about.html.erb:69
+msgid "Follow Password Pusher on"
+msgstr "Ikuti Pendorong Kata Sandi di"
+
+#: ../../../app/views/pages/about.html.erb:76
+msgid "Fix an issue, add a feature or write some documentation."
+msgstr "Memperbaiki masalah, menambahkan fitur atau menulis dokumentasi."
+
+#: ../../../app/views/pages/about.html.erb:76
+msgid "See the Github project."
+msgstr "Lihat proyek Github."
+
+#: ../../../app/views/pages/about.html.erb:79
+msgid "Sign up to Digital Ocean"
+msgstr "Mendaftar ke Digital Ocean"
+
+#: ../../../app/views/pages/about.html.erb:80
+msgid "with this link"
+msgstr "dengan tautan ini"
+
+#: ../../../app/views/pages/about.html.erb:81
+msgid "to get Password Pusher a hosting credit."
+msgstr "untuk mendapatkan kredit hosting dari Password Pusher."
+
+#: ../../../app/views/pages/about.html.erb:85
+msgid "Thank you for supporting Password Pusher!"
+msgstr "Terima kasih telah mendukung Password Pusher!"
+
+#: ../../../app/views/pages/about.html.erb:87
+#: ../../../app/views/shared/_footer.html.erb:26
+msgid "Resources"
+msgstr "Sumber daya"
+
+#: ../../../app/views/pages/about.html.erb:90
+msgid ""
+"If you are giving a presentation, authoring a blog post or video about Passwor"
+"d Pusher, feel free to contact me for any questions."
+msgstr ""
+"Jika Anda memberikan presentasi, menulis posting blog atau video tentang Passw"
+"ord Pusher, jangan ragu untuk menghubungi saya jika ada pertanyaan."
+
+#: ../../../app/views/pages/about.html.erb:93
+msgid "We have media resources and a full explanation of features available in"
+msgstr ""
+"Kami memiliki sumber daya media dan penjelasan lengkap mengenai fitur-fitur ya"
+"ng tersedia di"
+
+#: ../../../app/views/pages/about.html.erb:94
+msgid "Windows Powerpoint"
+msgstr "Windows Powerpoint"
+
+#: ../../../app/views/pages/about.html.erb:96
+msgid "Mac Keynote"
+msgstr "Mac Keynote"
+
+#: ../../../app/views/pages/about.html.erb:97
+msgid "formats."
+msgstr "format."
+
+#: ../../../app/views/pages/about.html.erb:106
+msgid "Birthday"
+msgstr "Ulang tahun"
+
+#: ../../../app/views/pages/about.html.erb:108
+msgid "More Than 11 Years Old"
+msgstr "Berusia Lebih dari 11 Tahun"
+
+#: ../../../app/views/pages/about.html.erb:110
+msgid "The first git commit to Password Pusher was on"
+msgstr "Komit git pertama ke Password Pusher sudah aktif"
+
+#: ../../../app/views/pages/about.html.erb:114
+msgid "pwpush.com went live shortly thereafter."
+msgstr "pwpush.com ditayangkan tidak lama setelahnya."
+
+#: ../../../app/views/pages/about.html.erb:120
+msgid "The Original Theme"
+msgstr "Tema Asli"
+
+#: ../../../app/views/pages/about.html.erb:121
+msgid ""
+"The original site design consisted of a dark background with a bold yellow fon"
+"t."
+msgstr ""
+"Desain situs asli terdiri dari latar belakang gelap dengan font kuning yang te"
+"bal."
+
+#: ../../../app/views/pages/about.html.erb:124
+msgid "Follow for news, changes & updates."
+msgstr "Ikuti untuk mengetahui berita, perubahan & pembaruan."
+
+#: ../../../app/views/pages/faq.html.erb:1
+#: ../../../app/views/shared/_footer.html.erb:35
+msgid "FAQ"
+msgstr "PERTANYAAN YANG SERING DIAJUKAN"
+
+#: ../../../app/views/pages/faq.html.erb:3
+msgid "Frequently Asked Questions"
+msgstr "Pertanyaan yang Sering Diajukan"
+
+#: ../../../app/views/pages/faq.html.erb:5
+msgid "Trust and Security"
+msgstr "Kepercayaan dan Keamanan"
+
+#: ../../../app/views/pages/faq.html.erb:11
+msgid "What purpose does Password Pusher serve?"
+msgstr "Apa tujuan dari Password Pusher?"
+
+#: ../../../app/views/pages/faq.html.erb:16
+msgid "Password Pusher exists as a better alternative to emailing passwords."
+msgstr ""
+"Password Pusher hadir sebagai alternatif yang lebih baik untuk mengirim kata s"
+"andi melalui email."
+
+#: ../../../app/views/pages/faq.html.erb:18
+msgid "Emailing passwords is inherently insecure."
+msgstr "Mengirimkan kata sandi melalui email pada dasarnya tidak aman."
+
+#: ../../../app/views/pages/faq.html.erb:18
+msgid "The greatest risks include"
+msgstr "Risiko terbesar meliputi"
+
+#: ../../../app/views/pages/faq.html.erb:21
+msgid ""
+"Emailed passwords are usually sent with context to what they go to or can pote"
+"ntially be derived from email username, domain etc…"
+msgstr ""
+"Kata sandi yang dikirim melalui email biasanya dikirim dengan konteks ke mana "
+"kata sandi tersebut ditujukan atau berpotensi berasal dari nama pengguna email"
+", domain, dll.."
+
+#: ../../../app/views/pages/faq.html.erb:22
+msgid ""
+"Email is inherently insecure and can be intercepted at multiple points by mali"
+"cious entities."
+msgstr ""
+"Email pada dasarnya tidak aman dan dapat disadap di beberapa titik oleh entita"
+"s jahat."
+
+#: ../../../app/views/pages/faq.html.erb:23
+msgid "Emailed passwords live in perpetuity (read: forever) in email archives."
+msgstr ""
+"Kata sandi yang dikirim melalui email akan tersimpan selamanya (baca: selamany"
+"a) dalam arsip email."
+
+#: ../../../app/views/pages/faq.html.erb:24
+msgid ""
+"Passwords in email can be retrieved and used later on if an email account is s"
+"tolen, cracked etc.."
+msgstr ""
+"Kata sandi dalam email dapat diambil dan digunakan di kemudian hari jika akun "
+"email dicuri, dibobol, dan sebagainya."
+
+#: ../../../app/views/pages/faq.html.erb:27
+msgid ""
+"The same risks persist when sending passwords via SMS, WhatsApp, Telegram, Cha"
+"t etc…  The data can and is often perpetual and out of your control."
+msgstr ""
+"Risiko yang sama tetap ada ketika mengirim kata sandi melalui SMS, WhatsApp, T"
+"elegram, Chatting, dll... Data tersebut dapat dan sering kali bersifat permane"
+"n dan di luar kendali Anda."
+
+#: ../../../app/views/pages/faq.html.erb:29
+msgid "By using Password Pusher, you bypass all of this."
+msgstr "Dengan menggunakan Password Pusher, Anda melewati semua ini."
+
+#: ../../../app/views/pages/faq.html.erb:31
+msgid "For each password posted to Password Pusher, "
+msgstr "Untuk setiap kata sandi yang diposting ke Password Pusher, "
+
+#: ../../../app/views/pages/faq.html.erb:32
+msgid "a unique URL is generated that only you will know"
+msgstr "uRL unik dibuat dan hanya Anda yang akan mengetahuinya"
+
+#: ../../../app/views/pages/faq.html.erb:33
+msgid "Additionally, "
+msgstr "Selain itu, "
+
+#: ../../../app/views/pages/faq.html.erb:35
+msgid "passwords expire after a predefined set of views are hit or time passed."
+msgstr ""
+"kata sandi akan kedaluwarsa setelah serangkaian tampilan yang telah ditentukan"
+" sebelumnya tercapai atau waktu berlalu."
+
+#: ../../../app/views/pages/faq.html.erb:37
+msgid "Once expired, passwords are unequivocally deleted."
+msgstr "Setelah kedaluwarsa, kata sandi akan dihapus dengan tegas."
+
+#: ../../../app/views/pages/faq.html.erb:40
+msgid ""
+"If that sounds interesting to you, try it out or see the other frequently aske"
+"d questions below."
+msgstr ""
+"Jika itu terdengar menarik bagi Anda, cobalah atau lihat pertanyaan umum lainn"
+"ya di bawah ini."
+
+#: ../../../app/views/pages/faq.html.erb:47
+msgid "Trust is a concern. Why should I use Password Pusher?"
+msgstr ""
+"Kepercayaan adalah hal yang penting. Mengapa saya harus menggunakan Password P"
+"usher?"
+
+#: ../../../app/views/pages/faq.html.erb:52
+msgid ""
+"And rightfully so. All good security begins with healthy skepticism of all inv"
+"olved components."
+msgstr ""
+"Dan memang seharusnya begitu. Semua keamanan yang baik dimulai dengan skeptisi"
+"sme yang sehat dari semua komponen yang terlibat."
+
+#: ../../../app/views/pages/faq.html.erb:55
+msgid ""
+"Password Pusher exists as a better alternative to emailing passwords. It avoid"
+"s having passwords exist in email archives in perpetuity. It does not exist as"
+" a end-all security solution."
+msgstr ""
+"Password Pusher hadir sebagai alternatif yang lebih baik untuk mengirim kata s"
+"andi melalui email. Hal ini untuk menghindari adanya kata sandi yang ada dalam"
+" arsip email untuk selamanya. Ini tidak ada sebagai solusi keamanan yang menye"
+"luruh."
+
+#: ../../../app/views/pages/faq.html.erb:59
+msgid "Password Pusher is opensource"
+msgstr "Password Pusher adalah sumber terbuka"
+
+#: ../../../app/views/pages/faq.html.erb:60
+msgid ""
+"so the source can be publicly reviewed and can alternatively be run internally"
+" in your organization."
+msgstr ""
+"sehingga sumbernya dapat ditinjau secara publik dan sebagai alternatif dapat d"
+"ijalankan secara internal di organisasi Anda."
+
+#: ../../../app/views/pages/faq.html.erb:64
+msgid "Passwords are unequivocally deleted from the database once they expire."
+msgstr "Kata sandi akan dihapus dari basis data setelah kedaluwarsa."
+
+#: ../../../app/views/pages/faq.html.erb:65
+msgid ""
+"Additionally, random URL tokens are generated on the fly and passwords are pos"
+"ted without context for their use."
+msgstr ""
+"Selain itu, token URL acak dibuat dengan cepat dan kata sandi diposting tanpa "
+"konteks penggunaannya."
+
+#: ../../../app/views/pages/faq.html.erb:69
+msgid "A note for those with an interest in extreme security:"
+msgstr "Catatan bagi mereka yang tertarik dengan keamanan ekstrem:"
+
+#: ../../../app/views/pages/faq.html.erb:70
+msgid ""
+"there is no way I can reliably prove that the opensource code is the same that"
+" runs on pwpush.com (this is true for all sites in reality)."
+msgstr ""
+"tidak ada cara yang dapat saya buktikan secara andal bahwa kode sumber terbuka"
+" sama dengan yang berjalan di pwpush.com (ini berlaku untuk semua situs pada k"
+"enyataannya)."
+
+#: ../../../app/views/pages/faq.html.erb:71
+msgid "The only thing I can provide in this respect is my public reputation on"
+msgstr ""
+"Satu-satunya hal yang dapat saya berikan dalam hal ini adalah reputasi publik "
+"saya di"
+
+#: ../../../app/views/pages/faq.html.erb:74
+msgid "my blog"
+msgstr "blog saya"
+
+#: ../../../app/views/pages/faq.html.erb:75
+msgid ""
+"If this is a concern for you, feel free to review the code, post any questions"
+" that you may have and consider running it internally at your organization ins"
+"tead."
+msgstr ""
+"Jika hal ini menjadi perhatian Anda, jangan ragu untuk meninjau kode tersebut,"
+" kirimkan pertanyaan apa pun yang mungkin Anda miliki dan pertimbangkan untuk "
+"menjalankannya secara internal di organisasi Anda."
+
+#: ../../../app/views/pages/faq.html.erb:83
+msgid "Tools, Utilities and Applications"
+msgstr "Alat, Utilitas, dan Aplikasi"
+
+#: ../../../app/views/pages/faq.html.erb:89
+msgid "Are there other ways I can access Password Pusher outside of a browser?"
+msgstr "Apakah ada cara lain untuk mengakses Password Pusher di luar browser?"
+
+#: ../../../app/views/pages/faq.html.erb:95
+msgid ""
+"Absolutely.  Password Pusher has a number of applications and command line uti"
+"lities (CLI) that interface with pwpush.com or privately run instances.  Push "
+"passwords from the CLI, Slack, Alfred App and more."
+msgstr ""
+"Tentu saja.  Password Pusher memiliki sejumlah aplikasi dan utilitas baris per"
+"intah (CLI) yang berinteraksi dengan pwpush.com atau instans yang dijalankan s"
+"ecara pribadi.  Dorong kata sandi dari CLI, Slack, Aplikasi Alfred, dan banyak"
+" lagi."
+
+#: ../../../app/views/pages/faq.html.erb:97
+msgid "See our"
+msgstr "Lihat kami"
+
+#: ../../../app/views/pages/faq.html.erb:97
+msgid "Tools and Applications"
+msgstr "Alat dan Aplikasi"
+
+#: ../../../app/views/pages/faq.html.erb:97
+msgid "page for more details."
+msgstr "untuk detail lebih lanjut."
+
+#: ../../../app/views/pages/faq.html.erb:104
+msgid "Can I automate my password distribution?"
+msgstr "Dapatkah saya mengotomatiskan distribusi kata sandi saya?"
+
+#: ../../../app/views/pages/faq.html.erb:109
+msgid ""
+"Yes. Using the previously mentioned tools, many users and organizations integr"
+"ate Password Pusher into their security policies and processes."
+msgstr ""
+"Ya. Dengan menggunakan alat yang disebutkan sebelumnya, banyak pengguna dan or"
+"ganisasi mengintegrasikan Password Pusher ke dalam kebijakan dan proses keaman"
+"an mereka."
+
+#: ../../../app/views/pages/faq.html.erb:110
+msgid "The"
+msgstr "The"
+
+#: ../../../app/views/pages/faq.html.erb:110
+#: ../../../app/views/shared/_footer.html.erb:44
+msgid "Tools"
+msgstr "Peralatan"
+
+#: ../../../app/views/pages/faq.html.erb:110
+msgid ""
+"page outlines the resources available to automate the secure distribution of p"
+"asswords."
+msgstr ""
+"halaman ini menguraikan sumber daya yang tersedia untuk mengotomatiskan distri"
+"busi kata sandi yang aman."
+
+#: ../../../app/views/pages/faq.html.erb:117
+msgid "How many requests can I send to Password Pusher?"
+msgstr "Berapa banyak permintaan yang bisa saya kirimkan ke Password Pusher?"
+
+#: ../../../app/views/pages/faq.html.erb:122
+msgid ""
+"There are no limits currently and I have no intention of adding any.  To minim"
+"ally assure site stability, Password Pusher is configured with a rate limiter "
+"by default."
+msgstr ""
+"Saat ini tidak ada batasan dan saya tidak berniat untuk menambahkannya.  Untuk"
+" menjamin stabilitas situs secara minimal, Password Pusher dikonfigurasikan de"
+"ngan pembatas kecepatan secara default."
+
+#: ../../../app/views/pages/faq.html.erb:128
+msgid "Running Your Own Private Instance"
+msgstr "Menjalankan Instance Pribadi Anda Sendiri"
+
+#: ../../../app/views/pages/faq.html.erb:134
+msgid "Can I run my own version for my organization internally?"
+msgstr ""
+"Dapatkah saya menjalankan versi saya sendiri untuk organisasi saya secara inte"
+"rnal?"
+
+#: ../../../app/views/pages/faq.html.erb:140
+msgid "Yes.  We provide"
+msgstr "Ya.  Kami menyediakan"
+
+#: ../../../app/views/pages/faq.html.erb:141
+msgid "Docker containers"
+msgstr "Wadah docker"
+
+#: ../../../app/views/pages/faq.html.erb:143
+msgid "installation instructions"
+msgstr "petunjuk pemasangan"
+
+#: ../../../app/views/pages/faq.html.erb:144
+msgid "for a wide variety of platforms and services."
+msgstr "untuk berbagai macam platform dan layanan."
+
+#: ../../../app/views/pages/faq.html.erb:146
+msgid "tldr;"
+msgstr "tldr;"
+
+#: ../../../app/views/pages/faq.html.erb:153
+msgid "Can I apply a custom logo or change the design?"
+msgstr "Dapatkah saya menerapkan logo khusus atau mengubah desain?"
+
+#: ../../../app/views/pages/faq.html.erb:158
+msgid ""
+"Password Pusher supports re-branding \"out of the box\" allowing you to add a cu"
+"stom logo, text and even change images in the application."
+msgstr ""
+"Password Pusher mendukung re-branding \"di luar kotak\" yang memungkinkan Anda u"
+"ntuk menambahkan logo kustom, teks dan bahkan mengubah gambar dalam aplikasi."
+
+#: ../../../app/views/pages/faq.html.erb:165
+msgid "Are there any licensing restrictions for me, my company or my organization?"
+msgstr ""
+"Apakah ada pembatasan lisensi untuk saya, perusahaan saya, atau organisasi say"
+"a?"
+
+#: ../../../app/views/pages/faq.html.erb:171
+msgid ""
+"The source code is released under the GNU General Public License v3.0 and that"
+" pretty much defines any and all limitations. There are quite a few rebranded "
+"and redesigned clone sites of Password Pusher and I welcome them all."
+msgstr ""
+"Kode sumbernya dirilis di bawah Lisensi Publik Umum GNU v3.0 dan cukup banyak "
+"mendefinisikan setiap dan semua batasan. Ada cukup banyak situs tiruan yang di"
+"ganti nama dan didesain ulang dari Password Pusher dan saya menyambut baik sem"
+"uanya."
+
+#: ../../../app/views/pages/faq.html.erb:179
+msgid "Why would I want to run my own private instance of Password Pusher?"
+msgstr "Mengapa saya ingin menjalankan contoh pribadi Password Pusher saya sendiri?"
+
+#: ../../../app/views/pages/faq.html.erb:185
+msgid ""
+"Some organizations are bound by security policies that prohibit the use of pub"
+"lic services for sensitive information such as passwords.  There are even orga"
+"nizations that require all tools to be on private intranets without access to "
+"the outside world."
+msgstr ""
+"Beberapa organisasi terikat oleh kebijakan keamanan yang melarang penggunaan l"
+"ayanan publik untuk informasi sensitif seperti kata sandi.  Bahkan ada organis"
+"asi yang mengharuskan semua alat berada di intranet pribadi tanpa akses ke dun"
+"ia luar."
+
+#: ../../../app/views/pages/faq.html.erb:188
+msgid ""
+"It's for these reasons that we provide the ability (and encourage) users and o"
+"rganizations to run private instances when needed."
+msgstr ""
+"Karena alasan inilah kami menyediakan kemampuan (dan mendorong) pengguna dan o"
+"rganisasi untuk menjalankan instance pribadi saat dibutuhkan."
+
+#: ../../../app/views/pages/faq.html.erb:196
+msgid "What are the potential security risks of running my own version internally?"
+msgstr ""
+"Apa saja potensi risiko keamanan dari menjalankan versi saya sendiri secara in"
+"ternal?"
+
+#: ../../../app/views/pages/faq.html.erb:201
+msgid ""
+"Running an private instance of Password Pusher for your company or organizatio"
+"n gives you the peace of mind that you know exactly what code is running.  You"
+" can configure and run it as you like."
+msgstr ""
+"Menjalankan contoh pribadi Password Pusher untuk perusahaan atau organisasi An"
+"da memberi Anda ketenangan pikiran karena Anda tahu persis kode apa yang sedan"
+"g berjalan.  Anda bisa mengonfigurasi dan menjalankannya sesuka Anda."
+
+#: ../../../app/views/pages/faq.html.erb:202
+msgid ""
+"On the other hand, if your instance gets hacked and the encryption broken, mal"
+"icious entities now have a targeted dictionary of passwords to brute force acc"
+"ounts in your organization.  Note that this would be limited to pushes which h"
+"aven't yet hit their expiration limits."
+msgstr ""
+"Di sisi lain, jika instans Anda diretas dan enkripsinya dibobol, entitas jahat"
+" sekarang memiliki kamus kata sandi yang ditargetkan untuk membobol akun-akun "
+"di organisasi Anda.  Perhatikan bahwa ini akan terbatas pada push yang belum m"
+"encapai batas kedaluwarsa."
+
+#: ../../../app/views/pages/faq.html.erb:203
+msgid ""
+"In this respect, the public instance at pwpush.com is may be superior that it "
+"contains only passwords without identifying information mixed among users from"
+" around the globe."
+msgstr ""
+"Dalam hal ini, contoh publik di pwpush.com mungkin lebih unggul karena hanya b"
+"erisi kata sandi tanpa mengidentifikasi informasi yang tercampur di antara pen"
+"gguna dari seluruh dunia."
+
+#: ../../../app/views/pages/faq.html.erb:204
+msgid ""
+"The user should carefully weigh the pros and cons and decide which route is be"
+"st for them.  We happily support both strategies."
+msgstr ""
+"Pengguna harus mempertimbangkan dengan cermat pro dan kontra dan memutuskan ru"
+"te mana yang terbaik untuk mereka.  Kami dengan senang hati mendukung kedua st"
+"rategi tersebut."
+
+#: ../../../app/views/pages/faq.html.erb:210
+msgid "Other"
+msgstr "Lainnya"
+
+#: ../../../app/views/pages/faq.html.erb:216
+msgid ""
+"The URL I sent link seems to have not worked by the time it was received.  Doe"
+"s this happen occasionally and is there a way to prevent this?"
+msgstr ""
+"Tautan URL yang saya kirimkan tampaknya tidak berfungsi pada saat diterima.  A"
+"pakah hal ini kadang-kadang terjadi dan adakah cara untuk mencegahnya?"
+
+#: ../../../app/views/pages/faq.html.erb:222
+msgid ""
+"Some systems such as email, firewalls and chat systems often have link scanner"
+"s that can eat up views."
+msgstr ""
+"Beberapa sistem seperti email, firewall, dan sistem chatting sering kali memil"
+"iki pemindai tautan yang bisa menghabiskan tampilan."
+
+#: ../../../app/views/pages/faq.html.erb:223
+msgid "This is done for security or to simply generate a \"preview\" for chat systems."
+msgstr ""
+"Hal ini dilakukan untuk keamanan atau sekadar menghasilkan \"pratinjau\" untuk s"
+"istem obrolan."
+
+#: ../../../app/views/pages/faq.html.erb:226
+msgid "To prevent this, use the 1-click retrieval step option when pushing passwords."
+msgstr ""
+"Untuk mencegah hal ini, gunakan opsi langkah pengambilan 1-klik saat mendorong"
+" kata sandi."
+
+#: ../../../app/views/pages/faq.html.erb:227
+msgid ""
+"This requires the users to click through a preliminary page to protect views f"
+"rom such scanners."
+msgstr ""
+"Hal ini mengharuskan pengguna mengklik melalui halaman pendahuluan untuk melin"
+"dungi tampilan dari pemindai tersebut."
+
+#: ../../../app/views/pages/faq.html.erb:231
+msgid ""
+"As an additional preventative measure, if you create an account, an audit log "
+"is provided for every push created."
+msgstr ""
+"Sebagai tindakan pencegahan tambahan, jika Anda membuat akun, log audit disedi"
+"akan untuk setiap push yang dibuat."
+
+#: ../../../app/views/pages/faq.html.erb:232
+msgid "This audit log can reveal by who and when the push was viewed."
+msgstr "Log audit ini dapat mengungkapkan oleh siapa dan kapan push dilihat."
+
+#: ../../../app/views/pages/faq.html.erb:241
+msgid "Can I use Password Pusher in my talk/presentation/conference?"
+msgstr ""
+"Dapatkah saya menggunakan Password Pusher dalam ceramah/presentasi/konferensi "
+"saya?"
+
+#: ../../../app/views/pages/faq.html.erb:246
+msgid ""
+"Absolutely.  If you need any resources such as statistics, graphics or anythin"
+"g else, don't hesitate to contact me: pglombardo at pwpush.com."
+msgstr ""
+"Tentu saja.  Jika Anda memerlukan sumber daya seperti statistik, grafik atau a"
+"pa pun, jangan ragu untuk menghubungi saya: pglombardo di pwpush.com."
+
+#: ../../../app/views/pages/faq.html.erb:253
+msgid "Could you add a specific feature for my organization?"
+msgstr "Bisakah Anda menambahkan fitur khusus untuk organisasi saya?"
+
+#: ../../../app/views/pages/faq.html.erb:258
+msgid ""
+"Very likely.  I love to hear all ideas and feedback. If you have any, please s"
+"ubmit them to the "
+msgstr ""
+"Sangat mungkin.  Saya senang mendengar semua ide dan umpan balik. Jika Anda pu"
+"nya, silakan kirimkan ke "
+
+#: ../../../app/views/pages/faq.html.erb:259
+msgid "Github repository"
+msgstr "Repositori Github"
+
+#: ../../../app/views/pages/faq.html.erb:259
+msgid "and I will respond as soon as possible."
+msgstr "dan saya akan merespons sesegera mungkin."
+
+#: ../../../app/views/pages/faq.html.erb:266
+msgid "How do you make money?"
+msgstr "Bagaimana Anda menghasilkan uang?"
+
+#: ../../../app/views/pages/faq.html.erb:271
+msgid ""
+"This is an opensource project made out of love for technology and a desire to "
+"improve the security (and daily lives) of the tech community."
+msgstr ""
+"Ini adalah proyek sumber terbuka yang dibuat berdasarkan kecintaan pada teknol"
+"ogi dan keinginan untuk meningkatkan keamanan (dan kehidupan sehari-hari) komu"
+"nitas teknologi."
+
+#: ../../../app/views/pages/faq.html.erb:274
+msgid ""
+"It doesn't make any money but it does incur hosting that are about $50/month f"
+"or pwpush.com."
+msgstr ""
+"Ini tidak menghasilkan uang tetapi ada biaya hosting sekitar $50/bulan untuk p"
+"wpush.com."
+
+#: ../../../app/views/pages/faq.html.erb:275
+msgid "These are happily paid out of pocket by myself for more than 10 years."
+msgstr "Semua ini saya bayarkan sendiri dengan senang hati selama lebih dari 10 tahun."
+
+#: ../../../app/views/pages/faq.html.erb:279
+msgid ""
+"If you feel inclined to support Password Pusher, you can sign up to Digital Oc"
+"ean using the badge below."
+msgstr ""
+"Jika Anda merasa ingin mendukung Password Pusher, Anda bisa mendaftar ke Digit"
+"al Ocean menggunakan lencana di bawah ini."
+
+#: ../../../app/views/pages/faq.html.erb:280
+msgid "Password Pusher will get a hosting credit for the first $25 you spend."
+msgstr ""
+"Password Pusher akan mendapatkan kredit hosting untuk $25 pertama yang Anda be"
+"lanjakan."
+
+#: ../../../app/views/pages/faq.html.erb:289
+msgid ""
+"For other ways to support Password Pusher, see also the \"Want to help out?\" se"
+"ction"
+msgstr ""
+"Untuk cara lain untuk mendukung Password Pusher, lihat juga bagian \"Ingin memb"
+"antu?\""
+
+#: ../../../app/views/pages/faq.html.erb:290
+msgid "on the about page"
+msgstr "di halaman tentang"
+
+#: ../../../app/views/pages/faq.html.erb:291
+msgid "Thank you!"
+msgstr "Terima kasih!"
+
+#: ../../../app/views/pages/generate_key.html.erb:1
+msgid "Generate Key"
+msgstr "Hasilkan Kunci"
+
+#: ../../../app/views/pages/generate_key.html.erb:3
+msgid "Generate an Encryption Key"
+msgstr "Menghasilkan Kunci Enkripsi"
+
+#: ../../../app/views/pages/generate_key.html.erb:6
+msgid ""
+"This page is used as a helper tool to generate a random encryption key for pri"
+"vately hosted instances of Password Pusher."
+msgstr ""
+"Halaman ini digunakan sebagai alat bantu untuk menghasilkan kunci enkripsi aca"
+"k untuk instance Password Pusher yang dihosting secara pribadi."
+
+#: ../../../app/views/pages/generate_key.html.erb:10
+msgid ""
+"Password Pusher encrypts sensitive data in the database.  This requires a rand"
+"omly generated encryption key for each application instance."
+msgstr ""
+"Password Pusher mengenkripsi data sensitif di dalam basis data.  Hal ini memer"
+"lukan kunci enkripsi yang dibuat secara acak untuk setiap contoh aplikasi."
+
+#: ../../../app/views/pages/generate_key.html.erb:14
+msgid ""
+"You can use the randomly generated code below to configure your Password Pushe"
+"r instance."
+msgstr ""
+"Anda dapat menggunakan kode yang dibuat secara acak di bawah ini untuk mengonf"
+"igurasi instans Password Pusher Anda."
+
+#: ../../../app/views/pages/generate_key.html.erb:22
+msgid "Generated Encryption Key"
+msgstr "Kunci Enkripsi yang Dihasilkan"
+
+#: ../../../app/views/pages/generate_key.html.erb:26
+#: ../../../app/views/pages/generate_key.html.erb:39
+#: ../../../app/views/shared/_copy_button.html.erb:2
+#: ../../../app/views/shared/_secret_url_bar.html.erb:26
+msgid "Copy to Clipboard"
+msgstr "Menyalin ke Papan Klip"
+
+#: ../../../app/views/pages/generate_key.html.erb:32
+msgid "You can apply this key to your application by setting the environment variable"
+msgstr ""
+"Anda dapat menerapkan kunci ini ke aplikasi Anda dengan mengatur variabel ling"
+"kungan"
+
+#: ../../../app/views/pages/generate_key.html.erb:45
+msgid "Reload this page to re-generate a new key."
+msgstr "Muat ulang halaman ini untuk membuat kunci baru."
+
+#: ../../../app/views/pages/generate_key.html.erb:49
+msgid "Notes:"
+msgstr "Catatan:"
+
+#: ../../../app/views/pages/generate_key.html.erb:52
+msgid "If an encryption key isn't provided, a default key will be used."
+msgstr "Jika kunci enkripsi tidak disediakan, kunci default akan digunakan."
+
+#: ../../../app/views/pages/generate_key.html.erb:55
+msgid ""
+"The best security for private instances of Password Pusher is to use your own "
+"custom encryption key although it is not required."
+msgstr ""
+"Keamanan terbaik untuk instans pribadi Password Pusher adalah dengan menggunak"
+"an kunci enkripsi kustom Anda sendiri walaupun tidak diwajibkan."
+
+#: ../../../app/views/pages/generate_key.html.erb:58
+msgid ""
+"The risk in using the default key is lessened if you keep your instance secure"
+" and your push expirations short.  e.g.  1 day/1 view versus 100 days/100 view"
+"s."
+msgstr ""
+"Risiko menggunakan kunci default akan berkurang jika Anda menjaga keamanan ins"
+"tance dan masa berlaku push Anda pendek. misalnya 1 hari/1 tampilan versus 100"
+" hari/100 tampilan."
+
+#: ../../../app/views/pages/generate_key.html.erb:61
+msgid "Once a push expires, all encrypted data is deleted."
+msgstr "Setelah sebuah push kedaluwarsa, semua data terenkripsi akan dihapus."
+
+#: ../../../app/views/pages/generate_key.html.erb:64
+msgid ""
+"Changing an encryption key where old pushes already exist will make those olde"
+"r pushes unreadable.  In other words, the payloads will be garbled.  New pushe"
+"s going forward will work fine."
+msgstr ""
+"Mengubah kunci enkripsi di mana sudah ada push yang lama akan membuat push yan"
+"g lama tidak dapat dibaca.  Dengan kata lain, payload akan kacau.  Push baru d"
+"i masa mendatang akan bekerja dengan baik."
+
+#: ../../../app/views/pages/generate_key.html.erb:67
+msgid ""
+"Key generation can also be done from the command line in the application sourc"
+"e by executing: "
+msgstr ""
+"Pembuatan kunci juga dapat dilakukan dari baris perintah dalam sumber aplikasi"
+" dengan mengeksekusi: "
+
+#: ../../../app/views/pages/generate_key.html.erb:80
+msgid "See also the Password Pusher"
+msgstr "Lihat juga Pendorong Kata Sandi"
+
+#: ../../../app/views/pages/generate_key.html.erb:81
+msgid "Configuration documentation"
+msgstr "Dokumentasi konfigurasi"
+
+#: ../../../app/views/pages/tools.html.erb:1
+#: ../../../app/views/pages/tools.html.erb:3
+msgid "Tools & Applications"
+msgstr "Alat & Aplikasi"
+
+#: ../../../app/views/pages/tools.html.erb:5
+msgid ""
+"Using the JSON API, various tools exist to interface with Password Pusher to a"
+"utomate password distribution."
+msgstr ""
+"Dengan menggunakan API JSON, berbagai alat tersedia untuk berinteraksi dengan "
+"Password Pusher untuk mengotomatiskan distribusi kata sandi."
+
+#: ../../../app/views/pages/tools.html.erb:7
+msgid ""
+"We have no limits on how many passwords you can push (and have no intentions o"
+"f adding limits) but we do have a rate limiter so the site doesn’t get taken d"
+"own by bad scripts or bad actors.  Limit your tools to maximum 1 password ever"
+"y few seconds and you should be fine."
+msgstr ""
+"Kami tidak memiliki batasan berapa banyak kata sandi yang dapat Anda masukkan "
+"(dan tidak berniat menambah batasan) tetapi kami memiliki pembatas kecepatan s"
+"ehingga situs tidak akan diambil alih oleh skrip yang buruk atau aktor jahat. "
+" Batasi alat Anda hingga maksimum 1 kata sandi setiap beberapa detik dan Anda "
+"akan baik-baik saja."
+
+#: ../../../app/views/pages/tools.html.erb:11
+msgid "Command Line Utilities"
+msgstr "Utilitas Baris Perintah"
+
+#: ../../../app/views/pages/tools.html.erb:49
+msgid "Applications"
+msgstr "Aplikasi"
+
+#: ../../../app/views/pages/tools.html.erb:83
+msgid ""
+"This API allows you to interface with Password Pusher via JSON.  This can be u"
+"tilized by existing utilities such as curl, wget or any programming language. "
+" See the examples below for some ideas."
+msgstr ""
+"API ini memungkinkan Anda untuk berinteraksi dengan Password Pusher melalui JS"
+"ON.  Ini dapat digunakan oleh utilitas yang ada seperti curl, wget, atau bahas"
+"a pemrograman apa pun.  Lihat contoh-contoh di bawah ini untuk beberapa ide."
+
+#: ../../../app/views/pages/tools.html.erb:86
+msgid "API Endpoint Documentation"
+msgstr "Dokumentasi Titik Akhir API"
+
+#: ../../../app/views/pages/tools.html.erb:87
+msgid "Walkthrough & Examples"
+msgstr "Panduan & Contoh"
+
+#: ../../../app/views/pages/tools.html.erb:90
+msgid "Examples"
+msgstr "Contoh"
+
+#: ../../../app/views/pages/tools.html.erb:99
+msgid ""
+"You can test this in your browser Javascript console by going to the front pag"
+"e of Password Pusher and enter:"
+msgstr ""
+"Anda bisa mengujinya di konsol Javascript peramban Anda dengan membuka halaman"
+" depan Password Pusher dan masuk:"
+
+#: ../../../app/views/pages/tools.html.erb:107
+msgid "See more explanation and examples in our"
+msgstr "Lihat penjelasan dan contoh lebih lanjut di bagian"
+
+#: ../../../app/views/pages/translate.html.erb:1
+msgid "Help Translate Password Pusher!"
+msgstr "Bantu Terjemahkan Pendorong Kata Sandi!"
+
+#: ../../../app/views/pages/translate.html.erb:6
+msgid ""
+"We would love to add as many languages as possible but we need help from fluen"
+"t speakers in creating and verifying translations."
+msgstr ""
+"Kami ingin menambahkan sebanyak mungkin bahasa, namun kami membutuhkan bantuan"
+" dari penutur yang fasih dalam membuat dan memverifikasi terjemahan."
+
+#: ../../../app/views/pages/translate.html.erb:9
+msgid "How it Works"
+msgstr "Bagaimana cara kerjanya"
+
+#: ../../../app/views/pages/translate.html.erb:12
+msgid "We use"
+msgstr "Kami menggunakan"
+
+#: ../../../app/views/pages/translate.html.erb:14
+msgid "to manage our translation effort.  It has a simple to use interface."
+msgstr ""
+"untuk mengelola upaya penerjemahan kami.  Aplikasi ini memiliki antarmuka yang"
+" mudah digunakan."
+
+#: ../../../app/views/pages/translate.html.erb:18
+msgid ""
+"Translations are done initially by machine using Google Translate.  It's the t"
+"ranslators job to select the correct translation\n"
+"and add any fixes as needed."
+msgstr ""
+"Terjemahan pada awalnya dilakukan oleh mesin dengan menggunakan Google Terjema"
+"han.  Tugas penerjemah adalah memilih terjemahan yang benar\n"
+"yang benar dan menambahkan perbaikan yang diperlukan."
+
+#: ../../../app/views/pages/translate.html.erb:23
+msgid ""
+"Translations for an entirely new language can be done in less than an hour for"
+" native speakers."
+msgstr ""
+"Terjemahan untuk bahasa yang sama sekali baru dapat dilakukan dalam waktu kura"
+"ng dari satu jam untuk penutur asli."
+
+#: ../../../app/views/pages/translate.html.erb:27
+msgid "Read more: "
+msgstr "Baca selengkapnya: "
+
+#: ../../../app/views/pages/translate.html.erb:28
+msgid "How to use our translation interface?"
+msgstr "Bagaimana cara menggunakan antarmuka terjemahan kami?"
+
+#: ../../../app/views/pages/translate.html.erb:32
+msgid "How to Join"
+msgstr "Bagaimana cara bergabung"
+
+#: ../../../app/views/pages/translate.html.erb:35
+msgid "To join the translation effort:"
+msgstr "Untuk bergabung dalam upaya penerjemahan:"
+
+#: ../../../app/views/pages/translate.html.erb:40
+msgid "Register for a free account on"
+msgstr "Daftarkan diri Anda untuk mendapatkan akun gratis di"
+
+#: ../../../app/views/pages/translate.html.erb:44
+msgid "Send me a message"
+msgstr "Kirimi saya pesan"
+
+#: ../../../app/views/pages/translate.html.erb:45
+msgid ""
+"with your translation.io username and which language you would like to work on"
+"."
+msgstr ""
+"dengan nama pengguna translation.io Anda dan bahasa apa yang ingin Anda kerjak"
+"an."
+
+#: ../../../app/views/pages/translate.html.erb:50
+msgid "...and I'll add you to our translation project."
+msgstr "... dan saya akan menambahkan Anda ke dalam proyek penerjemahan kami."
+
+#: ../../../app/views/pages/translate.html.erb:54
+msgid "Translation Tips"
+msgstr "Tips Penerjemahan"
+
+#: ../../../app/views/pages/translate.html.erb:56
+msgid ""
+"If the source text is capitalized, try to maintain similar capitalization in t"
+"he translated text as well (assuming it's permitted syntactically in the targe"
+"t language)."
+msgstr ""
+"Jika teks sumber menggunakan huruf besar, cobalah untuk mempertahankan penggun"
+"aan huruf besar yang sama dalam teks terjemahan (dengan asumsi bahwa hal terse"
+"but diperbolehkan secara sintaksis dalam bahasa sasaran)."
+
+#: ../../../app/views/pages/translate.html.erb:57
+msgid ""
+"If you see embedded codes such as \"%s\", {%file} or similar, leave those fully "
+"intact in the target translation.  These are substitution codes used in the ap"
+"plication."
+msgstr ""
+"Jika Anda melihat kode yang disematkan seperti \"%s\", {%file} atau sejenisnya, "
+"biarkan kode tersebut tetap utuh dalam terjemahan target.  Ini adalah kode sub"
+"stitusi yang digunakan dalam aplikasi."
+
+#: ../../../app/views/pages/translate.html.erb:61
+msgid "Thanks for helping to translate Password Pusher!"
+msgstr "Terima kasih telah membantu menerjemahkan Password Pusher!"
+
+#: ../../../app/views/passwords/active.html.erb:1
+#: ../../../app/views/passwords/active.html.erb:18
+msgid "Active Password Pushes"
+msgstr "Dorongan Kata Sandi Aktif"
+
+#: ../../../app/views/passwords/active.html.erb:8
+msgid "You currently have no active password pushes."
+msgstr "Saat ini Anda tidak memiliki dorongan kata sandi yang aktif."
+
+#: ../../../app/views/passwords/active.html.erb:13
+msgid "Push a Password Now"
+msgstr "Masukkan Kata Sandi Sekarang"
+
+#: ../../../app/views/passwords/audit.html.erb:4
+msgid "Audit Log for Password Push"
+msgstr "Log Audit untuk Push Kata Sandi"
+
+#: ../../../app/views/passwords/audit.html.erb:36
+msgid "Password expires after this number of views."
+msgstr "Kata sandi akan kedaluwarsa setelah jumlah tampilan ini."
+
+#: ../../../app/views/passwords/audit.html.erb:45
+msgid "Password expires after this number of days."
+msgstr "Kata sandi akan kedaluwarsa setelah beberapa hari."
+
+#: ../../../app/views/passwords/audit.html.erb:58
+msgid "This allows end users to delete passwords once retrieved."
+msgstr ""
+"Hal ini memungkinkan pengguna akhir untuk menghapus kata sandi setelah diambil"
+"."
+
+#: ../../../app/views/passwords/audit.html.erb:107
+msgid "The number of times this password has been viewed before expiration."
+msgstr "Berapa kali kata sandi ini telah dilihat sebelum kedaluwarsa."
+
+#: ../../../app/views/passwords/audit.html.erb:113
+msgid "The number of times this password has been viewed after expiration."
+msgstr "Berapa kali kata sandi ini telah dilihat setelah kedaluwarsa."
+
+#: ../../../app/views/passwords/audit.html.erb:184
+msgid "Password manually expired by an anonymous user"
+msgstr "Kata sandi kedaluwarsa secara manual oleh pengguna anonim"
+
+#: ../../../app/views/passwords/expired.html.erb:1
+#: ../../../app/views/passwords/expired.html.erb:15
+msgid "Expired Password Pushes"
+msgstr "Push Kata Sandi Kedaluwarsa"
+
+#: ../../../app/views/passwords/expired.html.erb:8
+msgid "You currently have no expired password pushes."
+msgstr "Saat ini Anda tidak memiliki dorongan kata sandi yang kedaluwarsa."
+
+#: ../../../app/views/passwords/new.html.erb:1
+msgid "Securely Send a Password"
+msgstr "Mengirim Kata Sandi dengan Aman"
+
+#: ../../../app/views/passwords/new.html.erb:13
+#: ../../../app/views/passwords/new.html.erb:138
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:72
+msgid "Save"
+msgstr "Simpan"
+
+#: ../../../app/views/passwords/new.html.erb:14
+msgid "Saved!"
+msgstr "Selamat!"
+
+#: ../../../app/views/passwords/new.html.erb:37
+msgid "Enter the Password or Text to push.."
+msgstr "Masukkan Kata Sandi atau Teks untuk mendorong ..."
+
+#: ../../../app/views/passwords/new.html.erb:49
+msgid "Characters"
+msgstr "Karakter"
+
+#: ../../../app/views/passwords/new.html.erb:138
+msgid "the above settings as the page default."
+msgstr "pengaturan di atas sebagai default halaman."
+
+#: ../../../app/views/passwords/new.html.erb:150
+msgid "Generate Password"
+msgstr "Hasilkan Kata Sandi"
+
+#: ../../../app/views/passwords/new.html.erb:157
+msgid "Use the button above to generate a random password."
+msgstr "Gunakan tombol di atas untuk membuat kata sandi acak."
+
+#: ../../../app/views/passwords/new.html.erb:173
+msgid ""
+"Tip: Only enter a password into the box.  Other identifying information can co"
+"mpromise security."
+msgstr ""
+"Tip: Hanya masukkan kata sandi ke dalam kotak.  Informasi pengenal lainnya dap"
+"at membahayakan keamanan."
+
+#: ../../../app/views/passwords/new.html.erb:174
+msgid ""
+"All passwords are encrypted prior to storage and are available to only those w"
+"ith the secret link.  Once expired, encrypted passwords are unequivocally dele"
+"ted from the database."
+msgstr ""
+"Semua kata sandi dienkripsi sebelum disimpan dan hanya tersedia bagi mereka ya"
+"ng memiliki tautan rahasia.  Setelah kedaluwarsa, kata sandi terenkripsi akan "
+"dihapus dari basis data."
+
+#: ../../../app/views/passwords/preview.html.erb:1
+msgid "Your Password has been Pushed"
+msgstr "Kata Sandi Anda Telah Ditekan"
+
+#: ../../../app/views/passwords/preview.html.erb:12
+msgid "This newly pushed password will expire after"
+msgstr "Kata sandi yang baru didorong ini akan kedaluwarsa setelah"
+
+#: ../../../app/views/passwords/preview.html.erb:30
+msgid "View This Password Now"
+msgstr "Lihat Kata Sandi Ini Sekarang"
+
+#: ../../../app/views/passwords/preview.html.erb:31
+msgid "Push Another Password"
+msgstr "Dorong Kata Sandi Lain"
+
+#: ../../../app/views/passwords/show.html.erb:7
+msgid ""
+"Please obtain and securely store this content in a secure manner, such as in a"
+" password manager."
+msgstr ""
+"Dapatkan dan simpanlah konten ini dengan cara yang aman, seperti di pengelola "
+"kata sandi."
+
+#: ../../../app/views/passwords/show.html.erb:9
+msgid "Your password is blurred out.  Click below to reveal it."
+msgstr "Kata sandi Anda kabur.  Klik di bawah ini untuk mengungkapkannya."
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:3
+#: ../../../app/views/shared/_header.html.erb:30
+msgid "Dashboard"
+msgstr "Dasbor"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:10
+#: ../../../app/views/shared/_topnav.html.erb:4
+msgid "Passwords"
+msgstr "Kata sandi"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:14
+#: ../../../app/views/shared/_topnav.html.erb:8
+msgid "Files"
+msgstr "File"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:19
+#: ../../../app/views/shared/_topnav.html.erb:13
+msgid "URLs"
+msgstr "URL"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:36
+#: ../../../app/views/shared/_dashboard_header.html.erb:38
+#: ../../../app/views/shared/_dashboard_header.html.erb:40
+msgid "New"
+msgstr "Baru"
+
+#: ../../../app/views/shared/_footer.html.erb:5
+msgid "Peter"
+msgstr "Peter"
+
+#: ../../../app/views/shared/_footer.html.erb:23
+msgid "Front Page"
+msgstr "Halaman Depan"
+
+#: ../../../app/views/shared/_footer.html.erb:31
+msgid "Docker Containers"
+msgstr "Wadah Docker"
+
+#: ../../../app/views/shared/_footer.html.erb:36
+msgid "JSON API"
+msgstr "API JSON"
+
+#: ../../../app/views/shared/_footer.html.erb:37
+msgid "Key Generator"
+msgstr "Generator Kunci"
+
+#: ../../../app/views/shared/_footer.html.erb:40
+msgid "Source Code"
+msgstr "Kode Sumber"
+
+#: ../../../app/views/shared/_footer.html.erb:52
+msgid "Overview"
+msgstr "Ikhtisar"
+
+#: ../../../app/views/shared/_footer.html.erb:53
+msgid "Help Translate!"
+msgstr "Tolong terjemahkan!"
+
+#: ../../../app/views/shared/_header.html.erb:37
+msgid "Account"
+msgstr "Akun"
+
+#: ../../../app/views/shared/_header.html.erb:41
+msgid "Edit Login Details"
+msgstr "Mengedit Detail Login"
+
+#: ../../../app/views/shared/_header.html.erb:47
+msgid "Log Out"
+msgstr "Log Out"
+
+#: ../../../app/views/shared/_header.html.erb:53
+msgid "Log In"
+msgstr "Masuk"
+
+#: ../../../app/views/shared/_header.html.erb:57
+msgid "Sign Up"
+msgstr "Daftar"
+
+#: ../../../app/views/shared/_lang_selector_modal.erb:6
+msgid "Select your language"
+msgstr "Pilih bahasa Anda"
+
+#: ../../../app/views/shared/_newsletter_sign_up.html.erb:3
+msgid "Get The Newsletter"
+msgstr "Dapatkan Buletin"
+
+#: ../../../app/views/shared/_newsletter_sign_up.html.erb:5
+msgid ""
+"Updates on big releases, security issues, features, integrations, tips and mor"
+"e."
+msgstr ""
+"Pembaruan tentang rilis besar, masalah keamanan, fitur, integrasi, tips, dan l"
+"ainnya."
+
+#: ../../../app/views/shared/_newsletter_sign_up.html.erb:14
+msgid "Enter your email..."
+msgstr "Masukkan email Anda..."
+
+#: ../../../app/views/shared/_newsletter_sign_up.html.erb:15
+msgid "Subscribe"
+msgstr "Berlangganan"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:5
+msgid "Configure Password Generation"
+msgstr "Mengonfigurasi Pembuatan Kata Sandi"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:11
+msgid "Test Area"
+msgstr "Area Uji"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:16
+msgid "Number of Syllables"
+msgstr "Jumlah Suku Kata"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:20
+msgid "Minimum Syllable Length"
+msgstr "Panjang Suku Kata Minimum"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:24
+msgid "Maximum Syllable Length"
+msgstr "Panjang Suku Kata Maksimum"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:31
+msgid "Include numbers"
+msgstr "Sertakan nomor"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:35
+msgid "Use Titlecase"
+msgstr "Gunakan Titlecase"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:39
+msgid "Use Separators"
+msgstr "Gunakan Pemisah"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:43
+msgid "Test"
+msgstr "Tes"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:50
+msgid "Separators"
+msgstr "Pemisah"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:56
+msgid "Vowels"
+msgstr "Vokal"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:62
+msgid "Consonants"
+msgstr "Konsonan"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:71
+msgid "Reset to Defaults"
+msgstr "Atur Ulang ke Default"
+
+#: ../../../app/views/shared/_secret_url_bar.html.erb:13
+msgid "Secret Link Language"
+msgstr "Bahasa Tautan Rahasia"
+
+#: ../../../app/views/urls/active.html.erb:1
+#: ../../../app/views/urls/active.html.erb:18
+msgid "Active URL Pushes"
+msgstr "Dorongan URL Aktif"
+
+#: ../../../app/views/urls/active.html.erb:8
+msgid "You currently have no active URL pushes."
+msgstr "Saat ini Anda tidak memiliki dorongan URL yang aktif."
+
+#: ../../../app/views/urls/active.html.erb:13
+#: ../../../app/views/urls/expired.html.erb:10
+msgid "Push a URL Now"
+msgstr "Dorong URL Sekarang"
+
+#: ../../../app/views/urls/audit.html.erb:4
+msgid "Audit Log for URL Push"
+msgstr "Log Audit untuk URL Push"
+
+#: ../../../app/views/urls/audit.html.erb:126
+msgid "Delete This URL Push?"
+msgstr "Hapus Push URL Ini?"
+
+#: ../../../app/views/urls/audit.html.erb:165
+msgid "URL Push manually expired by user"
+msgstr "URL Push secara manual kedaluwarsa oleh pengguna"
+
+#: ../../../app/views/urls/expired.html.erb:1
+#: ../../../app/views/urls/expired.html.erb:14
+msgid "Expired URL Pushes"
+msgstr "Push URL Kedaluwarsa"
+
+#: ../../../app/views/urls/expired.html.erb:7
+msgid "You currently have no expired URL pushes."
+msgstr "Saat ini Anda tidak memiliki push URL kedaluwarsa."
+
+#: ../../../app/views/urls/new.html.erb:1
+msgid "Securely Send URLs"
+msgstr "Kirim URL dengan aman"
+
+#: ../../../app/views/urls/new.html.erb:25
+msgid "URL Redirection"
+msgstr "Pengalihan URL"
+
+#: ../../../app/views/urls/new.html.erb:29
+msgid "Enter the URL to redirect to..."
+msgstr "Masukkan URL yang akan dialihkan ke..."
+
+#: ../../../app/views/urls/new.html.erb:91
+msgid "Helps to avoid chat systems and URL scanners from eating up redirects."
+msgstr "Membantu menghindari sistem obrolan dan pemindai URL memakan pengalihan."
+
+#: ../../../app/views/urls/new.html.erb:123
+msgid "A secret URL will be generated that will redirect to the URL specified."
+msgstr "URL rahasia akan dibuat yang akan mengarahkan ke URL yang ditentukan."
+
+#: ../../../app/views/urls/new.html.erb:128
+msgid "Upon expiration, the push URL will be deleted entirely."
+msgstr "Setelah kedaluwarsa, URL push akan dihapus seluruhnya."
+
+#: ../../../app/views/urls/new_anonymous.html.erb:1
+msgid "Securely Share URLs"
+msgstr "Membagikan URL dengan Aman"
+
+#: ../../../app/views/urls/new_anonymous.html.erb:9
+msgid "Securely Send URLs That Expire Automatically"
+msgstr "Kirim URL yang Kedaluwarsa Secara Otomatis dengan Aman"

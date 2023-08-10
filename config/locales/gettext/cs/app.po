@@ -1,0 +1,2685 @@
+# Czech translations for PasswordPusher package.
+# Copyright (C) 2023 PasswordPusher
+# This file is distributed under the same license as the PasswordPusher package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PasswordPusher 1.0\n"
+"Report-Msgid-Bugs-To: contact@translation.io\n"
+"POT-Creation-Date: 2023-08-03 12:10+0200\n"
+"PO-Revision-Date: 2023-08-03 12:10+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Czech\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1)?0:((n>=2&&n<=4)?1:2);\n"
+"\n"
+
+#: ../../../app/controllers/application_controller.rb:20
+msgid "Not Found"
+msgstr "Nenalezeno"
+
+#: ../../../app/controllers/feedbacks_controller.rb:12
+msgid ""
+"Our apologies but you failed the spam check.  You could try contacting us on G"
+"ithub instead."
+msgstr ""
+"Omlouváme se, ale neprošel jste kontrolou spamu. Místo toho nás můžete zkusit "
+"kontaktovat na Github."
+
+#: ../../../app/controllers/feedbacks_controller.rb:17
+msgid "Feedback sent!  We will get back to you as soon as possible."
+msgstr "Zpětná vazba byla odeslána! Ozveme se vám co nejdříve."
+
+#: ../../../app/controllers/feedbacks_controller.rb:19
+msgid ""
+"Could not send feedback.  Did you pass the Humanity Test?  Valid email?  Try a"
+"gain?"
+msgstr ""
+"Zpětnou vazbu se nepodařilo odeslat. Prošli jste testem lidskosti? Platný emai"
+"l? Zkus to znovu?"
+
+#: ../../../app/controllers/file_pushes_controller.rb:160
+#: ../../../app/controllers/passwords_controller.rb:159
+#: ../../../app/controllers/urls_controller.rb:150
+msgid ""
+"That passphrase is incorrect.  Please try again or contact the person or organ"
+"ization that sent you this link."
+msgstr ""
+"Tato přístupová fráze je nesprávná. Zkuste to prosím znovu nebo kontaktujte os"
+"obu či organizaci, která vám poslala tento odkaz."
+
+#: ../../../app/controllers/file_pushes_controller.rb:221
+msgid ""
+"Only 10 active file pushes allowed while in Beta and until things are stable. "
+"If it's an option, you can manually expire existing pushes before creating new"
+" ones."
+msgstr ""
+"V beta verzi a dokud nebudou věci stabilní, je povoleno pouze 10 aktivních vlo"
+"žení souborů. Pokud je to možnost, můžete před vytvořením nových ručně ukončit"
+" platnost stávajících push."
+
+#: ../../../app/controllers/file_pushes_controller.rb:315
+#: ../../../app/controllers/passwords_controller.rb:297
+#: ../../../app/controllers/urls_controller.rb:290
+msgid "That push doesn't belong to you."
+msgstr "Ten tlak ti nepatří."
+
+#: ../../../app/controllers/file_pushes_controller.rb:345
+#: ../../../app/controllers/passwords_controller.rb:327
+#: ../../../app/controllers/urls_controller.rb:320
+#: ../../../app/controllers/urls_controller.rb:324
+msgid "That push does not belong to you."
+msgstr "Ten tlak vám nepatří."
+
+#: ../../../app/controllers/file_pushes_controller.rb:350
+#: ../../../app/controllers/passwords_controller.rb:332
+msgid "That push is not deletable by viewers."
+msgstr "Tento push není pro diváky smazatelný."
+
+#: ../../../app/controllers/file_pushes_controller.rb:356
+#: ../../../app/controllers/file_pushes_controller.rb:357
+#: ../../../app/controllers/passwords_controller.rb:338
+#: ../../../app/controllers/passwords_controller.rb:339
+#: ../../../app/controllers/urls_controller.rb:330
+#: ../../../app/controllers/urls_controller.rb:331
+msgid "That push is already expired."
+msgstr "Platnost tohoto podnětu již vypršela."
+
+#: ../../../app/controllers/file_pushes_controller.rb:375
+#: ../../../app/controllers/file_pushes_controller.rb:378
+#: ../../../app/controllers/passwords_controller.rb:356
+#: ../../../app/controllers/passwords_controller.rb:359
+#: ../../../app/controllers/urls_controller.rb:348
+#: ../../../app/controllers/urls_controller.rb:351
+#: ../../../app/views/file_pushes/audit.html.erb:97
+#: ../../../app/views/file_pushes/audit.html.erb:254
+#: ../../../app/views/passwords/audit.html.erb:97
+#: ../../../app/views/passwords/audit.html.erb:188
+#: ../../../app/views/urls/audit.html.erb:84
+#: ../../../app/views/urls/audit.html.erb:170
+msgid "The push content has been deleted and the secret URL expired."
+msgstr "Push obsah byl smazán a platnost tajné adresy URL vypršela."
+
+#: ../../../app/controllers/urls_controller.rb:201
+msgid "Invalid URL: Must have a valid URI scheme."
+msgstr "Neplatná adresa URL: Musí mít platné schéma URI."
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:8
+#: ../../../app/views/devise/mailer/email_changed.html.erb:8
+#: ../../../app/views/devise/mailer/password_change.html.erb:8
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:8
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:8
+#: ../../../app/views/layouts/application.html.erb:8
+#: ../../../app/views/layouts/bare.html.erb:8
+#: ../../../app/views/layouts/login.html.erb:8
+#: ../../../app/views/layouts/naked.html.erb:8
+msgid ""
+"Password Pusher is an application to securely send passwords over the web. Lin"
+"ks to passwords expire after a certain number of views and/or time has passed."
+msgstr ""
+"Password Pusher je aplikace pro bezpečné odesílání hesel přes web. Platnost od"
+"kazů na hesla vyprší po určitém počtu zobrazení a/nebo uplynutí určitého času."
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:23
+msgid "Confirm your new account"
+msgstr "Potvrďte svůj nový účet"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:24
+msgid ""
+"Your account has been created but you must confirm that you own this email add"
+"ress."
+msgstr ""
+"Váš účet byl vytvořen, ale musíte potvrdit, že tuto e-mailovou adresu vlastnít"
+"e."
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:27
+msgid "You can confirm your account email by"
+msgstr "E-mail svého účtu můžete potvrdit pomocí"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:28
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:27
+msgid "by clicking this link"
+msgstr "kliknutím na tento odkaz"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:29
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:28
+msgid "or by copying and pasting the following URL into your browser:"
+msgstr "nebo zkopírováním a vložením následující adresy URL do vašeho prohlížeče:"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:36
+msgid "If you didn't create an account, no action is required."
+msgstr "Pokud jste si nevytvořili účet, není vyžadována žádná akce."
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:24
+msgid "Your email is being changed"
+msgstr "Váš email se mění"
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:26
+msgid "We're contacting you to notify you that your email at"
+msgstr "Obracíme se na vás, abychom vám oznámili, že váš e-mail na adrese"
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:30
+msgid "is being changed to %s"
+msgstr "se mění na %s"
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:32
+msgid "has been changed to %s"
+msgstr "byl změněn na %s"
+
+#: ../../../app/views/devise/mailer/password_change.html.erb:23
+msgid "Password Change"
+msgstr "Změna hesla"
+
+#: ../../../app/views/devise/mailer/password_change.html.erb:25
+msgid "We're contacting you to notify you that your password has been changed on"
+msgstr "Obracíme se na vás, abychom vás informovali, že vaše heslo bylo změněno dne"
+
+#: ../../../app/views/devise/mailer/password_change.html.erb:28
+msgid ""
+"If you didn't initiate this and it wasn't your intention, please contact us as"
+" soon as possible."
+msgstr "Pokud jste to neiniciovali a nebyl to váš záměr, kontaktujte nás co nejdříve."
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:24
+msgid "Password Change Request"
+msgstr "Žádost o změnu hesla"
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:26
+msgid ""
+"Someone has requested a link to change your password. You can proceed with thi"
+"s action"
+msgstr "Někdo si vyžádal odkaz pro změnu vašeho hesla. V této akci můžete pokračovat"
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:36
+msgid "If you didn't request this change, you can safely delete this email."
+msgstr "Pokud jste o tuto změnu nepožádali, můžete tento e-mail bezpečně smazat."
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:37
+msgid ""
+"Your password won't change until you access the link above and create a new on"
+"e."
+msgstr ""
+"Vaše heslo se nezmění, dokud nevstoupíte na výše uvedený odkaz a nevytvoříte s"
+"i nové."
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:23
+msgid "Unlock Your Account"
+msgstr "Odemkněte svůj účet"
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:26
+msgid ""
+"Your account has been locked due to an excessive number of unsuccessful sign i"
+"n attempts."
+msgstr ""
+"Váš účet byl uzamčen z důvodu nadměrného počtu neúspěšných pokusů o přihlášení"
+"."
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:30
+msgid "Click this link"
+msgstr "Klikněte na tento odkaz"
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:31
+msgid ""
+"to unlock your account or by copying and pasting the following URL into your b"
+"rowser:"
+msgstr ""
+"k odemknutí účtu nebo zkopírováním a vložením následující adresy URL do prohlí"
+"žeče:"
+
+#: ../../../app/views/devise/passwords/edit.html.erb:9
+msgid "New password"
+msgstr "Nové heslo"
+
+#: ../../../app/views/devise/passwords/edit.html.erb:14
+msgid "Confirm new password"
+msgstr "Potvrdit nové heslo"
+
+#: ../../../app/views/devise/passwords/edit.html.erb:19
+msgid "A minimum of %d characters is required but the more the better."
+msgstr "Minimální vyžadovaný počet znaků: %d. Ale čím více, tím lépe."
+
+#: ../../../app/views/devise/registrations/edit.html.erb:10
+msgid "Change Email"
+msgstr "Změnit e-mail"
+
+#: ../../../app/views/devise/registrations/edit.html.erb:39
+msgid "Current Password"
+msgstr "Současné heslo"
+
+#: ../../../app/views/devise/registrations/token.html.erb:2
+#: ../../../app/views/shared/_header.html.erb:44
+msgid "API Token"
+msgstr "API Token"
+
+#: ../../../app/views/devise/registrations/token.html.erb:4
+msgid ""
+"This token is specific to your account.  It can be used with command line appl"
+"ications, the JSON API, 3rd party integrations and more."
+msgstr ""
+"Tento token je specifický pro váš účet. Lze jej použít s aplikacemi příkazovéh"
+"o řádku, rozhraním JSON API, integracemi třetích stran a dalšími."
+
+#: ../../../app/views/devise/registrations/token.html.erb:7
+msgid "Make sure to keep this token secure.  It provides full access to your account."
+msgstr ""
+"Ujistěte se, že je tento token zabezpečený. Poskytuje plný přístup k vašemu úč"
+"tu."
+
+#: ../../../app/views/devise/registrations/token.html.erb:10
+msgid ""
+"If needed, you can regenerate a new token below which will invalidate this exi"
+"sting token."
+msgstr ""
+"V případě potřeby můžete znovu vygenerovat nový token, který zneplatní stávají"
+"cí token."
+
+#: ../../../app/views/devise/registrations/token.html.erb:14
+#: ../../../app/views/file_pushes/show.html.erb:4
+#: ../../../app/views/passwords/show.html.erb:3
+msgid "Copied!"
+msgstr "Zkopírováno!"
+
+#: ../../../app/views/devise/registrations/token.html.erb:15
+msgid "Your API token is blurred out.  Click below to reveal it."
+msgstr "Váš token API je rozmazaný. Kliknutím níže jej odhalíte."
+
+#: ../../../app/views/devise/registrations/token.html.erb:27
+msgid "To delete this token and regenerate a new one, use the button below."
+msgstr "Chcete-li tento token smazat a vygenerovat nový, použijte tlačítko níže."
+
+#: ../../../app/views/devise/registrations/token.html.erb:30
+msgid ""
+"Note that this will invalidate any tools that may be using the existing key an"
+"d will have to be updated with the new token."
+msgstr ""
+"Všimněte si, že to znehodnotí všechny nástroje, které mohou používat stávající"
+" klíč a bude nutné je aktualizovat pomocí nového tokenu."
+
+#: ../../../app/views/devise/registrations/token.html.erb:34
+msgid "Regenerate Token"
+msgstr "Obnovit token"
+
+#: ../../../app/views/devise/registrations/token.html.erb:42
+msgid "Delete and generate a new API token?"
+msgstr "Smazat a vygenerovat nový token API?"
+
+#: ../../../app/views/devise/registrations/token.html.erb:46
+msgid "This will delete this token and "
+msgstr "Tím smažete tento token a"
+
+#: ../../../app/views/devise/registrations/token.html.erb:47
+msgid "invalidate any tools that may be using it"
+msgstr "zrušit platnost všech nástrojů, které jej mohou používat"
+
+#: ../../../app/views/devise/registrations/token.html.erb:48
+msgid "A new token will be generated in its place."
+msgstr "Na jeho místo bude vygenerován nový token."
+
+#: ../../../app/views/devise/registrations/token.html.erb:49
+#: ../../../app/views/file_pushes/audit.html.erb:214
+#: ../../../app/views/file_pushes/show.html.erb:74
+#: ../../../app/views/passwords/audit.html.erb:145
+#: ../../../app/views/passwords/show.html.erb:58
+#: ../../../app/views/urls/audit.html.erb:132
+msgid "Are you sure?"
+msgstr "Jste si jistí?"
+
+#: ../../../app/views/devise/registrations/token.html.erb:52
+#: ../../../app/views/file_pushes/audit.html.erb:217
+#: ../../../app/views/file_pushes/show.html.erb:77
+#: ../../../app/views/passwords/audit.html.erb:148
+#: ../../../app/views/passwords/show.html.erb:61
+#: ../../../app/views/urls/audit.html.erb:135
+msgid "Cancel"
+msgstr "Storno"
+
+#: ../../../app/views/devise/registrations/token.html.erb:53
+msgid "Delete & Regenerate"
+msgstr "Smazat a obnovit"
+
+#: ../../../app/views/devise/registrations/token.html.erb:53
+#: ../../../app/views/file_pushes/audit.html.erb:218
+#: ../../../app/views/file_pushes/show.html.erb:78
+#: ../../../app/views/passwords/audit.html.erb:149
+#: ../../../app/views/passwords/show.html.erb:62
+#: ../../../app/views/urls/audit.html.erb:136
+msgid "Processing..."
+msgstr "Zpracovává se..."
+
+#: ../../../app/views/devise/sessions/new.html.erb:7
+#: ../../../app/views/feedbacks/new.html.erb:20
+msgid "Email"
+msgstr "E-mail"
+
+#: ../../../app/views/devise/sessions/new.html.erb:12
+msgid "Password"
+msgstr "Heslo"
+
+#: ../../../app/views/devise/shared/_links.html.erb:39
+#: ../../../app/views/shared/_header.html.erb:65
+msgid "Language"
+msgstr "Jazyk"
+
+#: ../../../app/views/feedbacks/new.html.erb:1
+#: ../../../app/views/feedbacks/new.html.erb:2
+#: ../../../app/views/feedbacks/new.html.erb:42
+#: ../../../app/views/shared/_footer.html.erb:54
+msgid "Send Feedback"
+msgstr "Poslat zpětnou vazbu"
+
+#: ../../../app/views/feedbacks/new.html.erb:8
+msgid ""
+"Have an idea or wish?  Something you don't like?  Want to help out?  We want t"
+"o hear it!"
+msgstr "Máte nápad nebo přání? Něco co se ti nelíbí? Chcete pomoci? Chceme to slyšet!"
+
+#: ../../../app/views/feedbacks/new.html.erb:15
+msgid "Your Name"
+msgstr "Tvé jméno"
+
+#: ../../../app/views/feedbacks/new.html.erb:29
+msgid "What is one hundred minus 5?"
+msgstr "Kolik je sto mínus 5?"
+
+#: ../../../app/views/feedbacks/new.html.erb:34
+msgid ""
+"Tip: Copy your message to the clipboard in the unlikely chance submission fail"
+"s."
+msgstr ""
+"Tip: Zkopírujte zprávu do schránky v případě nepravděpodobného selhání odeslán"
+"í."
+
+#: ../../../app/views/feedbacks/new.html.erb:39
+msgid "Leave this field blank!"
+msgstr "Nechte toto pole prázdné!"
+
+#: ../../../app/views/file_pushes/active.html.erb:1
+#: ../../../app/views/file_pushes/active.html.erb:18
+msgid "Active File Pushes"
+msgstr "Aktivní vložení souboru"
+
+#: ../../../app/views/file_pushes/active.html.erb:8
+msgid "You currently have no active file pushes."
+msgstr "Momentálně nemáte žádné aktivní odesílání souborů."
+
+#: ../../../app/views/file_pushes/active.html.erb:13
+msgid "Push Some Files Now"
+msgstr "Push Some Files Now"
+
+#: ../../../app/views/file_pushes/active.html.erb:20
+#: ../../../app/views/file_pushes/expired.html.erb:16
+#: ../../../app/views/passwords/active.html.erb:20
+#: ../../../app/views/passwords/expired.html.erb:17
+#: ../../../app/views/urls/active.html.erb:20
+#: ../../../app/views/urls/expired.html.erb:16
+msgid "Active Pushes"
+msgstr "Aktivní tlačí"
+
+#: ../../../app/views/file_pushes/active.html.erb:23
+#: ../../../app/views/passwords/active.html.erb:23
+#: ../../../app/views/urls/active.html.erb:23
+msgid "Push ID"
+msgstr "Push ID"
+
+#: ../../../app/views/file_pushes/active.html.erb:24
+#: ../../../app/views/passwords/active.html.erb:24
+#: ../../../app/views/urls/active.html.erb:24
+msgid "Created"
+msgstr "Vytvořeno"
+
+#: ../../../app/views/file_pushes/active.html.erb:25
+#: ../../../app/views/file_pushes/expired.html.erb:20
+#: ../../../app/views/passwords/active.html.erb:25
+#: ../../../app/views/passwords/expired.html.erb:21
+#: ../../../app/views/urls/active.html.erb:25
+#: ../../../app/views/urls/expired.html.erb:20
+msgid "Note"
+msgstr "Poznámka"
+
+#: ../../../app/views/file_pushes/active.html.erb:26
+msgid "File Count"
+msgstr "Počet souborů"
+
+#: ../../../app/views/file_pushes/active.html.erb:27
+#: ../../../app/views/file_pushes/new.html.erb:10
+#: ../../../app/views/file_pushes/new.html.erb:77
+#: ../../../app/views/passwords/active.html.erb:26
+#: ../../../app/views/passwords/new.html.erb:10
+#: ../../../app/views/passwords/new.html.erb:87
+#: ../../../app/views/urls/active.html.erb:26
+#: ../../../app/views/urls/new.html.erb:10
+#: ../../../app/views/urls/new.html.erb:72
+msgid "Views"
+msgstr "Pohledy"
+
+#: ../../../app/views/file_pushes/active.html.erb:28
+#: ../../../app/views/file_pushes/new.html.erb:6
+#: ../../../app/views/file_pushes/new.html.erb:59
+#: ../../../app/views/passwords/active.html.erb:27
+#: ../../../app/views/passwords/new.html.erb:6
+#: ../../../app/views/passwords/new.html.erb:70
+#: ../../../app/views/urls/active.html.erb:27
+#: ../../../app/views/urls/new.html.erb:6
+#: ../../../app/views/urls/new.html.erb:53
+msgid "Days"
+msgstr "Dní"
+
+#: ../../../app/views/file_pushes/active.html.erb:39
+#: ../../../app/views/file_pushes/audit.html.erb:19
+#: ../../../app/views/file_pushes/audit.html.erb:270
+#: ../../../app/views/file_pushes/audit.html.erb:282
+#: ../../../app/views/file_pushes/expired.html.erb:31
+#: ../../../app/views/passwords/active.html.erb:38
+#: ../../../app/views/passwords/audit.html.erb:19
+#: ../../../app/views/passwords/audit.html.erb:204
+#: ../../../app/views/passwords/audit.html.erb:216
+#: ../../../app/views/passwords/expired.html.erb:32
+#: ../../../app/views/urls/active.html.erb:38
+#: ../../../app/views/urls/audit.html.erb:19
+#: ../../../app/views/urls/audit.html.erb:186
+#: ../../../app/views/urls/audit.html.erb:198
+#: ../../../app/views/urls/expired.html.erb:31
+msgid "None"
+msgstr "Žádný"
+
+#: ../../../app/views/file_pushes/active.html.erb:50
+#: ../../../app/views/passwords/active.html.erb:48
+#: ../../../app/views/urls/active.html.erb:48
+msgid "Push Controls"
+msgstr "Push Controls"
+
+#: ../../../app/views/file_pushes/active.html.erb:52
+#: ../../../app/views/passwords/active.html.erb:50
+#: ../../../app/views/urls/active.html.erb:50
+msgid "Preview"
+msgstr "Náhled"
+
+#: ../../../app/views/file_pushes/active.html.erb:55
+#: ../../../app/views/passwords/active.html.erb:53
+#: ../../../app/views/urls/active.html.erb:53
+msgid "Audit"
+msgstr "Kontrola"
+
+#: ../../../app/views/file_pushes/audit.html.erb:1
+#: ../../../app/views/passwords/audit.html.erb:1
+#: ../../../app/views/urls/audit.html.erb:1
+msgid "Audit Log for %s"
+msgstr "Kontrolní záznam pro %s"
+
+#: ../../../app/views/file_pushes/audit.html.erb:4
+msgid "Audit Log for File Push"
+msgstr "Protokol auditu pro soubor Push"
+
+#: ../../../app/views/file_pushes/audit.html.erb:6
+#: ../../../app/views/passwords/audit.html.erb:6
+#: ../../../app/views/urls/audit.html.erb:6
+msgid "Pushed on %s"
+msgstr "Zatlačeno na %s"
+
+#: ../../../app/views/file_pushes/audit.html.erb:9
+#: ../../../app/views/passwords/audit.html.erb:9
+#: ../../../app/views/urls/audit.html.erb:9
+msgid "Secret URL for this push"
+msgstr "Tajná adresa URL pro tento push"
+
+#: ../../../app/views/file_pushes/audit.html.erb:15
+#: ../../../app/views/file_pushes/new.html.erb:139
+#: ../../../app/views/passwords/audit.html.erb:15
+#: ../../../app/views/passwords/new.html.erb:162
+#: ../../../app/views/urls/audit.html.erb:15
+#: ../../../app/views/urls/new.html.erb:112
+msgid "Reference Note"
+msgstr "Referenční poznámka"
+
+#: ../../../app/views/file_pushes/audit.html.erb:16
+#: ../../../app/views/passwords/audit.html.erb:16
+#: ../../../app/views/urls/audit.html.erb:16
+msgid "Visible Only To You"
+msgstr "Viditelné pouze pro vás"
+
+#: ../../../app/views/file_pushes/audit.html.erb:28
+#: ../../../app/views/passwords/audit.html.erb:28
+#: ../../../app/views/urls/audit.html.erb:28
+msgid "Settings"
+msgstr "Nastavení"
+
+#: ../../../app/views/file_pushes/audit.html.erb:32
+#: ../../../app/views/file_pushes/audit.html.erb:41
+#: ../../../app/views/passwords/audit.html.erb:32
+#: ../../../app/views/passwords/audit.html.erb:41
+#: ../../../app/views/urls/audit.html.erb:32
+#: ../../../app/views/urls/audit.html.erb:41
+msgid "Expire after"
+msgstr "Vyprší po"
+
+#: ../../../app/views/file_pushes/audit.html.erb:34
+#: ../../../app/views/file_pushes/new.html.erb:9
+#: ../../../app/views/passwords/audit.html.erb:34
+#: ../../../app/views/passwords/new.html.erb:9
+#: ../../../app/views/urls/audit.html.erb:34
+#: ../../../app/views/urls/new.html.erb:9
+msgid "View"
+msgid_plural "Views"
+msgstr[0] "Pohled"
+msgstr[1] "Pohledy"
+msgstr[2] "Pohledy"
+
+#: ../../../app/views/file_pushes/audit.html.erb:36
+#: ../../../app/views/urls/audit.html.erb:36
+msgid "The push expires after this number of views."
+msgstr "Po tomto počtu zobrazení vyprší platnost push."
+
+#: ../../../app/views/file_pushes/audit.html.erb:43
+#: ../../../app/views/file_pushes/new.html.erb:5
+#: ../../../app/views/passwords/audit.html.erb:43
+#: ../../../app/views/passwords/new.html.erb:5
+#: ../../../app/views/urls/audit.html.erb:43
+#: ../../../app/views/urls/new.html.erb:5
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Den"
+msgstr[1] "Dny"
+msgstr[2] "Dní"
+
+#: ../../../app/views/file_pushes/audit.html.erb:45
+#: ../../../app/views/urls/audit.html.erb:45
+msgid "The push expires after this number of days."
+msgstr "Platnost push vyprší po tomto počtu dní."
+
+#: ../../../app/views/file_pushes/audit.html.erb:50
+#: ../../../app/views/passwords/audit.html.erb:50
+msgid "Deletable by Viewers"
+msgstr "Smazatelné prohlížejícími"
+
+#: ../../../app/views/file_pushes/audit.html.erb:53
+#: ../../../app/views/file_pushes/audit.html.erb:66
+#: ../../../app/views/passwords/audit.html.erb:53
+#: ../../../app/views/passwords/audit.html.erb:66
+#: ../../../app/views/urls/audit.html.erb:53
+msgid "True"
+msgstr "Skutečný"
+
+#: ../../../app/views/file_pushes/audit.html.erb:55
+#: ../../../app/views/file_pushes/audit.html.erb:68
+#: ../../../app/views/passwords/audit.html.erb:55
+#: ../../../app/views/passwords/audit.html.erb:68
+#: ../../../app/views/urls/audit.html.erb:55
+msgid "False"
+msgstr "Nepravdivé"
+
+#: ../../../app/views/file_pushes/audit.html.erb:58
+msgid "This allows end users to delete content once retrieved."
+msgstr "To umožňuje koncovým uživatelům smazat obsah po načtení."
+
+#: ../../../app/views/file_pushes/audit.html.erb:63
+#: ../../../app/views/passwords/audit.html.erb:63
+#: ../../../app/views/urls/audit.html.erb:50
+msgid "1-click Retrieval Step"
+msgstr "Získání na jedno kliknutí"
+
+#: ../../../app/views/file_pushes/audit.html.erb:71
+#: ../../../app/views/file_pushes/new.html.erb:96
+#: ../../../app/views/passwords/audit.html.erb:71
+#: ../../../app/views/passwords/new.html.erb:106
+#: ../../../app/views/urls/audit.html.erb:58
+msgid "Helps to avoid chat systems and URL scanners from eating up views."
+msgstr ""
+"Pomáhá předcházet tomu, aby chatovací systémy a skenery adres URL spotřebováva"
+"ly pohledy."
+
+#: ../../../app/views/file_pushes/audit.html.erb:76
+#: ../../../app/views/file_pushes/new.html.erb:117
+#: ../../../app/views/passwords/audit.html.erb:76
+#: ../../../app/views/passwords/new.html.erb:127
+#: ../../../app/views/urls/audit.html.erb:63
+#: ../../../app/views/urls/new.html.erb:101
+msgid "Passphrase Lockdown"
+msgstr "Uzamčení přístupové fráze"
+
+#: ../../../app/views/file_pushes/audit.html.erb:79
+#: ../../../app/views/file_pushes/audit.html.erb:137
+#: ../../../app/views/passwords/audit.html.erb:79
+#: ../../../app/views/urls/audit.html.erb:66
+msgid "No"
+msgstr "Ne"
+
+#: ../../../app/views/file_pushes/audit.html.erb:81
+#: ../../../app/views/file_pushes/audit.html.erb:139
+#: ../../../app/views/passwords/audit.html.erb:81
+#: ../../../app/views/urls/audit.html.erb:68
+msgid "Yes"
+msgstr "Ano"
+
+#: ../../../app/views/file_pushes/audit.html.erb:84
+#: ../../../app/views/passwords/audit.html.erb:84
+#: ../../../app/views/urls/audit.html.erb:71
+msgid "Require recipients to enter a passphrase to view this push."
+msgstr "Vyžadovat od příjemců zadání přístupové fráze pro zobrazení tohoto push."
+
+#: ../../../app/views/file_pushes/audit.html.erb:90
+#: ../../../app/views/passwords/audit.html.erb:90
+#: ../../../app/views/urls/audit.html.erb:77
+msgid "Current Status"
+msgstr "Současný stav"
+
+#: ../../../app/views/file_pushes/audit.html.erb:94
+#: ../../../app/views/passwords/audit.html.erb:94
+#: ../../../app/views/urls/audit.html.erb:81
+msgid "State:"
+msgstr "Stát:"
+
+#: ../../../app/views/file_pushes/audit.html.erb:96
+#: ../../../app/views/passwords/audit.html.erb:96
+#: ../../../app/views/shared/_dashboard_header.html.erb:26
+#: ../../../app/views/shared/_dashboard_header.html.erb:29
+#: ../../../app/views/shared/_dashboard_header.html.erb:32
+#: ../../../app/views/urls/audit.html.erb:83
+msgid "Expired"
+msgstr "Platnost vypršela"
+
+#: ../../../app/views/file_pushes/audit.html.erb:99
+#: ../../../app/views/passwords/audit.html.erb:99
+#: ../../../app/views/shared/_dashboard_header.html.erb:25
+#: ../../../app/views/shared/_dashboard_header.html.erb:28
+#: ../../../app/views/shared/_dashboard_header.html.erb:31
+#: ../../../app/views/urls/audit.html.erb:86
+msgid "Active"
+msgstr "Aktivní"
+
+#: ../../../app/views/file_pushes/audit.html.erb:100
+#: ../../../app/views/passwords/audit.html.erb:100
+#: ../../../app/views/urls/audit.html.erb:87
+msgid "Active and still available for viewing."
+msgstr "Aktivní a stále dostupné pro zobrazení."
+
+#: ../../../app/views/file_pushes/audit.html.erb:106
+#: ../../../app/views/passwords/audit.html.erb:106
+#: ../../../app/views/urls/audit.html.erb:93
+msgid "Successful Views"
+msgstr "Úspěšné zhlédnutí"
+
+#: ../../../app/views/file_pushes/audit.html.erb:107
+#: ../../../app/views/urls/audit.html.erb:94
+msgid "The number of times this push has been viewed before expiration."
+msgstr "Počet zobrazení tohoto push před vypršením platnosti."
+
+#: ../../../app/views/file_pushes/audit.html.erb:112
+#: ../../../app/views/passwords/audit.html.erb:112
+#: ../../../app/views/urls/audit.html.erb:99
+msgid "Failed View Attempts"
+msgstr "Neúspěšné pokusy o zobrazení"
+
+#: ../../../app/views/file_pushes/audit.html.erb:113
+#: ../../../app/views/urls/audit.html.erb:100
+msgid "The number of times this push has been viewed after expiration."
+msgstr "Počet zobrazení tohoto push po vypršení platnosti."
+
+#: ../../../app/views/file_pushes/audit.html.erb:118
+#: ../../../app/views/passwords/audit.html.erb:118
+#: ../../../app/views/urls/audit.html.erb:105
+msgid "Days Remaining"
+msgstr "Zbývá dní"
+
+#: ../../../app/views/file_pushes/audit.html.erb:119
+#: ../../../app/views/passwords/audit.html.erb:119
+#: ../../../app/views/urls/audit.html.erb:106
+msgid ""
+"Number of days until this push expires if the maximum view count isn't reached"
+"."
+msgstr ""
+"Počet dní do vypršení tohoto push, pokud nebude dosaženo maximálního počtu zhl"
+"édnutí."
+
+#: ../../../app/views/file_pushes/audit.html.erb:128
+msgid "Payload"
+msgstr "Užitečné zatížení"
+
+#: ../../../app/views/file_pushes/audit.html.erb:132
+msgid "Contains Message for Receiver"
+msgstr "Obsahuje zprávu pro příjemce"
+
+#: ../../../app/views/file_pushes/audit.html.erb:135
+#: ../../../app/views/file_pushes/audit.html.erb:150
+msgid "Deleted"
+msgstr "Smazáno"
+
+#: ../../../app/views/file_pushes/audit.html.erb:142
+msgid "Has a text payload been added to this push?"
+msgstr "Byl k tomuto push přidán textový náklad?"
+
+#: ../../../app/views/file_pushes/audit.html.erb:147
+msgid "Message Length"
+msgstr "Délka zprávy"
+
+#: ../../../app/views/file_pushes/audit.html.erb:152
+msgid "Not Applicable"
+msgstr "Nelze použít"
+
+#: ../../../app/views/file_pushes/audit.html.erb:157
+msgid "The length of the attached text payload."
+msgstr "Délka užitečného zatížení připojeného textu."
+
+#: ../../../app/views/file_pushes/audit.html.erb:162
+msgid "Number of Files Attached"
+msgstr "Počet připojených souborů"
+
+#: ../../../app/views/file_pushes/audit.html.erb:170
+msgid "The number of files attached to this push. This value will be 0 when expired."
+msgstr ""
+"Počet souborů připojených k tomuto push. Tato hodnota bude po vypršení platnos"
+"ti 0."
+
+#: ../../../app/views/file_pushes/audit.html.erb:176
+msgid "Attached Files"
+msgstr "Přiložené soubory"
+
+#: ../../../app/views/file_pushes/audit.html.erb:182
+msgid "Filename:"
+msgstr "Název souboru:"
+
+#: ../../../app/views/file_pushes/audit.html.erb:184
+msgid "Size: "
+msgstr "Velikost:"
+
+#: ../../../app/views/file_pushes/audit.html.erb:189
+msgid "All attached files have been deleted."
+msgstr "Všechny přiložené soubory byly smazány."
+
+#: ../../../app/views/file_pushes/audit.html.erb:200
+#: ../../../app/views/passwords/audit.html.erb:131
+#: ../../../app/views/urls/audit.html.erb:118
+msgid "Expire Now"
+msgstr "Vyprší nyní"
+
+#: ../../../app/views/file_pushes/audit.html.erb:208
+#: ../../../app/views/passwords/audit.html.erb:139
+msgid "Delete This Password?"
+msgstr "Smazat toto heslo?"
+
+#: ../../../app/views/file_pushes/audit.html.erb:212
+#: ../../../app/views/passwords/audit.html.erb:143
+#: ../../../app/views/urls/audit.html.erb:130
+msgid "This will expire this secret link and"
+msgstr "Tím vyprší platnost tohoto tajného odkazu a"
+
+#: ../../../app/views/file_pushes/audit.html.erb:212
+#: ../../../app/views/passwords/audit.html.erb:143
+#: ../../../app/views/urls/audit.html.erb:130
+msgid "remove all content from the database forever"
+msgstr "navždy odstranit veškerý obsah z databáze"
+
+#: ../../../app/views/file_pushes/audit.html.erb:213
+#: ../../../app/views/passwords/audit.html.erb:144
+#: ../../../app/views/urls/audit.html.erb:131
+msgid ""
+"The audit log (including future attempted views) will still be maintained goin"
+"g forward."
+msgstr "Protokol auditu (včetně budoucích pokusů o zobrazení) bude nadále udržován."
+
+#: ../../../app/views/file_pushes/audit.html.erb:218
+#: ../../../app/views/file_pushes/show.html.erb:78
+#: ../../../app/views/passwords/audit.html.erb:149
+#: ../../../app/views/passwords/show.html.erb:62
+#: ../../../app/views/urls/audit.html.erb:136
+msgid "Delete"
+msgstr "Smazat"
+
+#: ../../../app/views/file_pushes/audit.html.erb:230
+#: ../../../app/views/passwords/audit.html.erb:161
+#: ../../../app/views/urls/audit.html.erb:148
+msgid "Start of Audit Log"
+msgstr "Začátek protokolu auditu"
+
+#: ../../../app/views/file_pushes/audit.html.erb:233
+#: ../../../app/views/passwords/audit.html.erb:164
+#: ../../../app/views/urls/audit.html.erb:151
+msgid "Push created on"
+msgstr "Push vytvořen na"
+
+#: ../../../app/views/file_pushes/audit.html.erb:238
+#: ../../../app/views/passwords/audit.html.erb:169
+#: ../../../app/views/urls/audit.html.erb:156
+msgid ""
+"As the push receives activity, a log of each with identifying information will"
+" show up here."
+msgstr ""
+"Jakmile push obdrží aktivitu, zobrazí se zde protokol každého s identifikačním"
+"i informacemi."
+
+#: ../../../app/views/file_pushes/audit.html.erb:247
+#: ../../../app/views/passwords/audit.html.erb:178
+msgid "Password manually expired by user"
+msgstr "Heslo ručně vypršelo uživatelem"
+
+#: ../../../app/views/file_pushes/audit.html.erb:249
+#: ../../../app/views/passwords/audit.html.erb:180
+#: ../../../app/views/passwords/audit.html.erb:186
+#: ../../../app/views/urls/audit.html.erb:167
+msgid "at IP address"
+msgstr "na IP adrese"
+
+#: ../../../app/views/file_pushes/audit.html.erb:250
+#: ../../../app/views/file_pushes/audit.html.erb:265
+#: ../../../app/views/file_pushes/audit.html.erb:277
+#: ../../../app/views/passwords/audit.html.erb:181
+#: ../../../app/views/passwords/audit.html.erb:199
+#: ../../../app/views/passwords/audit.html.erb:211
+#: ../../../app/views/urls/audit.html.erb:181
+#: ../../../app/views/urls/audit.html.erb:193
+msgid "on"
+msgstr "na"
+
+#: ../../../app/views/file_pushes/audit.html.erb:256
+#: ../../../app/views/file_pushes/audit.html.erb:268
+#: ../../../app/views/file_pushes/audit.html.erb:280
+#: ../../../app/views/passwords/audit.html.erb:190
+#: ../../../app/views/passwords/audit.html.erb:202
+#: ../../../app/views/passwords/audit.html.erb:214
+#: ../../../app/views/urls/audit.html.erb:172
+#: ../../../app/views/urls/audit.html.erb:184
+#: ../../../app/views/urls/audit.html.erb:196
+msgid "User Agent"
+msgstr "User Agent"
+
+#: ../../../app/views/file_pushes/audit.html.erb:258
+#: ../../../app/views/file_pushes/audit.html.erb:270
+#: ../../../app/views/file_pushes/audit.html.erb:282
+#: ../../../app/views/passwords/audit.html.erb:192
+#: ../../../app/views/passwords/audit.html.erb:204
+#: ../../../app/views/passwords/audit.html.erb:216
+#: ../../../app/views/urls/audit.html.erb:174
+#: ../../../app/views/urls/audit.html.erb:186
+#: ../../../app/views/urls/audit.html.erb:198
+msgid "Referrer"
+msgstr "Referrer"
+
+#: ../../../app/views/file_pushes/audit.html.erb:263
+#: ../../../app/views/passwords/audit.html.erb:197
+#: ../../../app/views/urls/audit.html.erb:179
+msgid "Successful view from IP address"
+msgstr "Úspěšné zobrazení z IP adresy"
+
+#: ../../../app/views/file_pushes/audit.html.erb:275
+#: ../../../app/views/passwords/audit.html.erb:209
+#: ../../../app/views/urls/audit.html.erb:191
+msgid "Failed view attempt (already expired) by"
+msgstr "Selhal pokus o zobrazení (již vypršela)."
+
+#: ../../../app/views/file_pushes/audit.html.erb:286
+#: ../../../app/views/passwords/audit.html.erb:220
+#: ../../../app/views/urls/audit.html.erb:202
+msgid "End of Audit Log"
+msgstr "Konec protokolu auditu"
+
+#: ../../../app/views/file_pushes/expired.html.erb:1
+#: ../../../app/views/file_pushes/expired.html.erb:14
+msgid "Expired File Pushes"
+msgstr "Soubor vloží s vypršenou platností"
+
+#: ../../../app/views/file_pushes/expired.html.erb:7
+msgid "You currently have no expired file pushes."
+msgstr "Aktuálně nemáte žádné odeslání souborů s vypršenou platností."
+
+#: ../../../app/views/file_pushes/expired.html.erb:10
+#: ../../../app/views/passwords/expired.html.erb:11
+msgid "Push Something Now"
+msgstr "Pusťte něco hned"
+
+#: ../../../app/views/file_pushes/expired.html.erb:19
+#: ../../../app/views/passwords/expired.html.erb:20
+#: ../../../app/views/urls/expired.html.erb:19
+msgid "ID"
+msgstr "ID"
+
+#: ../../../app/views/file_pushes/expired.html.erb:21
+#: ../../../app/views/passwords/expired.html.erb:22
+#: ../../../app/views/urls/expired.html.erb:21
+msgid "Expired On"
+msgstr "Platnost vypršela dne"
+
+#: ../../../app/views/file_pushes/expired.html.erb:41
+#: ../../../app/views/passwords/expired.html.erb:42
+#: ../../../app/views/urls/expired.html.erb:41
+msgid "Audit Log"
+msgstr "Protokol auditu"
+
+#: ../../../app/views/file_pushes/new.html.erb:1
+#: ../../../app/views/file_pushes/new_anonymous.html.erb:1
+msgid "Securely Send Files"
+msgstr "Bezpečně odesílat soubory"
+
+#: ../../../app/views/file_pushes/new.html.erb:26
+msgid "Add Files..."
+msgstr "Přidat soubory..."
+
+#: ../../../app/views/file_pushes/new.html.erb:41
+msgid "You can upload up to 10 files per push."
+msgstr "Na jedno push můžete nahrát až 10 souborů."
+
+#: ../../../app/views/file_pushes/new.html.erb:46
+#: ../../../app/views/passwords/new.html.erb:57
+#: ../../../app/views/urls/new.html.erb:40
+msgid "Expire secret link and delete after:"
+msgstr "Vyprší platnost tajného odkazu a smaže jej po:"
+
+#: ../../../app/views/file_pushes/new.html.erb:82
+#: ../../../app/views/file_pushes/preview.html.erb:16
+#: ../../../app/views/passwords/new.html.erb:92
+#: ../../../app/views/passwords/preview.html.erb:16
+#: ../../../app/views/urls/new.html.erb:77
+#: ../../../app/views/urls/preview.html.erb:16
+msgid "(whichever comes first)"
+msgstr "(dle toho co nastane dřív)"
+
+#: ../../../app/views/file_pushes/new.html.erb:95
+#: ../../../app/views/passwords/new.html.erb:105
+#: ../../../app/views/urls/new.html.erb:90
+msgid "Use a 1-click retrieval step"
+msgstr "Použijte krok načítání jedním kliknutím"
+
+#: ../../../app/views/file_pushes/new.html.erb:106
+#: ../../../app/views/passwords/new.html.erb:116
+msgid "Allow immediate deletion"
+msgstr "Umožnit okamžité smazání"
+
+#: ../../../app/views/file_pushes/new.html.erb:107
+#: ../../../app/views/passwords/new.html.erb:117
+msgid "Allow users to delete this push once retrieved."
+msgstr "Povolit uživatelům smazat tento push po načtení."
+
+#: ../../../app/views/file_pushes/new.html.erb:120
+#: ../../../app/views/passwords/new.html.erb:130
+#: ../../../app/views/urls/new.html.erb:104
+msgid "Optional: Require recipients to enter a passphrase to view this push"
+msgstr ""
+"Volitelné: Vyžadovat od příjemců zadání přístupové fráze pro zobrazení tohoto "
+"push"
+
+#: ../../../app/views/file_pushes/new.html.erb:128
+msgid "Message"
+msgstr "Zpráva"
+
+#: ../../../app/views/file_pushes/new.html.erb:131
+msgid "Optional: A message to be included with the push"
+msgstr "Volitelné: Zpráva, která má být zahrnuta do push"
+
+#: ../../../app/views/file_pushes/new.html.erb:135
+msgid "Encrypted and visible to the receiving party"
+msgstr "Šifrované a viditelné pro přijímající stranu"
+
+#: ../../../app/views/file_pushes/new.html.erb:142
+#: ../../../app/views/passwords/new.html.erb:165
+#: ../../../app/views/urls/new.html.erb:115
+msgid "Optional"
+msgstr "Volitelný"
+
+#: ../../../app/views/file_pushes/new.html.erb:145
+#: ../../../app/views/passwords/new.html.erb:168
+#: ../../../app/views/urls/new.html.erb:118
+msgid "Encrypted and visible only to you"
+msgstr "Šifrované a viditelné pouze pro vás"
+
+#: ../../../app/views/file_pushes/new.html.erb:150
+msgid ""
+"Once expired, all files and content of the push will be deleted immediately an"
+"d entirely."
+msgstr ""
+"Po vypršení platnosti budou všechny soubory a obsah push okamžitě a zcela odst"
+"raněny."
+
+#: ../../../app/views/file_pushes/new.html.erb:155
+#: ../../../app/views/urls/new.html.erb:129
+msgid "An audit log of activity will be available."
+msgstr "K dispozici bude protokol auditu činnosti."
+
+#: ../../../app/views/file_pushes/new.html.erb:163
+#: ../../../app/views/passwords/new.html.erb:181
+#: ../../../app/views/urls/new.html.erb:137
+msgid "Push It!"
+msgstr "Push It!"
+
+#: ../../../app/views/file_pushes/new_anonymous.html.erb:9
+msgid "Securely Send Files That Delete Automatically"
+msgstr "Bezpečně posílejte soubory, které se automaticky mažou"
+
+#: ../../../app/views/file_pushes/new_anonymous.html.erb:13
+#: ../../../app/views/urls/new_anonymous.html.erb:13
+msgid "Please login to use this feature."
+msgstr "Pro použití této funkce se prosím přihlaste."
+
+#: ../../../app/views/file_pushes/new_anonymous.html.erb:17
+#: ../../../app/views/urls/new_anonymous.html.erb:17
+msgid "Please login or sign up to use this feature."
+msgstr "Pro použití této funkce se prosím přihlaste nebo zaregistrujte."
+
+#: ../../../app/views/file_pushes/passphrase.html.erb:1
+#: ../../../app/views/passwords/passphrase.html.erb:1
+#: ../../../app/views/urls/passphrase.html.erb:1
+msgid "Enter The Secret Passphrase"
+msgstr "Zadejte The Secret Passphrase"
+
+#: ../../../app/views/file_pushes/passphrase.html.erb:10
+#: ../../../app/views/passwords/passphrase.html.erb:10
+#: ../../../app/views/urls/passphrase.html.erb:10
+msgid "Enter the secret passphrase provided with this URL"
+msgstr "Zadejte tajnou přístupovou frázi poskytnutou s touto adresou URL"
+
+#: ../../../app/views/file_pushes/passphrase.html.erb:10
+#: ../../../app/views/passwords/passphrase.html.erb:10
+#: ../../../app/views/urls/passphrase.html.erb:10
+msgid "Enter the secret passphrase"
+msgstr "Zadejte tajnou přístupovou frázi"
+
+#: ../../../app/views/file_pushes/passphrase.html.erb:11
+#: ../../../app/views/passwords/passphrase.html.erb:11
+#: ../../../app/views/urls/passphrase.html.erb:11
+msgid "Go"
+msgstr "Jít"
+
+#: ../../../app/views/file_pushes/preliminary.html.erb:3
+#: ../../../app/views/passwords/preliminary.html.erb:3
+#: ../../../app/views/urls/preliminary.html.erb:3
+msgid "Click Here to Proceed"
+msgstr "Pokračujte kliknutím sem"
+
+#: ../../../app/views/file_pushes/preview.html.erb:1
+#: ../../../app/views/urls/preview.html.erb:1
+msgid "Your Push Has Been Created"
+msgstr "Váš Push byl vytvořen"
+
+#: ../../../app/views/file_pushes/preview.html.erb:6
+#: ../../../app/views/passwords/preview.html.erb:6
+#: ../../../app/views/urls/preview.html.erb:6
+msgid "Your push has been created."
+msgstr "Váš push byl vytvořen."
+
+#: ../../../app/views/file_pushes/preview.html.erb:8
+#: ../../../app/views/passwords/preview.html.erb:8
+#: ../../../app/views/urls/preview.html.erb:8
+msgid "Use this secret link to share it:"
+msgstr "Pro sdílení použijte tento tajný odkaz:"
+
+#: ../../../app/views/file_pushes/preview.html.erb:12
+#: ../../../app/views/urls/preview.html.erb:12
+msgid "This push will expire after"
+msgstr "Platnost tohoto push vyprší poté"
+
+#: ../../../app/views/file_pushes/preview.html.erb:13
+#: ../../../app/views/file_pushes/show.html.erb:43
+#: ../../../app/views/passwords/preview.html.erb:13
+#: ../../../app/views/passwords/show.html.erb:24
+#: ../../../app/views/urls/preview.html.erb:13
+msgid "day"
+msgid_plural "days"
+msgstr[0] "den"
+msgstr[1] "dní"
+msgstr[2] "dní"
+
+#: ../../../app/views/file_pushes/preview.html.erb:14
+#: ../../../app/views/file_pushes/show.html.erb:46
+#: ../../../app/views/file_pushes/show.html.erb:49
+#: ../../../app/views/pages/about.html.erb:34
+#: ../../../app/views/pages/about.html.erb:40
+#: ../../../app/views/passwords/preview.html.erb:14
+#: ../../../app/views/passwords/show.html.erb:27
+#: ../../../app/views/passwords/show.html.erb:30
+#: ../../../app/views/urls/preview.html.erb:14
+msgid "or"
+msgstr "nebo"
+
+#: ../../../app/views/file_pushes/preview.html.erb:15
+#: ../../../app/views/passwords/preview.html.erb:15
+#: ../../../app/views/urls/preview.html.erb:15
+msgid "view"
+msgid_plural "views"
+msgstr[0] "Pohled"
+msgstr[1] "pohledy"
+msgstr[2] "pohledy"
+
+#: ../../../app/views/file_pushes/preview.html.erb:19
+#: ../../../app/views/file_pushes/preview.html.erb:21
+#: ../../../app/views/pages/about.html.erb:72
+#: ../../../app/views/pages/about.html.erb:95
+#: ../../../app/views/pages/faq.html.erb:73
+#: ../../../app/views/pages/faq.html.erb:142
+#: ../../../app/views/passwords/preview.html.erb:19
+#: ../../../app/views/passwords/preview.html.erb:21
+msgid "and"
+msgstr "a"
+
+#: ../../../app/views/file_pushes/preview.html.erb:19
+#: ../../../app/views/passwords/preview.html.erb:19
+msgid "can be"
+msgstr "může být"
+
+#: ../../../app/views/file_pushes/preview.html.erb:19
+#: ../../../app/views/file_pushes/preview.html.erb:21
+#: ../../../app/views/passwords/preview.html.erb:19
+#: ../../../app/views/passwords/preview.html.erb:21
+msgid "deleted by viewers."
+msgstr "smazané diváky."
+
+#: ../../../app/views/file_pushes/preview.html.erb:21
+#: ../../../app/views/passwords/preview.html.erb:21
+msgid "can NOT be"
+msgstr "nemůže být"
+
+#: ../../../app/views/file_pushes/preview.html.erb:26
+#: ../../../app/views/passwords/preview.html.erb:26
+#: ../../../app/views/urls/preview.html.erb:20
+msgid "It also includes a"
+msgstr "Zahrnuje také a"
+
+#: ../../../app/views/file_pushes/preview.html.erb:26
+#: ../../../app/views/passwords/preview.html.erb:26
+#: ../../../app/views/urls/preview.html.erb:20
+msgid "1-click preliminary retrieval step"
+msgstr "Předběžný krok pro získání na jedno kliknutí"
+
+#: ../../../app/views/file_pushes/preview.html.erb:30
+#: ../../../app/views/urls/preview.html.erb:24
+msgid "View This Push Now"
+msgstr "Zobrazit toto Push Now"
+
+#: ../../../app/views/file_pushes/preview.html.erb:30
+#: ../../../app/views/passwords/preview.html.erb:30
+#: ../../../app/views/urls/preview.html.erb:24
+msgid "(will burn a view) or"
+msgstr "(použije jedno zobrazení) nebo"
+
+#: ../../../app/views/file_pushes/preview.html.erb:31
+#: ../../../app/views/urls/preview.html.erb:25
+msgid "Push Another"
+msgstr "Push Another"
+
+#: ../../../app/views/file_pushes/preview.html.erb:36
+#: ../../../app/views/passwords/preview.html.erb:36
+#: ../../../app/views/urls/preview.html.erb:30
+msgid "View Audit Log"
+msgstr "Zobrazit protokol auditu"
+
+#: ../../../app/views/file_pushes/preview.html.erb:41
+#: ../../../app/views/passwords/preview.html.erb:41
+#: ../../../app/views/urls/preview.html.erb:35
+msgid ""
+"Tip: Pushing to an international user?  Change the secret link language using "
+"the dropdown menu to the right of the URL."
+msgstr ""
+"Tip: Zasílat mezinárodnímu uživateli? Změňte jazyk tajného odkazu pomocí rozba"
+"lovací nabídky napravo od adresy URL."
+
+#: ../../../app/views/file_pushes/show.html.erb:1
+#: ../../../app/views/passwords/show.html.erb:1
+msgid "Your Secret Link"
+msgstr "Váš tajný odkaz"
+
+#: ../../../app/views/file_pushes/show.html.erb:7
+msgid "The following files have been sent to you."
+msgstr "Byly vám zaslány následující soubory."
+
+#: ../../../app/views/file_pushes/show.html.erb:8
+msgid "Please download and store in a secure area."
+msgstr "Prosím stáhněte a uložte v zabezpečené oblasti."
+
+#: ../../../app/views/file_pushes/show.html.erb:13
+msgid "The following message has been sent to you along with the files below."
+msgstr "Následující zpráva vám byla zaslána spolu s níže uvedenými soubory."
+
+#: ../../../app/views/file_pushes/show.html.erb:15
+msgid "The message is blurred out.  Click below to reveal it."
+msgstr "Zpráva je rozmazaná. Kliknutím níže jej odhalíte."
+
+#: ../../../app/views/file_pushes/show.html.erb:41
+#: ../../../app/views/passwords/show.html.erb:22
+msgid "This secret link and all content will be deleted in"
+msgstr "Tento tajný odkaz a veškerý obsah budou smazány"
+
+#: ../../../app/views/file_pushes/show.html.erb:46
+#: ../../../app/views/passwords/show.html.erb:27
+msgid "0 more views"
+msgstr "již žádné zobrazení"
+
+#: ../../../app/views/file_pushes/show.html.erb:47
+#: ../../../app/views/passwords/show.html.erb:28
+msgid "(this is the last view)."
+msgstr "(toto je poslední zobrazení)."
+
+#: ../../../app/views/file_pushes/show.html.erb:50
+#: ../../../app/views/passwords/show.html.erb:31
+msgid "more view"
+msgid_plural "more views"
+msgstr[0] "více zobrazení"
+msgstr[1] "více zhlédnutí"
+msgstr[2] "více zhlédnutí"
+
+#: ../../../app/views/file_pushes/show.html.erb:51
+#: ../../../app/views/passwords/show.html.erb:32
+msgid "(whichever occurs first)."
+msgstr "(dle toho co nastane dřív)"
+
+#: ../../../app/views/file_pushes/show.html.erb:56
+#: ../../../app/views/passwords/show.html.erb:37
+msgid "Delete This Secret Link Now"
+msgstr "Smazat tento tajný odkaz teď"
+
+#: ../../../app/views/file_pushes/show.html.erb:68
+#: ../../../app/views/passwords/show.html.erb:52
+msgid "Delete?"
+msgstr "Vymazat?"
+
+#: ../../../app/views/file_pushes/show.html.erb:72
+#: ../../../app/views/passwords/show.html.erb:56
+msgid "This will expire this secret link and "
+msgstr "Tím vyprší platnost tohoto tajného odkazu a"
+
+#: ../../../app/views/file_pushes/show.html.erb:73
+#: ../../../app/views/passwords/show.html.erb:57
+msgid "delete all related content from the database forever"
+msgstr "navždy odstranit veškerý související obsah z databáze"
+
+#: ../../../app/views/file_pushes/show_expired.html.erb:1
+#: ../../../app/views/passwords/show_expired.html.erb:1
+#: ../../../app/views/urls/show_expired.html.erb:1
+msgid "Your Secret Link Has Expired"
+msgstr "Platnost vašeho tajného odkazu vypršela"
+
+#: ../../../app/views/file_pushes/show_expired.html.erb:6
+#: ../../../app/views/passwords/show_expired.html.erb:6
+#: ../../../app/views/urls/show_expired.html.erb:6
+msgid "We apologize but this secret link has expired."
+msgstr "Omlouváme se, ale platnost tohoto tajného odkazu vypršela."
+
+#: ../../../app/views/file_pushes/show_expired.html.erb:8
+#: ../../../app/views/passwords/show_expired.html.erb:8
+#: ../../../app/views/urls/show_expired.html.erb:8
+msgid ""
+"If needed, please contact the person or organization who gave you this secret "
+"URL."
+msgstr ""
+"V případě potřeby kontaktujte osobu nebo organizaci, která vám tuto tajnou adr"
+"esu URL poskytla."
+
+#: ../../../app/views/layouts/login.html.erb:37
+#: ../../../app/views/shared/_footer.html.erb:12
+#: ../../../app/views/shared/_footer.html.erb:16
+#: ../../../app/views/shared/_header.html.erb:9
+#: ../../../app/views/shared/_header.html.erb:13
+msgid "Password Pusher Logo"
+msgstr "Logo pro posunování hesel"
+
+#: ../../../app/views/layouts/login.html.erb:52
+msgid ""
+"Some domains may inadvertently block emails.  If you are having trouble receiv"
+"ing emails, "
+msgstr ""
+"Některé domény mohou neúmyslně blokovat e-maily. Pokud máte potíže s přijímání"
+"m e-mailů,"
+
+#: ../../../app/views/layouts/login.html.erb:53
+msgid "send a message"
+msgstr "poslat zprávu"
+
+#: ../../../app/views/layouts/login.html.erb:54
+msgid "and we can help out."
+msgstr "a můžeme pomoci."
+
+#: ../../../app/views/pages/about.html.erb:1
+msgid "About Password Pusher"
+msgstr "O Password Pusheru"
+
+#: ../../../app/views/pages/about.html.erb:2
+#: ../../../app/views/shared/_footer.html.erb:49
+msgid "About"
+msgstr "O aplikaci"
+
+#: ../../../app/views/pages/about.html.erb:7
+msgid ""
+"Password Pusher is a tool used for sharing passwords and other sensitive infor"
+"mation with other people securely."
+msgstr ""
+"Password Pusher je nástroj používaný pro bezpečné sdílení hesel a dalších citl"
+"ivých informací s ostatními lidmi."
+
+#: ../../../app/views/pages/about.html.erb:10
+msgid ""
+"With Password Pusher, you can create a unique, one-time URL that will expire a"
+"fter a certain amount of time or after it has been accessed a certain number o"
+"f times, ensuring that your information remains private and secure."
+msgstr ""
+"Pomocí Password Pusher můžete vytvořit jedinečnou, jednorázovou adresu URL, je"
+"jíž platnost vyprší po určité době nebo po určitém počtu přístupů, což zajistí"
+", že vaše informace zůstanou soukromé a bezpečné."
+
+#: ../../../app/views/pages/about.html.erb:11
+msgid ""
+"It is often used by individuals and organizations to share login credentials o"
+"r other sensitive data with colleagues, clients, or partners."
+msgstr ""
+"Často jej používají jednotlivci a organizace ke sdílení přihlašovacích údajů n"
+"ebo jiných citlivých údajů s kolegy, klienty nebo partnery."
+
+#: ../../../app/views/pages/about.html.erb:14
+msgid ""
+"Password Pusher is a simple and convenient solution for securely sharing passw"
+"ords without the need for email or other less secure communication methods."
+msgstr ""
+"Password Pusher je jednoduché a pohodlné řešení pro bezpečné sdílení hesel bez"
+" potřeby e-mailu nebo jiných méně bezpečných komunikačních metod."
+
+#: ../../../app/views/pages/about.html.erb:17
+msgid "Hosted at"
+msgstr "Hostováno na"
+
+#: ../../../app/views/pages/about.html.erb:19
+msgid "or you can run your own private instance wherever you like."
+msgstr "nebo můžete spustit svou vlastní soukromou instanci, kdekoli chcete."
+
+#: ../../../app/views/pages/about.html.erb:23
+msgid "The source code is"
+msgstr "Zdrojový kód je"
+
+#: ../../../app/views/pages/about.html.erb:24
+#: ../../../app/views/pages/about.html.erb:41
+msgid "on Github"
+msgstr "na Github"
+
+#: ../../../app/views/pages/about.html.erb:25
+msgid "It’s opensource and free for anyone to use, review or modify."
+msgstr ""
+"Je to opensource a může jej kdokoli používat, kontrolovat nebo upravovat zdarm"
+"a."
+
+#: ../../../app/views/pages/about.html.erb:28
+msgid "The Author"
+msgstr "Autor"
+
+#: ../../../app/views/pages/about.html.erb:31
+msgid "My name is Peter Giacomo Lombardo. You can find me on"
+msgstr "Jmenuji se Peter Giacomo Lombardo. Najdete mě na"
+
+#: ../../../app/views/pages/about.html.erb:38
+msgid "For updates, you can"
+msgstr "U aktualizací můžete"
+
+#: ../../../app/views/pages/about.html.erb:39
+msgid "follow me on Twitter"
+msgstr "Sleduj mě na Twitteru"
+
+#: ../../../app/views/pages/about.html.erb:44
+msgid "Want to Help Out?"
+msgstr "Chcete pomoci?"
+
+#: ../../../app/views/pages/about.html.erb:48
+msgid "By far the biggest help is to spread the word"
+msgstr "Jednoznačně nejlepší způsob jak pomoci je doporučit ostatní"
+
+#: ../../../app/views/pages/about.html.erb:50
+msgid "Share and suggest Password Pusher to colleagues and friends."
+msgstr "Sdílejte a navrhujte Password Pusher kolegům a přátelům."
+
+#: ../../../app/views/pages/about.html.erb:53
+msgid "You can also"
+msgstr "Můžete také"
+
+#: ../../../app/views/pages/about.html.erb:56
+msgid "Star the Github project"
+msgstr "Spusťte projekt Github"
+
+#: ../../../app/views/pages/about.html.erb:57
+msgid "It's gasoline for the algos that trend Password Pusher."
+msgstr "Je to benzín pro algy, které jsou trendem Password Pusher."
+
+#: ../../../app/views/pages/about.html.erb:60
+#: ../../../app/views/pages/translate.html.erb:3
+msgid "Help Translate"
+msgstr "Pomozte Přeložit"
+
+#: ../../../app/views/pages/about.html.erb:61
+msgid "Improve an existing language or add a new one"
+msgstr "Vylepšete stávající jazyk nebo přidejte nový"
+
+#: ../../../app/views/pages/about.html.erb:64
+msgid "Sign up for the"
+msgstr "Zaregistrujte se na"
+
+#: ../../../app/views/pages/about.html.erb:65
+msgid "newsletter"
+msgstr "zpravodaj"
+
+#: ../../../app/views/pages/about.html.erb:66
+msgid "to get updates on important releases, security issues, tips and more."
+msgstr "získat aktualizace důležitých vydání, bezpečnostní problémy, tipy a další."
+
+#: ../../../app/views/pages/about.html.erb:69
+msgid "Follow Password Pusher on"
+msgstr "Postupujte podle Password Pusher na"
+
+#: ../../../app/views/pages/about.html.erb:76
+msgid "Fix an issue, add a feature or write some documentation."
+msgstr "Opravte problém, přidejte funkci nebo napište nějakou dokumentaci."
+
+#: ../../../app/views/pages/about.html.erb:76
+msgid "See the Github project."
+msgstr "Podívejte se na projekt Github."
+
+#: ../../../app/views/pages/about.html.erb:79
+msgid "Sign up to Digital Ocean"
+msgstr "Zaregistrujte se do Digital Ocean"
+
+#: ../../../app/views/pages/about.html.erb:80
+msgid "with this link"
+msgstr "s tímto odkazem"
+
+#: ../../../app/views/pages/about.html.erb:81
+msgid "to get Password Pusher a hosting credit."
+msgstr "získat Password Puher hostovací kredit."
+
+#: ../../../app/views/pages/about.html.erb:85
+msgid "Thank you for supporting Password Pusher!"
+msgstr "Děkujeme za podporu Password Pusher!"
+
+#: ../../../app/views/pages/about.html.erb:87
+#: ../../../app/views/shared/_footer.html.erb:26
+msgid "Resources"
+msgstr "Zdroje"
+
+#: ../../../app/views/pages/about.html.erb:90
+msgid ""
+"If you are giving a presentation, authoring a blog post or video about Passwor"
+"d Pusher, feel free to contact me for any questions."
+msgstr ""
+"Pokud pořádáte prezentaci, vytváříte blogový příspěvek nebo video o Password P"
+"usher, neváhejte mě kontaktovat s případnými dotazy."
+
+#: ../../../app/views/pages/about.html.erb:93
+msgid "We have media resources and a full explanation of features available in"
+msgstr "Máme mediální zdroje a úplné vysvětlení funkcí dostupných v"
+
+#: ../../../app/views/pages/about.html.erb:94
+msgid "Windows Powerpoint"
+msgstr "Windows Powerpoint"
+
+#: ../../../app/views/pages/about.html.erb:96
+msgid "Mac Keynote"
+msgstr "Mac Keynote"
+
+#: ../../../app/views/pages/about.html.erb:97
+msgid "formats."
+msgstr "formátů."
+
+#: ../../../app/views/pages/about.html.erb:106
+msgid "Birthday"
+msgstr "Narozeniny"
+
+#: ../../../app/views/pages/about.html.erb:108
+msgid "More Than 11 Years Old"
+msgstr "Více než 11 let"
+
+#: ../../../app/views/pages/about.html.erb:110
+msgid "The first git commit to Password Pusher was on"
+msgstr "Bylo zapnuto první potvrzení git do Password Pusher"
+
+#: ../../../app/views/pages/about.html.erb:114
+msgid "pwpush.com went live shortly thereafter."
+msgstr "pwpush.com byl spuštěn krátce poté."
+
+#: ../../../app/views/pages/about.html.erb:120
+msgid "The Original Theme"
+msgstr "Původní téma"
+
+#: ../../../app/views/pages/about.html.erb:121
+msgid ""
+"The original site design consisted of a dark background with a bold yellow fon"
+"t."
+msgstr "Původní design stránek sestával z tmavého pozadí s výrazným žlutým písmem."
+
+#: ../../../app/views/pages/about.html.erb:124
+msgid "Follow for news, changes & updates."
+msgstr "Sledujte novinky, změny a aktualizace."
+
+#: ../../../app/views/pages/faq.html.erb:1
+#: ../../../app/views/shared/_footer.html.erb:35
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ../../../app/views/pages/faq.html.erb:3
+msgid "Frequently Asked Questions"
+msgstr "Často kladené otázky"
+
+#: ../../../app/views/pages/faq.html.erb:5
+msgid "Trust and Security"
+msgstr "Důvěra a bezpečnost"
+
+#: ../../../app/views/pages/faq.html.erb:11
+msgid "What purpose does Password Pusher serve?"
+msgstr "K čemu slouží Password Puher?"
+
+#: ../../../app/views/pages/faq.html.erb:16
+msgid "Password Pusher exists as a better alternative to emailing passwords."
+msgstr "Password Pusher existuje jako lepší alternativa k zasílání hesel e-mailem."
+
+#: ../../../app/views/pages/faq.html.erb:18
+msgid "Emailing passwords is inherently insecure."
+msgstr "Zasílání hesel e-mailem je ze své podstaty nejisté."
+
+#: ../../../app/views/pages/faq.html.erb:18
+msgid "The greatest risks include"
+msgstr "Mezi největší rizika patří"
+
+#: ../../../app/views/pages/faq.html.erb:21
+msgid ""
+"Emailed passwords are usually sent with context to what they go to or can pote"
+"ntially be derived from email username, domain etc…"
+msgstr ""
+"Hesla zasílaná e-mailem se obvykle odesílají s kontextem toho, na co jdou, neb"
+"o mohou být potenciálně odvozena z uživatelského jména e-mailu, domény atd…"
+
+#: ../../../app/views/pages/faq.html.erb:22
+msgid ""
+"Email is inherently insecure and can be intercepted at multiple points by mali"
+"cious entities."
+msgstr ""
+"E-mail je ze své podstaty nezabezpečený a může být na několika místech zachyce"
+"n škodlivými entitami."
+
+#: ../../../app/views/pages/faq.html.erb:23
+msgid "Emailed passwords live in perpetuity (read: forever) in email archives."
+msgstr "Hesla odeslaná e-mailem žijí navěky (čti: navždy) v archivech e-mailů."
+
+#: ../../../app/views/pages/faq.html.erb:24
+msgid ""
+"Passwords in email can be retrieved and used later on if an email account is s"
+"tolen, cracked etc.."
+msgstr ""
+"Hesla v e-mailu lze načíst a použít později, pokud je e-mailový účet odcizen, "
+"prasklý atd."
+
+#: ../../../app/views/pages/faq.html.erb:27
+msgid ""
+"The same risks persist when sending passwords via SMS, WhatsApp, Telegram, Cha"
+"t etc…  The data can and is often perpetual and out of your control."
+msgstr ""
+"Stejná rizika přetrvávají při odesílání hesel přes SMS, WhatsApp, Telegram, Ch"
+"at atd. Data mohou a jsou často věčná a mimo vaši kontrolu."
+
+#: ../../../app/views/pages/faq.html.erb:29
+msgid "By using Password Pusher, you bypass all of this."
+msgstr "Použitím Password Pusheru se tomu všemu vyhnete."
+
+#: ../../../app/views/pages/faq.html.erb:31
+msgid "For each password posted to Password Pusher, "
+msgstr "Pro každé heslo zaslané do Password Pusher,"
+
+#: ../../../app/views/pages/faq.html.erb:32
+msgid "a unique URL is generated that only you will know"
+msgstr "vygeneruje se jedinečná adresa URL, kterou budete znát pouze vy"
+
+#: ../../../app/views/pages/faq.html.erb:33
+msgid "Additionally, "
+msgstr "Navíc,"
+
+#: ../../../app/views/pages/faq.html.erb:35
+msgid "passwords expire after a predefined set of views are hit or time passed."
+msgstr ""
+"platnost hesel vyprší po zásahu předdefinované sady pohledů nebo po uplynutí č"
+"asu."
+
+#: ../../../app/views/pages/faq.html.erb:37
+msgid "Once expired, passwords are unequivocally deleted."
+msgstr "Po vypršení platnosti jsou hesla jednoznačně smazána."
+
+#: ../../../app/views/pages/faq.html.erb:40
+msgid ""
+"If that sounds interesting to you, try it out or see the other frequently aske"
+"d questions below."
+msgstr ""
+"Pokud se vám to zdá zajímavé, vyzkoušejte to nebo se podívejte na další často "
+"kladené otázky níže."
+
+#: ../../../app/views/pages/faq.html.erb:47
+msgid "Trust is a concern. Why should I use Password Pusher?"
+msgstr "Důvěra je starost. Proč bych měl používat Password Pusher?"
+
+#: ../../../app/views/pages/faq.html.erb:52
+msgid ""
+"And rightfully so. All good security begins with healthy skepticism of all inv"
+"olved components."
+msgstr ""
+"A oprávněně. Každé dobré zabezpečení začíná se zdravým skepticismem nad všemi "
+"přítomnými součástmi."
+
+#: ../../../app/views/pages/faq.html.erb:55
+msgid ""
+"Password Pusher exists as a better alternative to emailing passwords. It avoid"
+"s having passwords exist in email archives in perpetuity. It does not exist as"
+" a end-all security solution."
+msgstr ""
+"Password Pusher existuje jako lepší alternativa k zasílání hesel e-mailem. Zab"
+"raňuje tomu, aby hesla existovala v e-mailových archivech navěky. Neexistuje j"
+"ako komplexní bezpečnostní řešení."
+
+#: ../../../app/views/pages/faq.html.erb:59
+msgid "Password Pusher is opensource"
+msgstr "Password Pusher je opensource"
+
+#: ../../../app/views/pages/faq.html.erb:60
+msgid ""
+"so the source can be publicly reviewed and can alternatively be run internally"
+" in your organization."
+msgstr ""
+"takže zdroj může být veřejně zkontrolován a alternativně může být provozován i"
+"nterně ve vaší organizaci."
+
+#: ../../../app/views/pages/faq.html.erb:64
+msgid "Passwords are unequivocally deleted from the database once they expire."
+msgstr "Hesla jsou po vypršení platnosti z databáze jednoznačně smazána."
+
+#: ../../../app/views/pages/faq.html.erb:65
+msgid ""
+"Additionally, random URL tokens are generated on the fly and passwords are pos"
+"ted without context for their use."
+msgstr ""
+"Navíc jsou náhodné URL tokeny generovány za běhu a hesla posílána bez kontextu"
+" jejich použití."
+
+#: ../../../app/views/pages/faq.html.erb:69
+msgid "A note for those with an interest in extreme security:"
+msgstr "Poznámka pro zájemce o naprostou bezpečnost:"
+
+#: ../../../app/views/pages/faq.html.erb:70
+msgid ""
+"there is no way I can reliably prove that the opensource code is the same that"
+" runs on pwpush.com (this is true for all sites in reality)."
+msgstr ""
+"neexistuje žádný způsob, jak mohu spolehlivě prokázat, že opensource kód je st"
+"ejný jako na pwpush.com (to platí pro všechny weby ve skutečnosti)."
+
+#: ../../../app/views/pages/faq.html.erb:71
+msgid "The only thing I can provide in this respect is my public reputation on"
+msgstr "Jediné, co mohu v tomto ohledu poskytnout, je moje veřejná pověst"
+
+#: ../../../app/views/pages/faq.html.erb:74
+msgid "my blog"
+msgstr "můj blog"
+
+#: ../../../app/views/pages/faq.html.erb:75
+msgid ""
+"If this is a concern for you, feel free to review the code, post any questions"
+" that you may have and consider running it internally at your organization ins"
+"tead."
+msgstr ""
+"Pokud vás to znepokojuje, můžete si kód prohlédnout, zveřejnit případné dotazy"
+" a zvážit jeho zavedení interně ve vaší organizaci."
+
+#: ../../../app/views/pages/faq.html.erb:83
+msgid "Tools, Utilities and Applications"
+msgstr "Nástroje, utility a aplikace"
+
+#: ../../../app/views/pages/faq.html.erb:89
+msgid "Are there other ways I can access Password Pusher outside of a browser?"
+msgstr "Jsou zde, kromě prohlížeče, další cesty jak přistupovat k Password Pusheru?"
+
+#: ../../../app/views/pages/faq.html.erb:95
+msgid ""
+"Absolutely.  Password Pusher has a number of applications and command line uti"
+"lities (CLI) that interface with pwpush.com or privately run instances.  Push "
+"passwords from the CLI, Slack, Alfred App and more."
+msgstr ""
+"Určitě. Password Pusher má množství aplikací a nástrojů pro příkazovou řádku ("
+"CLI), které spolupracují s pwpush.com nebo privátními instancemi. Posílejte he"
+"sla z CLI, Slacku, Alfreda a dalších."
+
+#: ../../../app/views/pages/faq.html.erb:97
+msgid "See our"
+msgstr "Podívejte se na naše"
+
+#: ../../../app/views/pages/faq.html.erb:97
+msgid "Tools and Applications"
+msgstr "Nástroje a aplikace"
+
+#: ../../../app/views/pages/faq.html.erb:97
+msgid "page for more details."
+msgstr "stránce pro více podrobností."
+
+#: ../../../app/views/pages/faq.html.erb:104
+msgid "Can I automate my password distribution?"
+msgstr "Můžu nějak automatizovat distribuci hesel?"
+
+#: ../../../app/views/pages/faq.html.erb:109
+msgid ""
+"Yes. Using the previously mentioned tools, many users and organizations integr"
+"ate Password Pusher into their security policies and processes."
+msgstr ""
+"Ano. Pomocí výše zmíněných nástrojů mnoho uživatelů a organizací integruje Pas"
+"sword Pusher do svých bezpečnostních politik a procesů."
+
+#: ../../../app/views/pages/faq.html.erb:110
+msgid "The"
+msgstr "The"
+
+#: ../../../app/views/pages/faq.html.erb:110
+#: ../../../app/views/shared/_footer.html.erb:44
+msgid "Tools"
+msgstr "Nástroje"
+
+#: ../../../app/views/pages/faq.html.erb:110
+msgid ""
+"page outlines the resources available to automate the secure distribution of p"
+"asswords."
+msgstr ""
+"Tato stránka popisuje dostupné zdroje pro automatizaci bezpečné distribuce hes"
+"el."
+
+#: ../../../app/views/pages/faq.html.erb:117
+msgid "How many requests can I send to Password Pusher?"
+msgstr "Kolik požadavků mohu odeslat do Password Pusher?"
+
+#: ../../../app/views/pages/faq.html.erb:122
+msgid ""
+"There are no limits currently and I have no intention of adding any.  To minim"
+"ally assure site stability, Password Pusher is configured with a rate limiter "
+"by default."
+msgstr ""
+"V současné době neexistují žádné limity a nemám v úmyslu je přidávat. Aby byla"
+" zajištěna minimální stabilita webu, je Password Pusher ve výchozím nastavení "
+"nakonfigurován s omezovačem rychlosti."
+
+#: ../../../app/views/pages/faq.html.erb:128
+msgid "Running Your Own Private Instance"
+msgstr "Provozování vlastní soukromé instance"
+
+#: ../../../app/views/pages/faq.html.erb:134
+msgid "Can I run my own version for my organization internally?"
+msgstr "Můžu si pro naši organizaci spustit vlastní interní verzi?"
+
+#: ../../../app/views/pages/faq.html.erb:140
+msgid "Yes.  We provide"
+msgstr "Ano. Poskytujeme"
+
+#: ../../../app/views/pages/faq.html.erb:141
+msgid "Docker containers"
+msgstr "Docker kontejnery"
+
+#: ../../../app/views/pages/faq.html.erb:143
+msgid "installation instructions"
+msgstr "instrukce k instalaci"
+
+#: ../../../app/views/pages/faq.html.erb:144
+msgid "for a wide variety of platforms and services."
+msgstr "pro širokou škálu platforem a služeb."
+
+#: ../../../app/views/pages/faq.html.erb:146
+msgid "tldr;"
+msgstr "tldr;"
+
+#: ../../../app/views/pages/faq.html.erb:153
+msgid "Can I apply a custom logo or change the design?"
+msgstr "Mohu použít vlastní logo nebo změnit design?"
+
+#: ../../../app/views/pages/faq.html.erb:158
+msgid ""
+"Password Pusher supports re-branding \"out of the box\" allowing you to add a cu"
+"stom logo, text and even change images in the application."
+msgstr ""
+"Password Pusher podporuje rebranding „out of the box“, což vám umožní přidat v"
+"lastní logo, text a dokonce změnit obrázky v aplikaci."
+
+#: ../../../app/views/pages/faq.html.erb:165
+msgid "Are there any licensing restrictions for me, my company or my organization?"
+msgstr "Jsou zde nějaká licenční omezení pro mě, mou společnost nebo organizaci?"
+
+#: ../../../app/views/pages/faq.html.erb:171
+msgid ""
+"The source code is released under the GNU General Public License v3.0 and that"
+" pretty much defines any and all limitations. There are quite a few rebranded "
+"and redesigned clone sites of Password Pusher and I welcome them all."
+msgstr ""
+"Zdrojový kód je vydán pod GNU General Public License v3.0 a to do značné míry "
+"definuje všechna omezení. Existuje poměrně málo přeznačených a předělaných klo"
+"nových stránek Password Pusher a já je všechny vítám."
+
+#: ../../../app/views/pages/faq.html.erb:179
+msgid "Why would I want to run my own private instance of Password Pusher?"
+msgstr ""
+"Proč bych měl chtít provozovat svou vlastní soukromou instanci Password Pusher"
+"?"
+
+#: ../../../app/views/pages/faq.html.erb:185
+msgid ""
+"Some organizations are bound by security policies that prohibit the use of pub"
+"lic services for sensitive information such as passwords.  There are even orga"
+"nizations that require all tools to be on private intranets without access to "
+"the outside world."
+msgstr ""
+"Některé organizace jsou vázány bezpečnostními zásadami, které zakazují používá"
+"ní veřejných služeb pro citlivé informace, jako jsou hesla. Existují dokonce o"
+"rganizace, které vyžadují, aby všechny nástroje byly na soukromém intranetu be"
+"z přístupu k vnějšímu světu."
+
+#: ../../../app/views/pages/faq.html.erb:188
+msgid ""
+"It's for these reasons that we provide the ability (and encourage) users and o"
+"rganizations to run private instances when needed."
+msgstr ""
+"Z těchto důvodů poskytujeme možnost (a povzbuzujeme) uživatele a organizace, a"
+"by v případě potřeby spouštěly soukromé instance."
+
+#: ../../../app/views/pages/faq.html.erb:196
+msgid "What are the potential security risks of running my own version internally?"
+msgstr "Jaká jsou potenciální bezpečnostní rizika interního spuštění mé vlastní verze?"
+
+#: ../../../app/views/pages/faq.html.erb:201
+msgid ""
+"Running an private instance of Password Pusher for your company or organizatio"
+"n gives you the peace of mind that you know exactly what code is running.  You"
+" can configure and run it as you like."
+msgstr ""
+"Spuštění soukromé instance Password Pusher pro vaši společnost nebo organizaci"
+" vám dává jistotu, že přesně víte, jaký kód běží. Můžete jej nakonfigurovat a "
+"spustit, jak chcete."
+
+#: ../../../app/views/pages/faq.html.erb:202
+msgid ""
+"On the other hand, if your instance gets hacked and the encryption broken, mal"
+"icious entities now have a targeted dictionary of passwords to brute force acc"
+"ounts in your organization.  Note that this would be limited to pushes which h"
+"aven't yet hit their expiration limits."
+msgstr ""
+"Na druhou stranu, pokud bude vaše instance hacknuta a šifrování prolomeno, ško"
+"dlivé entity nyní mají cílený slovník hesel pro účty hrubou silou ve vaší orga"
+"nizaci. Všimněte si, že by to bylo omezeno na push, které ještě nedosáhly limi"
+"tu vypršení platnosti."
+
+#: ../../../app/views/pages/faq.html.erb:203
+msgid ""
+"In this respect, the public instance at pwpush.com is may be superior that it "
+"contains only passwords without identifying information mixed among users from"
+" around the globe."
+msgstr ""
+"V tomto ohledu může být veřejná instance na pwpush.com lepší v tom, že obsahuj"
+"e pouze hesla bez identifikačních informací smíšených mezi uživateli z celého "
+"světa."
+
+#: ../../../app/views/pages/faq.html.erb:204
+msgid ""
+"The user should carefully weigh the pros and cons and decide which route is be"
+"st for them.  We happily support both strategies."
+msgstr ""
+"Uživatel by měl pečlivě zvážit pro a proti a rozhodnout se, která cesta je pro"
+" něj nejlepší. Obě strategie rádi podporujeme."
+
+#: ../../../app/views/pages/faq.html.erb:210
+msgid "Other"
+msgstr "jiný"
+
+#: ../../../app/views/pages/faq.html.erb:216
+msgid ""
+"The URL I sent link seems to have not worked by the time it was received.  Doe"
+"s this happen occasionally and is there a way to prevent this?"
+msgstr ""
+"Zdá se, že adresa URL, kterou jsem poslal, nefungovala v době, kdy byla přijat"
+"a. Stává se to občas a existuje způsob, jak tomu zabránit?"
+
+#: ../../../app/views/pages/faq.html.erb:222
+msgid ""
+"Some systems such as email, firewalls and chat systems often have link scanner"
+"s that can eat up views."
+msgstr ""
+"Některé systémy, jako jsou e-maily, firewally a chatovací systémy, mají často "
+"skenery odkazů, které mohou spotřebovat pohledy."
+
+#: ../../../app/views/pages/faq.html.erb:223
+msgid "This is done for security or to simply generate a \"preview\" for chat systems."
+msgstr ""
+"To se provádí z důvodu bezpečnosti nebo jednoduše pro vytvoření \"náhledu\" pro "
+"chatovací systémy."
+
+#: ../../../app/views/pages/faq.html.erb:226
+msgid "To prevent this, use the 1-click retrieval step option when pushing passwords."
+msgstr ""
+"Chcete-li tomu zabránit, použijte při zadávání hesel možnost kroku načítání je"
+"dním kliknutím."
+
+#: ../../../app/views/pages/faq.html.erb:227
+msgid ""
+"This requires the users to click through a preliminary page to protect views f"
+"rom such scanners."
+msgstr ""
+"To vyžaduje, aby uživatelé proklikali úvodní stránku, aby chránili pohledy z t"
+"akových skenerů."
+
+#: ../../../app/views/pages/faq.html.erb:231
+msgid ""
+"As an additional preventative measure, if you create an account, an audit log "
+"is provided for every push created."
+msgstr ""
+"Jako další preventivní opatření, pokud si vytvoříte účet, je poskytován protok"
+"ol auditu pro každý vytvořený push."
+
+#: ../../../app/views/pages/faq.html.erb:232
+msgid "This audit log can reveal by who and when the push was viewed."
+msgstr "Tento protokol auditu může odhalit, kdo a kdy byl push zobrazen."
+
+#: ../../../app/views/pages/faq.html.erb:241
+msgid "Can I use Password Pusher in my talk/presentation/conference?"
+msgstr "Můžu použít Password Pusher v mé přednášce/prezentaci/konferenci?"
+
+#: ../../../app/views/pages/faq.html.erb:246
+msgid ""
+"Absolutely.  If you need any resources such as statistics, graphics or anythin"
+"g else, don't hesitate to contact me: pglombardo at pwpush.com."
+msgstr ""
+"Určitě. Pokud potřebujete nějaké zdroje jako statistiky, grafiku nebo cokoliv "
+"jiného, neváhejte mě kontaktovat: pglombardo at pwpush.com."
+
+#: ../../../app/views/pages/faq.html.erb:253
+msgid "Could you add a specific feature for my organization?"
+msgstr "Můžete přidat konkrétní funkci pro naši organizaci?"
+
+#: ../../../app/views/pages/faq.html.erb:258
+msgid ""
+"Very likely.  I love to hear all ideas and feedback. If you have any, please s"
+"ubmit them to the "
+msgstr ""
+"Pravděpodobně. Rád slyším všechny nápady a zpětnou vazbu. Pokud nějaké máte, p"
+"ošlete je prosím na"
+
+#: ../../../app/views/pages/faq.html.erb:259
+msgid "Github repository"
+msgstr "úložiště Github"
+
+#: ../../../app/views/pages/faq.html.erb:259
+msgid "and I will respond as soon as possible."
+msgstr "a odpovím co nejdříve."
+
+#: ../../../app/views/pages/faq.html.erb:266
+msgid "How do you make money?"
+msgstr "Jak vyděláváte peníze?"
+
+#: ../../../app/views/pages/faq.html.erb:271
+msgid ""
+"This is an opensource project made out of love for technology and a desire to "
+"improve the security (and daily lives) of the tech community."
+msgstr ""
+"Toto je opensource projekt vytvořený z lásky k technologii a touhy zlepšit bez"
+"pečnost (a každodenní život) technické komunity."
+
+#: ../../../app/views/pages/faq.html.erb:274
+msgid ""
+"It doesn't make any money but it does incur hosting that are about $50/month f"
+"or pwpush.com."
+msgstr ""
+"Nevydělává žádné peníze, ale vyžaduje hosting, který je pro pwpush.com asi 50 "
+"$ měsíčně."
+
+#: ../../../app/views/pages/faq.html.erb:275
+msgid "These are happily paid out of pocket by myself for more than 10 years."
+msgstr "Ty si už více než 10 let vesele platím z vlastní kapsy."
+
+#: ../../../app/views/pages/faq.html.erb:279
+msgid ""
+"If you feel inclined to support Password Pusher, you can sign up to Digital Oc"
+"ean using the badge below."
+msgstr ""
+"Pokud máte chuť podporovat Password Pusher, můžete se přihlásit do Digital Oce"
+"an pomocí níže uvedeného odznaku."
+
+#: ../../../app/views/pages/faq.html.erb:280
+msgid "Password Pusher will get a hosting credit for the first $25 you spend."
+msgstr "Password Pusher získá hostovací kredit za prvních 25 $, které utratíte."
+
+#: ../../../app/views/pages/faq.html.erb:289
+msgid ""
+"For other ways to support Password Pusher, see also the \"Want to help out?\" se"
+"ction"
+msgstr ""
+"Další způsoby podpory Password Pusher naleznete také v části \"Chcete pomoci?\" "
+"sekce"
+
+#: ../../../app/views/pages/faq.html.erb:290
+msgid "on the about page"
+msgstr "na stránce informací"
+
+#: ../../../app/views/pages/faq.html.erb:291
+msgid "Thank you!"
+msgstr "Děkuji!"
+
+#: ../../../app/views/pages/generate_key.html.erb:1
+msgid "Generate Key"
+msgstr "Generovat klíč"
+
+#: ../../../app/views/pages/generate_key.html.erb:3
+msgid "Generate an Encryption Key"
+msgstr "Vygenerujte šifrovací klíč"
+
+#: ../../../app/views/pages/generate_key.html.erb:6
+msgid ""
+"This page is used as a helper tool to generate a random encryption key for pri"
+"vately hosted instances of Password Pusher."
+msgstr ""
+"Tato stránka se používá jako pomocný nástroj ke generování náhodného šifrovací"
+"ho klíče pro soukromě hostované instance Password Pusher."
+
+#: ../../../app/views/pages/generate_key.html.erb:10
+msgid ""
+"Password Pusher encrypts sensitive data in the database.  This requires a rand"
+"omly generated encryption key for each application instance."
+msgstr ""
+"Password Pusher šifruje citlivá data v databázi. To vyžaduje náhodně vygenerov"
+"aný šifrovací klíč pro každou instanci aplikace."
+
+#: ../../../app/views/pages/generate_key.html.erb:14
+msgid ""
+"You can use the randomly generated code below to configure your Password Pushe"
+"r instance."
+msgstr ""
+"Níže uvedený náhodně vygenerovaný kód můžete použít ke konfiguraci instance Pa"
+"ssword Pusher."
+
+#: ../../../app/views/pages/generate_key.html.erb:22
+msgid "Generated Encryption Key"
+msgstr "Generovaný šifrovací klíč"
+
+#: ../../../app/views/pages/generate_key.html.erb:26
+#: ../../../app/views/pages/generate_key.html.erb:39
+#: ../../../app/views/shared/_copy_button.html.erb:2
+#: ../../../app/views/shared/_secret_url_bar.html.erb:26
+msgid "Copy to Clipboard"
+msgstr "Zkopírovat do schránky"
+
+#: ../../../app/views/pages/generate_key.html.erb:32
+msgid "You can apply this key to your application by setting the environment variable"
+msgstr "Tento klíč můžete použít ve své aplikaci nastavením proměnné prostředí"
+
+#: ../../../app/views/pages/generate_key.html.erb:45
+msgid "Reload this page to re-generate a new key."
+msgstr "Znovu načtěte tuto stránku a znovu vygenerujte nový klíč."
+
+#: ../../../app/views/pages/generate_key.html.erb:49
+msgid "Notes:"
+msgstr "Poznámky:"
+
+#: ../../../app/views/pages/generate_key.html.erb:52
+msgid "If an encryption key isn't provided, a default key will be used."
+msgstr "Pokud není zadán šifrovací klíč, použije se výchozí klíč."
+
+#: ../../../app/views/pages/generate_key.html.erb:55
+msgid ""
+"The best security for private instances of Password Pusher is to use your own "
+"custom encryption key although it is not required."
+msgstr ""
+"Nejlepším zabezpečením pro soukromé instance Password Pusher je použití vlastn"
+"ího šifrovacího klíče, i když to není vyžadováno."
+
+#: ../../../app/views/pages/generate_key.html.erb:58
+msgid ""
+"The risk in using the default key is lessened if you keep your instance secure"
+" and your push expirations short.  e.g.  1 day/1 view versus 100 days/100 view"
+"s."
+msgstr ""
+"Riziko při použití výchozího klíče se sníží, pokud budete udržovat svou instan"
+"ci zabezpečenou a vypršení platnosti push krátké. např. 1 den/1 zhlédnutí vers"
+"us 100 dní/100 zhlédnutí."
+
+#: ../../../app/views/pages/generate_key.html.erb:61
+msgid "Once a push expires, all encrypted data is deleted."
+msgstr "Jakmile vyprší platnost push, všechna zašifrovaná data se smažou."
+
+#: ../../../app/views/pages/generate_key.html.erb:64
+msgid ""
+"Changing an encryption key where old pushes already exist will make those olde"
+"r pushes unreadable.  In other words, the payloads will be garbled.  New pushe"
+"s going forward will work fine."
+msgstr ""
+"Změna šifrovacího klíče ve chvíli, kdy již existují nějaká hesla způsobí, že t"
+"ato již nebudou získatelná. Jinými slovy, prostě z nich vznikne mišmaš. Budouc"
+"í hesla budou fungovat v pořádku."
+
+#: ../../../app/views/pages/generate_key.html.erb:67
+msgid ""
+"Key generation can also be done from the command line in the application sourc"
+"e by executing: "
+msgstr ""
+"Generování klíčů lze také provést z příkazového řádku ve zdroji aplikace prove"
+"dením:"
+
+#: ../../../app/views/pages/generate_key.html.erb:80
+msgid "See also the Password Pusher"
+msgstr "Viz také Password Puher"
+
+#: ../../../app/views/pages/generate_key.html.erb:81
+msgid "Configuration documentation"
+msgstr "Konfigurační dokumentace"
+
+#: ../../../app/views/pages/tools.html.erb:1
+#: ../../../app/views/pages/tools.html.erb:3
+msgid "Tools & Applications"
+msgstr "Nástroje a aplikace"
+
+#: ../../../app/views/pages/tools.html.erb:5
+msgid ""
+"Using the JSON API, various tools exist to interface with Password Pusher to a"
+"utomate password distribution."
+msgstr ""
+"Pomocí JSON API existují různé nástroje pro propojení s Password Pusher pro au"
+"tomatizaci distribuce hesel."
+
+#: ../../../app/views/pages/tools.html.erb:7
+msgid ""
+"We have no limits on how many passwords you can push (and have no intentions o"
+"f adding limits) but we do have a rate limiter so the site doesn’t get taken d"
+"own by bad scripts or bad actors.  Limit your tools to maximum 1 password ever"
+"y few seconds and you should be fine."
+msgstr ""
+"Nemáme žádné limity na počet hesel, které můžete vložit (a nemáme v úmyslu při"
+"dávat limity), ale máme omezovač rychlosti, aby web nebyl stažen špatnými scén"
+"áři nebo špatnými herci. Omezte své nástroje na maximálně 1 heslo každých pár "
+"sekund a měli byste být v pořádku."
+
+#: ../../../app/views/pages/tools.html.erb:11
+msgid "Command Line Utilities"
+msgstr "Nástroje pro příkazovou řádku"
+
+#: ../../../app/views/pages/tools.html.erb:49
+msgid "Applications"
+msgstr "Aplikace"
+
+#: ../../../app/views/pages/tools.html.erb:83
+msgid ""
+"This API allows you to interface with Password Pusher via JSON.  This can be u"
+"tilized by existing utilities such as curl, wget or any programming language. "
+" See the examples below for some ideas."
+msgstr ""
+"Toto rozhraní API vám umožňuje rozhraní s Password Pusher přes JSON. Toho moho"
+"u využít stávající nástroje jako curl, wget nebo jakýkoli programovací jazyk. "
+"Některé nápady najdete v příkladech níže."
+
+#: ../../../app/views/pages/tools.html.erb:86
+msgid "API Endpoint Documentation"
+msgstr "Dokumentace ke koncovému bodu API"
+
+#: ../../../app/views/pages/tools.html.erb:87
+msgid "Walkthrough & Examples"
+msgstr "Návod a příklady"
+
+#: ../../../app/views/pages/tools.html.erb:90
+msgid "Examples"
+msgstr "Příklady"
+
+#: ../../../app/views/pages/tools.html.erb:99
+msgid ""
+"You can test this in your browser Javascript console by going to the front pag"
+"e of Password Pusher and enter:"
+msgstr ""
+"Můžete to otestovat v konzole JavaScriptu svého prohlížeče tak, že přejdete na"
+" úvodní stránku Password Pusher a zadáte:"
+
+#: ../../../app/views/pages/tools.html.erb:107
+msgid "See more explanation and examples in our"
+msgstr "Další vysvětlení a příklady naleznete v našem článku"
+
+#: ../../../app/views/pages/translate.html.erb:1
+msgid "Help Translate Password Pusher!"
+msgstr "Pomozte přeložit Password pusher!"
+
+#: ../../../app/views/pages/translate.html.erb:6
+msgid ""
+"We would love to add as many languages as possible but we need help from fluen"
+"t speakers in creating and verifying translations."
+msgstr ""
+"Rádi bychom přidali co nejvíce jazyků, ale potřebujeme pomoc od plynulých mluv"
+"čích při vytváření a ověřování překladů."
+
+#: ../../../app/views/pages/translate.html.erb:9
+msgid "How it Works"
+msgstr "Jak to funguje"
+
+#: ../../../app/views/pages/translate.html.erb:12
+msgid "We use"
+msgstr "Používáme"
+
+#: ../../../app/views/pages/translate.html.erb:14
+msgid "to manage our translation effort.  It has a simple to use interface."
+msgstr "abychom řídili naše překladatelské úsilí. Má snadno použitelné rozhraní."
+
+#: ../../../app/views/pages/translate.html.erb:18
+msgid ""
+"Translations are done initially by machine using Google Translate.  It's the t"
+"ranslators job to select the correct translation\n"
+"and add any fixes as needed."
+msgstr ""
+"Překlady se zpočátku provádějí strojově pomocí Překladače Google. Úkolem překl"
+"adatelů je vybrat správný překlad a podle potřeby přidat případné opravy."
+
+#: ../../../app/views/pages/translate.html.erb:23
+msgid ""
+"Translations for an entirely new language can be done in less than an hour for"
+" native speakers."
+msgstr ""
+"Překlady do zcela nového jazyka lze pro rodilé mluvčí provést za méně než hodi"
+"nu."
+
+#: ../../../app/views/pages/translate.html.erb:27
+msgid "Read more: "
+msgstr "Přečtěte si více:"
+
+#: ../../../app/views/pages/translate.html.erb:28
+msgid "How to use our translation interface?"
+msgstr "Jak používat naše překladatelské rozhraní?"
+
+#: ../../../app/views/pages/translate.html.erb:32
+msgid "How to Join"
+msgstr "Jak se připojit"
+
+#: ../../../app/views/pages/translate.html.erb:35
+msgid "To join the translation effort:"
+msgstr "Chcete-li se připojit k úsilí o překlad:"
+
+#: ../../../app/views/pages/translate.html.erb:40
+msgid "Register for a free account on"
+msgstr "Zaregistrujte se pro bezplatný účet na"
+
+#: ../../../app/views/pages/translate.html.erb:44
+msgid "Send me a message"
+msgstr "Pošli mi zprávu"
+
+#: ../../../app/views/pages/translate.html.erb:45
+msgid ""
+"with your translation.io username and which language you would like to work on"
+"."
+msgstr ""
+"s vaším uživatelským jménem translation.io a jazykem, na kterém byste chtěli p"
+"racovat."
+
+#: ../../../app/views/pages/translate.html.erb:50
+msgid "...and I'll add you to our translation project."
+msgstr "... a já vás přidám do překladatelského projektu."
+
+#: ../../../app/views/pages/translate.html.erb:54
+msgid "Translation Tips"
+msgstr "Tipy pro překlad"
+
+#: ../../../app/views/pages/translate.html.erb:56
+msgid ""
+"If the source text is capitalized, try to maintain similar capitalization in t"
+"he translated text as well (assuming it's permitted syntactically in the targe"
+"t language)."
+msgstr ""
+"Pokud je zdrojový text velkými písmeny, snažte se zachovat podobné psaní velký"
+"ch písmen také v přeloženém textu (za předpokladu, že je to syntakticky povole"
+"no v cílovém jazyce)."
+
+#: ../../../app/views/pages/translate.html.erb:57
+msgid ""
+"If you see embedded codes such as \"%s\", {%file} or similar, leave those fully "
+"intact in the target translation.  These are substitution codes used in the ap"
+"plication."
+msgstr ""
+"Pokud vidíte vložené kódy jako „%s“, {%file} nebo podobné, ponechte je v cílov"
+"ém překladu zcela nedotčené. Toto jsou substituční kódy používané v aplikaci."
+
+#: ../../../app/views/pages/translate.html.erb:61
+msgid "Thanks for helping to translate Password Pusher!"
+msgstr "Děkujeme za pomoc s překladem Password Pusher!"
+
+#: ../../../app/views/passwords/active.html.erb:1
+#: ../../../app/views/passwords/active.html.erb:18
+msgid "Active Password Pushes"
+msgstr "Aktivní zatlačení hesla"
+
+#: ../../../app/views/passwords/active.html.erb:8
+msgid "You currently have no active password pushes."
+msgstr "Momentálně nemáte žádné aktivní zasílání hesla."
+
+#: ../../../app/views/passwords/active.html.erb:13
+msgid "Push a Password Now"
+msgstr "Zadejte heslo"
+
+#: ../../../app/views/passwords/audit.html.erb:4
+msgid "Audit Log for Password Push"
+msgstr "Audit protokolu pro Password Push"
+
+#: ../../../app/views/passwords/audit.html.erb:36
+msgid "Password expires after this number of views."
+msgstr "Po tomto počtu zobrazení heslo vyprší."
+
+#: ../../../app/views/passwords/audit.html.erb:45
+msgid "Password expires after this number of days."
+msgstr "Heslo vyprší po tomto počtu dní."
+
+#: ../../../app/views/passwords/audit.html.erb:58
+msgid "This allows end users to delete passwords once retrieved."
+msgstr "To umožňuje koncovým uživatelům odstranit hesla po jejich načtení."
+
+#: ../../../app/views/passwords/audit.html.erb:107
+msgid "The number of times this password has been viewed before expiration."
+msgstr "Počet zobrazení tohoto hesla před vypršením platnosti."
+
+#: ../../../app/views/passwords/audit.html.erb:113
+msgid "The number of times this password has been viewed after expiration."
+msgstr "Počet zobrazení tohoto hesla po vypršení platnosti."
+
+#: ../../../app/views/passwords/audit.html.erb:184
+msgid "Password manually expired by an anonymous user"
+msgstr "Heslo ručně vypršelo anonymním uživatelem"
+
+#: ../../../app/views/passwords/expired.html.erb:1
+#: ../../../app/views/passwords/expired.html.erb:15
+msgid "Expired Password Pushes"
+msgstr "Heslo s vypršenou platností"
+
+#: ../../../app/views/passwords/expired.html.erb:8
+msgid "You currently have no expired password pushes."
+msgstr "Aktuálně nemáte žádné zaslání hesla s vypršenou platností."
+
+#: ../../../app/views/passwords/new.html.erb:1
+msgid "Securely Send a Password"
+msgstr "Bezpečně odešlete heslo"
+
+#: ../../../app/views/passwords/new.html.erb:13
+#: ../../../app/views/passwords/new.html.erb:138
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:72
+msgid "Save"
+msgstr "Uložit"
+
+#: ../../../app/views/passwords/new.html.erb:14
+msgid "Saved!"
+msgstr "Uložené!"
+
+#: ../../../app/views/passwords/new.html.erb:37
+msgid "Enter the Password or Text to push.."
+msgstr "Zadejte heslo nebo text, který chcete odeslat.."
+
+#: ../../../app/views/passwords/new.html.erb:49
+msgid "Characters"
+msgstr "Znaků"
+
+#: ../../../app/views/passwords/new.html.erb:138
+msgid "the above settings as the page default."
+msgstr "výše uvedená nastavení jako výchozí nastavení stránky."
+
+#: ../../../app/views/passwords/new.html.erb:150
+msgid "Generate Password"
+msgstr "Vygenerovat heslo"
+
+#: ../../../app/views/passwords/new.html.erb:157
+msgid "Use the button above to generate a random password."
+msgstr "Pomocí tlačítka výše vygenerujte náhodné heslo."
+
+#: ../../../app/views/passwords/new.html.erb:173
+msgid ""
+"Tip: Only enter a password into the box.  Other identifying information can co"
+"mpromise security."
+msgstr ""
+"Tip: Do pole zadejte pouze heslo. Jiné identifikační informace mohou ohrozit b"
+"ezpečnost."
+
+#: ../../../app/views/passwords/new.html.erb:174
+msgid ""
+"All passwords are encrypted prior to storage and are available to only those w"
+"ith the secret link.  Once expired, encrypted passwords are unequivocally dele"
+"ted from the database."
+msgstr ""
+"Všechny hesla jsou před uložením zašifrována a jsou dostupná pouze těm s tajný"
+"m odkazem. Hesla jsou jednoznačně smazána z databáze ve chvíli, kdy expirují."
+
+#: ../../../app/views/passwords/preview.html.erb:1
+msgid "Your Password has been Pushed"
+msgstr "Vaše heslo bylo vloženo"
+
+#: ../../../app/views/passwords/preview.html.erb:12
+msgid "This newly pushed password will expire after"
+msgstr "Toto nově zadané heslo vyprší poté"
+
+#: ../../../app/views/passwords/preview.html.erb:30
+msgid "View This Password Now"
+msgstr "Zobrazit toto heslo"
+
+#: ../../../app/views/passwords/preview.html.erb:31
+msgid "Push Another Password"
+msgstr "Push Another Password"
+
+#: ../../../app/views/passwords/show.html.erb:7
+msgid ""
+"Please obtain and securely store this content in a secure manner, such as in a"
+" password manager."
+msgstr ""
+"Získejte a bezpečně uložte tento obsah bezpečným způsobem, například ve správc"
+"i hesel."
+
+#: ../../../app/views/passwords/show.html.erb:9
+msgid "Your password is blurred out.  Click below to reveal it."
+msgstr "Vaše heslo je rozmazané. Kliknutím níže jej odhalíte."
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:3
+#: ../../../app/views/shared/_header.html.erb:30
+msgid "Dashboard"
+msgstr "Přehled"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:10
+#: ../../../app/views/shared/_topnav.html.erb:4
+msgid "Passwords"
+msgstr "Hesla"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:14
+#: ../../../app/views/shared/_topnav.html.erb:8
+msgid "Files"
+msgstr "Soubory"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:19
+#: ../../../app/views/shared/_topnav.html.erb:13
+msgid "URLs"
+msgstr "URL"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:36
+#: ../../../app/views/shared/_dashboard_header.html.erb:38
+#: ../../../app/views/shared/_dashboard_header.html.erb:40
+msgid "New"
+msgstr "Nový"
+
+#: ../../../app/views/shared/_footer.html.erb:5
+msgid "Peter"
+msgstr "Petr"
+
+#: ../../../app/views/shared/_footer.html.erb:23
+msgid "Front Page"
+msgstr "Přední strana"
+
+#: ../../../app/views/shared/_footer.html.erb:31
+msgid "Docker Containers"
+msgstr "Docker kontejnery"
+
+#: ../../../app/views/shared/_footer.html.erb:36
+msgid "JSON API"
+msgstr "JSON API"
+
+#: ../../../app/views/shared/_footer.html.erb:37
+msgid "Key Generator"
+msgstr "Generátor klíčů"
+
+#: ../../../app/views/shared/_footer.html.erb:40
+msgid "Source Code"
+msgstr "Zdrojový kód"
+
+#: ../../../app/views/shared/_footer.html.erb:52
+msgid "Overview"
+msgstr "Přehled"
+
+#: ../../../app/views/shared/_footer.html.erb:53
+msgid "Help Translate!"
+msgstr "Pomozte Přeložit!"
+
+#: ../../../app/views/shared/_header.html.erb:37
+msgid "Account"
+msgstr "Účet"
+
+#: ../../../app/views/shared/_header.html.erb:41
+msgid "Edit Login Details"
+msgstr "Upravit přihlašovací údaje"
+
+#: ../../../app/views/shared/_header.html.erb:47
+msgid "Log Out"
+msgstr "Odhlásit se"
+
+#: ../../../app/views/shared/_header.html.erb:53
+msgid "Log In"
+msgstr "Přihlásit se"
+
+#: ../../../app/views/shared/_header.html.erb:57
+msgid "Sign Up"
+msgstr "Přihlásit se"
+
+#: ../../../app/views/shared/_lang_selector_modal.erb:6
+msgid "Select your language"
+msgstr "Vyberte svůj jazyk"
+
+#: ../../../app/views/shared/_newsletter_sign_up.html.erb:3
+msgid "Get The Newsletter"
+msgstr "Získejte Newsletter"
+
+#: ../../../app/views/shared/_newsletter_sign_up.html.erb:5
+msgid ""
+"Updates on big releases, security issues, features, integrations, tips and mor"
+"e."
+msgstr ""
+"Aktualizace velkých vydání, bezpečnostní problémy, funkce, integrace, tipy a d"
+"alší."
+
+#: ../../../app/views/shared/_newsletter_sign_up.html.erb:14
+msgid "Enter your email..."
+msgstr "Vložte svůj e-mail..."
+
+#: ../../../app/views/shared/_newsletter_sign_up.html.erb:15
+msgid "Subscribe"
+msgstr "předplatit"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:5
+msgid "Configure Password Generation"
+msgstr "Nastavení generování hesel"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:11
+msgid "Test Area"
+msgstr "Testovací oblast"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:16
+msgid "Number of Syllables"
+msgstr "Počet slabik"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:20
+msgid "Minimum Syllable Length"
+msgstr "Minimální délka slabiky"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:24
+msgid "Maximum Syllable Length"
+msgstr "Maximální délka slabiky"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:31
+msgid "Include numbers"
+msgstr "Zahrnout čísla"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:35
+msgid "Use Titlecase"
+msgstr "Použijte Titlecase"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:39
+msgid "Use Separators"
+msgstr "Použijte oddělovače"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:43
+msgid "Test"
+msgstr "Test"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:50
+msgid "Separators"
+msgstr "Separátory"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:56
+msgid "Vowels"
+msgstr "Samohlásky"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:62
+msgid "Consonants"
+msgstr "Souhlásky"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:71
+msgid "Reset to Defaults"
+msgstr "Obnovit výchozí"
+
+#: ../../../app/views/shared/_secret_url_bar.html.erb:13
+msgid "Secret Link Language"
+msgstr "Tajný jazyk odkazů"
+
+#: ../../../app/views/urls/active.html.erb:1
+#: ../../../app/views/urls/active.html.erb:18
+msgid "Active URL Pushes"
+msgstr "Aktivní URL Pushes"
+
+#: ../../../app/views/urls/active.html.erb:8
+msgid "You currently have no active URL pushes."
+msgstr "Momentálně nemáte žádné aktivní odesílání adres URL."
+
+#: ../../../app/views/urls/active.html.erb:13
+#: ../../../app/views/urls/expired.html.erb:10
+msgid "Push a URL Now"
+msgstr "Push URL Now"
+
+#: ../../../app/views/urls/audit.html.erb:4
+msgid "Audit Log for URL Push"
+msgstr "Audit protokolu pro URL Push"
+
+#: ../../../app/views/urls/audit.html.erb:126
+msgid "Delete This URL Push?"
+msgstr "Smazat tuto URL Push?"
+
+#: ../../../app/views/urls/audit.html.erb:165
+msgid "URL Push manually expired by user"
+msgstr "Platnost URL Push ručně vypršela uživatelem"
+
+#: ../../../app/views/urls/expired.html.erb:1
+#: ../../../app/views/urls/expired.html.erb:14
+msgid "Expired URL Pushes"
+msgstr "Vypršela platnost URL Push"
+
+#: ../../../app/views/urls/expired.html.erb:7
+msgid "You currently have no expired URL pushes."
+msgstr "Momentálně nemáte žádné odeslání adresy URL s vypršenou platností."
+
+#: ../../../app/views/urls/new.html.erb:1
+msgid "Securely Send URLs"
+msgstr "Bezpečně odesílat adresy URL"
+
+#: ../../../app/views/urls/new.html.erb:25
+msgid "URL Redirection"
+msgstr "Přesměrování URL"
+
+#: ../../../app/views/urls/new.html.erb:29
+msgid "Enter the URL to redirect to..."
+msgstr "Zadejte adresu URL pro přesměrování na..."
+
+#: ../../../app/views/urls/new.html.erb:91
+msgid "Helps to avoid chat systems and URL scanners from eating up redirects."
+msgstr ""
+"Pomáhá předcházet tomu, aby chatovací systémy a skenery adres URL pohltily pře"
+"směrování."
+
+#: ../../../app/views/urls/new.html.erb:123
+msgid "A secret URL will be generated that will redirect to the URL specified."
+msgstr ""
+"Bude vygenerována tajná adresa URL, která bude přesměrovávat na zadanou adresu"
+" URL."
+
+#: ../../../app/views/urls/new.html.erb:128
+msgid "Upon expiration, the push URL will be deleted entirely."
+msgstr "Po vypršení platnosti bude push URL zcela odstraněna."
+
+#: ../../../app/views/urls/new_anonymous.html.erb:1
+msgid "Securely Share URLs"
+msgstr "Bezpečně sdílet adresy URL"
+
+#: ../../../app/views/urls/new_anonymous.html.erb:9
+msgid "Securely Send URLs That Expire Automatically"
+msgstr "Bezpečně odesílat adresy URL, jejichž platnost automaticky vyprší"
